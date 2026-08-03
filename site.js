@@ -186,6 +186,101 @@ const productItems = [
       ["Stitch density", "针距", "About 11 stitches per inch, confirmed by sample", "约 11 针/英寸，按样衣确认"],
       ["Finishing", "后整理", "Garment wash, softener and thread trimming can be confirmed before bulk", "成衣水洗、柔软处理和线头清理可在大货前确认"]
     ]
+  },
+  {
+    id: "future-street-tech-zip-hoodie",
+    productId: "hoodies",
+    categoryEn: "Custom Hoodies",
+    categoryZh: "卫衣定制",
+    titleEn: "Future Street Tech Zip Hoodie",
+    titleZh: "未来街头机能连帽拉链卫衣",
+    image: "assets/products/hoodies/future-street-tech-zip-hoodie/01-main-front.webp",
+    shortEn: "360GSM heavyweight cotton fleece zip hoodie with oversized drop-shoulder fit, metal full zip, structured hood and blue energy sleeve artwork.",
+    shortZh: "360GSM 重磅纯棉抓绒拉链卫衣，落肩宽松版型、金属全开拉链、立体帽型和蓝色能量袖部图案。",
+    filters: ["hoodies", "oem", "custom", "test", "repeat", "heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "zip-up", "screen-print", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["360GSM fleece", "Zip hoodie", "Oversized fit", "Print / embroidery"],
+    tagsZh: ["360GSM抓绒", "拉链连帽", "宽松版型", "印花/刺绣"],
+    gallery: [
+      ["Front zip hoodie view", "正面拉链卫衣", "assets/products/hoodies/future-street-tech-zip-hoodie/01-main-front.webp"],
+      ["Back energy artwork", "后背能量图案", "assets/products/hoodies/future-street-tech-zip-hoodie/02-back-artwork.webp"],
+      ["Rib cuff and sleeve print", "罗纹袖口与袖部印花", "assets/products/hoodies/future-street-tech-zip-hoodie/03-rib-cuff-detail.webp"],
+      ["Chest embroidery and sleeve artwork", "胸前刺绣与袖子图案", "assets/products/hoodies/future-street-tech-zip-hoodie/04-chest-sleeve-craft.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料结构", "3-thread heavyweight cotton fleece", "三线重磅纯棉抓绒卫衣布"],
+      ["Composition", "面料成分", "100% cotton recommended; 80% cotton / 20% polyester can be reviewed", "推荐 100% 棉；也可评估 80% 棉 / 20% 聚酯耐穿版本"],
+      ["Weight", "克重", "360GSM, recommended range 320-420GSM", "360GSM，建议范围 320-420GSM"],
+      ["Fit", "版型", "Oversized drop shoulder, wide sleeve and boxy proportion", "落肩宽肩、宽袖管、短宽箱型廓形"],
+      ["Closure", "拉链", "No.5 metal full zip with reinforced stitching", "5号金属全开拉链，车线加固"],
+      ["Hood", "帽子结构", "3-panel structured double-layer hood", "三片式立体双层帽"],
+      ["Craft", "图案工艺", "Blue sleeve screen print, chest embroidery and optional 3D silicone print can be reviewed", "袖部蓝色丝网印花、胸前刺绣，可评估3D硅胶印花"],
+      ["Finishing", "后整工艺", "Garment wash, enzyme wash or softener finish can be reviewed", "可评估成衣水洗、酵素洗或硅油柔软后整"]
+    ],
+    features: [
+      ["Heavyweight fleece construction", "重磅抓绒结构", "A 3-thread fleece structure gives the garment a dense face, soft brushed interior and enough body for an oversized streetwear silhouette.", "三线抓绒结构让成衣表面更紧实、内里更柔软，并能支撑宽松街头廓形。"],
+      ["Oversized streetwear fit", "宽松街头版型", "Dropped shoulders, wide sleeves and a short-wide proportion create the structured relaxed shape shown in the reference images.", "落肩、宽袖管和短宽比例，形成参考图中的结构感宽松廓形。"],
+      ["Metal zip and structured hood", "金属拉链与立体帽", "The full front zipper, reinforced zipper stitching and 3-panel hood are key construction points to confirm during sampling.", "全开拉链、拉链加固车线和三片式帽型，是打样时需要确认的关键结构。"],
+      ["Blue energy artwork route", "蓝色能量图案工艺", "Sleeve artwork can be reviewed for high-elastic screen print; raised silicone print can be discussed for a more premium streetwear effect.", "袖部图案可评估高弹丝网印花；如需更高级潮牌效果，也可讨论立体硅胶印花。"],
+      ["Rib and washing finish", "罗纹与水洗后整", "Heavy 2x2 rib, garment wash, enzyme wash and softener finish can help improve hand feel, recovery and vintage surface effect.", "加厚2x2罗纹、成衣水洗、酵素洗和柔软后整，可帮助提升手感、回弹和复古表面效果。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "360GSM +/- 5%", "360GSM +/- 5%"],
+      ["Shrinkage", "缩水率", "Target <= 5% after pre-shrink or wash test", "预缩或洗水测试后目标 <= 5%"],
+      ["Color fastness", "色牢度", "Target grade 4 or above", "目标 4 级以上"],
+      ["Pilling", "起球等级", "Target grade 3.5 or above", "目标 3.5 级以上"],
+      ["Stitch density", "针距", "About 11-12 stitches per inch, confirmed by sample", "约 11-12 针/英寸，按样衣确认"],
+      ["Rib recovery", "罗纹回弹", "Target recovery above 95%", "目标回弹 95% 以上"],
+      ["Size standard", "尺码标准", "Oversized size chart confirmed before bulk production", "大货前确认宽松版尺码表"]
+    ]
+  },
+  {
+    id: "vintage-garage-car-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Vintage Garage Car Heavyweight T-Shirt",
+    titleZh: "复古车库汽车主题重磅T恤",
+    image: "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp",
+    shortEn: "280GSM heavyweight cotton jersey T-shirt with oversized drop-shoulder fit, vintage garage car artwork, garment wash and distressed screen print direction.",
+    shortZh: "280GSM 重磅棉单面汗布T恤，落肩宽松版型、复古车库汽车图案、成衣水洗和做旧丝网印花方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "embroidery", "rib-trim"],
+    tagsEn: ["280GSM jersey", "Vintage wash", "Screen print", "Oversized fit"],
+    tagsZh: ["280GSM汗布", "水洗做旧", "丝网印花", "宽松版型"],
+    gallery: [
+      ["Model front view", "模特正面", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp"],
+      ["Model back view", "模特背面", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/02-back-view.webp"],
+      ["Print, badge and fabric details", "印花、徽章和面料细节", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/03-craft-details.webp"],
+      ["Flat front product view", "正面平铺产品图", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/04-flat-front.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料结构", "Heavyweight single jersey", "重磅单面汗布"],
+      ["Composition", "面料成分", "100% combed cotton; organic cotton or open-end yarn can be reviewed", "100%精梳棉；可评估有机棉或复古气流纺棉"],
+      ["Weight", "克重", "280GSM reference, range 260-320GSM", "280GSM参考，建议范围260-320GSM"],
+      ["Fit", "版型", "Oversized drop shoulder, wide sleeve and slight boxy body", "落肩宽松、宽袖、微箱型衣身"],
+      ["Craft", "图案工艺", "Water-based screen print, distressed crack print and small embroidery or chenille patch can be reviewed", "可评估水浆丝网印、裂纹做旧印、小面积刺绣或毛巾章"],
+      ["Finishing", "后整工艺", "Heavy garment wash, enzyme wash and silicone softener can be reviewed", "可评估重水洗、酵素洗和硅油柔软处理"]
+    ],
+    features: [
+      ["Heavyweight cotton jersey", "重磅棉汗布", "280GSM single jersey gives the T-shirt enough body for an oversized fit while keeping a natural cotton drape.", "280GSM 单面汗布能支撑宽松版型，同时保留自然棉质垂坠感。"],
+      ["Vintage garage artwork", "复古车库汽车图案", "The garage car graphic can use water-based screen print with distressed or crack-print effects for a worn-in vintage look.", "车库汽车图案可采用水浆丝网印，并叠加做旧或裂纹印效果，形成复古穿旧感。"],
+      ["Garment wash direction", "成衣水洗方向", "Heavy wash, enzyme wash and softener treatment can help reduce shrinkage, soften the surface and create a faded charcoal tone.", "重水洗、酵素洗和柔软处理可帮助降低缩水、改善手感，并形成炭灰褪色效果。"],
+      ["Oversized construction", "宽松版型结构", "Dropped shoulder, wide sleeve, rib collar, shoulder tape and cover-stitch hem are key points to confirm before sampling.", "落肩、宽袖、罗纹领、肩带加固和下摆双针车，是打样前需要确认的结构重点。"],
+      ["Premium detail options", "高级细节选择", "A small chest badge can be reviewed as chenille patch, embroidery or 3D puff embroidery depending on artwork and budget.", "胸前小徽章可按图稿和预算评估毛巾章、电脑刺绣或3D立体刺绣。"]
+    ],
+    quality: [
+      ["Shrinkage", "缩水率", "Target <= 5% after wash test", "洗水测试后目标 <= 5%"],
+      ["Color fastness", "色牢度", "Target grade 4 or above", "目标 4 级以上"],
+      ["GSM tolerance", "克重误差", "Target +/- 5%", "目标 +/- 5%"],
+      ["Neck shape", "领口变形", "No obvious deformation after repeated wash test", "多次洗涤后目标无明显变形"],
+      ["Print durability", "印花牢度", "Print route confirmed by artwork and wash test", "按图稿和洗水测试确认印花牢度"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"]
+    ]
   }
 ];
 
@@ -304,6 +399,7 @@ const catalogFilterRows = {
         ["screen-print", "Screen Print", "丝网印花"],
         ["digital-print", "Digital / DTG Print", "数码直喷"],
         ["embroidery", "Logo Embroidery", "Logo刺绣"],
+        ["garment-wash", "Garment Wash", "成衣水洗"],
         ["heat-transfer", "Heat Transfer", "热转印"],
         ["sublimation", "Sublimation", "升华印花"],
         ["woven-label", "Neck Label / Hangtag", "领标 / 吊牌"]
@@ -326,6 +422,7 @@ const catalogFilterRows = {
       labelEn: "Fabric",
       labelZh: "面料",
       options: [
+        ["heavyweight-jersey", "Heavyweight Jersey", "重磅汗布"],
         ["cotton-jersey", "Cotton Jersey", "针织棉"],
         ["pique-knit", "Pique Knit", "珠地布"],
         ["interlock-knit", "Interlock Knit", "双面布"],
@@ -1090,6 +1187,14 @@ function renderUploadedProductDetail(target, item) {
 function renderUploadedProductDetailReference(target, item) {
   const product = products.find((entry) => entry.id === item.productId) || products[0];
   document.title = `${item.titleEn} | Dongguan Xiyi Apparel`;
+  updateProductHero(
+    "Product Detail",
+    "产品详情",
+    item.titleEn,
+    item.titleZh,
+    "Made-to-order OEM/ODM style reference. Final price, fabric and lead time are confirmed by sample, artwork and order quantity.",
+    "OEM/ODM 按单定制款式参考。最终价格、面料和周期按样衣、图案和订单数量确认。"
+  );
 
   const breadcrumb = document.querySelector(".breadcrumb .page-shell");
   if (breadcrumb) {
