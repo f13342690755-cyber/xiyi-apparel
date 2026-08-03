@@ -281,6 +281,55 @@ const productItems = [
       ["Print durability", "印花牢度", "Print route confirmed by artwork and wash test", "按图稿和洗水测试确认印花牢度"],
       ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"]
     ]
+  },
+  {
+    id: "track-code-tech-varsity-jacket",
+    productId: "baseball-jackets",
+    categoryEn: "Custom Varsity Jackets",
+    categoryZh: "棒球服定制",
+    titleEn: "Track Code Tech Varsity Jacket",
+    titleZh: "轨道代码科技棒球夹克",
+    image: "assets/products/baseball-jackets/track-code-tech-varsity-jacket/01-main-front.webp",
+    shortEn: "Heavyweight oversized varsity jacket with wool-blend body, matte PU leather sleeves, chenille embroidery patches, striped rib and circuit-line sleeve craft direction.",
+    shortZh: "重磅宽松棒球夹克，羊毛混纺大身、哑光PU仿皮袖、毛巾绣章仔、条纹罗纹和袖部线路图案工艺方向。",
+    filters: ["baseball-jackets", "oem", "custom", "test", "repeat", "varsity-fit", "oversized", "contrast-sleeve", "rib-trim", "lined-jacket", "melton-wool", "leather-sleeve", "poly-lining", "rib-knit", "chenille-patch", "embroidery", "applique", "snap-button", "laser-emboss"],
+    tagsEn: ["Wool blend body", "PU leather sleeves", "Chenille patch", "Laser emboss"],
+    tagsZh: ["羊毛混纺", "PU仿皮袖", "毛巾绣章", "激光压花"],
+    gallery: [
+      ["Clean front product view", "白底正面产品图", "assets/products/baseball-jackets/track-code-tech-varsity-jacket/01-main-front.webp"],
+      ["Back chenille artwork", "后背毛巾绣图案", "assets/products/baseball-jackets/track-code-tech-varsity-jacket/02-back-view.webp"],
+      ["Sleeve circuit-line detail", "袖部线路图案细节", "assets/products/baseball-jackets/track-code-tech-varsity-jacket/03-sleeve-circuit-detail.webp"],
+      ["Chenille embroidery detail", "毛巾绣字母细节", "assets/products/baseball-jackets/track-code-tech-varsity-jacket/04-chenille-embroidery-detail.webp"],
+      ["Front view with texture background", "质感背景正面图", "assets/products/baseball-jackets/track-code-tech-varsity-jacket/05-front-texture-bg.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "10-20 days, confirmed by quantity and craft", "参考 10-20 天，按数量和工艺确认"],
+      ["Body fabric", "大身面料", "70% wool / 30% polyester double-faced wool blend, 430-480 g/sqm reference", "70%羊毛 / 30%聚酯纤维双面呢，参考 430-480 g/㎡"],
+      ["Sleeve fabric", "袖子面料", "Matte PU leather with polyester base, 320-360 g/sqm reference", "哑光PU仿皮，聚酯底基布，参考 320-360 g/㎡"],
+      ["Lining", "里布", "High-density polyester plain lining, 70-90 g/sqm reference", "高密聚酯平纹里布，参考 70-90 g/㎡"],
+      ["Padding", "填充层", "Light polyester padding, 60-80 g/sqm reference", "轻薄聚酯棉，参考 60-80 g/㎡"],
+      ["Rib", "罗纹", "Polyester / spandex striped rib, 650-750 g/sqm reference", "聚酯 / 氨纶条纹罗纹，参考 650-750 g/㎡"],
+      ["Fit", "版型", "Oversized drop shoulder varsity silhouette", "Oversized落肩棒球服廓形"],
+      ["Craft", "图案工艺", "Chenille patch, applique base, dense embroidery edge, sleeve laser emboss with local flat embroidery can be reviewed", "可评估毛巾绣、贴布绣打底、高密平绣包边、袖部激光压花配局部平绣"],
+      ["Closure", "门襟", "Metal snap buttons with reinforced placket stitching", "金属四合扣门襟，门襟压线加固"]
+    ],
+    features: [
+      ["Heavy varsity structure", "重磅棒球服结构", "A wool-blend body, light padding and smooth polyester lining support an oversized fall-winter varsity jacket shape without making the garment too bulky.", "羊毛混纺大身、轻薄填充和干净里布，能支撑秋冬宽松棒球服廓形，同时避免成衣过厚。"],
+      ["PU leather circuit sleeves", "PU袖线路图案", "For the circuit-line artwork, laser embossing plus local flat embroidery is a cleaner production route than dense full embroidery on PU sleeves.", "袖子线路图案建议用激光压花配局部平绣，比在PU袖上做高密全刺绣更平整。"],
+      ["Layered chest patches", "多层胸章工艺", "The large front letter patch can use applique placement, chenille filling and dense embroidery edging to keep the outline clear after washing.", "前胸大字母可先贴布定位，再做毛巾绣填充和高密平绣包边，帮助轮廓更清晰耐洗。"],
+      ["Back statement embroidery", "后背大面积绣花", "Back artwork can be reviewed as wide chenille lettering with double embroidery edging; the artwork width should be controlled before sampling.", "后背图案可评估大面积毛巾绣字母配双层包边，打样前需要控制图案宽度。"],
+      ["Rib and placket details", "罗纹与门襟细节", "Striped collar, cuff and hem rib, metal snap placket, slanted pockets and reinforced seams are key points to confirm before bulk production.", "条纹领口袖口下摆罗纹、金属四合扣、斜插袋和加固缝位，是大货前需要确认的重点。"]
+    ],
+    quality: [
+      ["Fabric matching", "面料匹配", "Body wool blend, PU sleeve, rib, lining and padding should be approved together before bulk", "大身、PU袖、罗纹、里布和填充建议组合确认后再做大货"],
+      ["Patch placement", "章仔位置", "Chest patches and back lettering positions confirmed by sample and measurement points", "胸章和后背字母位置按样衣和定位尺寸确认"],
+      ["PU sleeve craft", "PU袖工艺", "Laser embossing depth and embroidery density reviewed to reduce wrinkling and needle-hole concentration", "确认压花深度和刺绣密度，降低起皱和针孔集中风险"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"],
+      ["Snap durability", "四合扣牢度", "Snap button pull force and placket reinforcement checked before bulk", "大货前确认四合扣拉力和门襟加固"],
+      ["Finished weight", "成衣重量", "M size reference about 1.25-1.45 kg, confirmed by final material package", "M码参考约 1.25-1.45 kg，按最终面辅料组合确认"]
+    ]
   }
 ];
 
@@ -518,6 +567,7 @@ const catalogFilterRows = {
         ["tackle-twill", "Tackle Twill Letters", "贴布字母"],
         ["applique", "Felt / Applique", "毛毡贴布"],
         ["snap-button", "Snap Button Detail", "四合扣细节"],
+        ["laser-emboss", "Laser Emboss / HF Lines", "激光压花 / 高周波压线"],
         ["satin-print", "Satin Print", "缎面印花"]
       ]
     },
