@@ -60,10 +60,10 @@ p {
 }
 
 h1 {
-  max-width: 920px;
+  max-width: 980px;
   margin-bottom: 22px;
-  font-size: clamp(42px, 7vw, 84px);
-  line-height: 0.98;
+  font-size: clamp(40px, 6.1vw, 76px);
+  line-height: 1.02;
   letter-spacing: 0;
 }
 
@@ -149,24 +149,25 @@ p {
 
 .nav-shell {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: minmax(230px, auto) 1fr auto;
   align-items: center;
-  gap: 28px;
-  min-height: 118px;
+  gap: clamp(14px, 2vw, 24px);
+  min-height: 108px;
 }
 
 .brand,
 .footer-brand {
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  min-width: 0;
 }
 
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   color: #ffffff;
   background: var(--teal);
   border: 1px solid rgba(255, 255, 255, 0.35);
@@ -178,10 +179,11 @@ p {
 .brand-copy strong {
   display: block;
   color: var(--ink);
-  font-size: 28px;
+  font-size: clamp(20px, 1.8vw, 26px);
   font-weight: 900;
   line-height: 1;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .brand-copy small {
@@ -210,11 +212,21 @@ p {
 .nav-item > a {
   display: inline-flex;
   align-items: center;
+  white-space: nowrap;
   min-height: 42px;
-  padding: 0 10px;
+  padding: 0 8px;
   color: #151918;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
+}
+
+[data-lang="en"] .main-nav {
+  gap: 4px;
+}
+
+[data-lang="en"] .nav-item > a {
+  font-size: 13px;
+  padding-inline: 6px;
 }
 
 .submenu-toggle {
@@ -390,6 +402,17 @@ p {
   max-width: 720px;
   color: rgba(255, 255, 255, 0.84);
   font-size: clamp(17px, 2vw, 22px);
+}
+
+[data-lang="en"] .hero-content h1 {
+  max-width: 960px;
+  font-size: clamp(40px, 4.8vw, 64px);
+  line-height: 1.06;
+}
+
+[data-lang="en"] .hero p {
+  max-width: 650px;
+  font-size: clamp(17px, 1.6vw, 20px);
 }
 
 .hero-actions,

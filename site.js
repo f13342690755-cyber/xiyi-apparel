@@ -788,7 +788,7 @@ function renderHeader() {
     },
     {
       href: "how-to-start.html",
-      en: "How To Start",
+      en: "Start",
       zh: "如何开始",
       children: [
         ["Send Reference", "发送参考图", "how-to-start.html#reference"],
