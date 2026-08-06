@@ -3120,7 +3120,7 @@ function createLang(en, zh) {
 }
 
 function productUrl(id) {
-  return `product.html?type=${encodeURIComponent(id)}`;
+  return `products.html?category=${encodeURIComponent(id)}`;
 }
 
 function productItemUrl(id) {
@@ -3165,7 +3165,158 @@ function activeProductFiltersByGroup() {
 
 function selectedCatalogCategory() {
   const selected = document.querySelector('[data-filter-group="category"].is-active')?.dataset.filterValue;
-  return selected || "all";
+  if (selected) return selected;
+
+  const params = new URLSearchParams(window.location.search);
+  const category = params.get("category") || params.get("type");
+  return catalogCategoryOptions.some((option) => option.value === category) ? category : "all";
+}
+
+function catalogCategoryCopy(category) {
+  if (category && category !== "all") {
+    const item = products.find((entry) => entry.id === category);
+    if (item) {
+      return {
+        titleEn: item.titleEn,
+        titleZh: item.titleZh,
+        headingEn: `${item.navEn} made-to-order OEM/ODM style references`,
+        headingZh: `${item.navZh} OEM/ODM 定制款式参考`
+      };
+    }
+  }
+
+  return {
+    titleEn: "Custom Men's Apparel",
+    titleZh: "男装定制产品",
+    headingEn: "Made-to-order OEM/ODM men's apparel project reference",
+    headingZh: "男装 OEM/ODM 定制接单项目参考"
+  };
+}
+
+function catalogCategoryIntro(category) {
+  const item = products.find((entry) => entry.id === category);
+  const firstStyle = catalogStyleItems().find((style) => style.product.id === category);
+  const image = firstStyle?.image || item?.image || "assets/company/menswear-display.jpg";
+  const base = {
+    titleEn: "Men's apparel OEM/ODM made to order",
+    titleZh: "男装 OEM/ODM 按单定制",
+    bodyEn: "Send reference photos, samples, size chart, artwork and target quantity. We review fabric, fit, craft and production route before sampling.",
+    bodyZh: "发送参考图、样衣、尺码表、图案文件和目标数量，我们先评估面料、版型、工艺和生产方式，再进入打样。",
+    points: [
+      ["Photo / sample review", "图片 / 样衣评估"],
+      ["Sampling and fit comments", "打样与版型修改"],
+      ["Bulk production after approval", "确认样后安排大货"]
+    ],
+    image
+  };
+
+  const intros = {
+    hoodies: {
+      titleEn: "Custom hoodies from reference photo to approved sample",
+      titleZh: "卫衣从参考图到确认样定制",
+      bodyEn: "Pullover hoodies, zip hoodies and fleece sets can be developed by fabric weight, silhouette, rib quality, print placement and embroidery details.",
+      bodyZh: "套头卫衣、拉链卫衣和卫衣套装，可按克重、廓形、罗纹品质、印花位置和刺绣细节开发。",
+      points: [
+        ["Heavy fleece / French terry", "重磅抓绒 / 毛圈"],
+        ["Oversized and boxy fit", "宽松 / 箱型版型"],
+        ["Print, embroidery and wash finish", "印花、刺绣、水洗后整"]
+      ],
+      image
+    },
+    tshirts: {
+      titleEn: "Custom T-shirts and polos for brand drops",
+      titleZh: "T恤 / Polo 品牌定制开发",
+      bodyEn: "Heavyweight tees, washed tees, graphic tees and polo shirts can be reviewed by fabric GSM, collar structure, artwork size and finish.",
+      bodyZh: "重磅T恤、水洗T恤、图案T恤和Polo衫，可按克重、领口结构、图案尺寸和后整效果评估。",
+      points: [
+        ["Heavy cotton jersey", "重磅针织棉"],
+        ["Screen print and placement print", "丝网印花 / 定位印花"],
+        ["Garment wash and vintage finish", "成衣水洗 / 复古做旧"]
+      ],
+      image
+    },
+    sweatpants: {
+      titleEn: "Custom sweatpants and casual pants development",
+      titleZh: "卫裤 / 休闲裤定制开发",
+      bodyEn: "Joggers, sweatpants and casual pants can be developed with waistband, drawcord, pocket, side panel, wash and fit details confirmed by sample.",
+      bodyZh: "束脚裤、卫裤和休闲裤，可按腰头、抽绳、口袋、侧拼、洗水和版型细节打样确认。",
+      points: [
+        ["Jogger and loose fit", "束脚 / 宽松版型"],
+        ["Elastic waist and drawcord", "松紧腰 / 抽绳"],
+        ["Pocket and side-panel details", "口袋 / 侧拼细节"]
+      ],
+      image
+    },
+    teamwear: {
+      titleEn: "Custom jerseys and teamwear project development",
+      titleZh: "球服 / 队服定制项目开发",
+      bodyEn: "Team jerseys, sport tops and uniform projects can be reviewed by breathable fabric, color blocking, names, numbers and logo placement.",
+      bodyZh: "球衣、运动上衣和队服项目，可按透气面料、拼色裁片、名字、号码和Logo位置确认。",
+      points: [
+        ["Mesh and breathable panels", "网眼 / 透气拼片"],
+        ["Names, numbers and logos", "名字、号码、Logo"],
+        ["Team color matching", "团队配色确认"]
+      ],
+      image
+    },
+    "baseball-jackets": {
+      titleEn: "Custom varsity jackets with complex craft details",
+      titleZh: "复杂工艺棒球服定制开发",
+      bodyEn: "Varsity jackets can be developed with contrast sleeves, rib trims, snap buttons, lining, chenille patch, embroidery, PU or wool-blend fabric.",
+      bodyZh: "棒球服可按撞色袖、罗纹、四合扣、里布、毛巾绣章仔、刺绣、PU皮袖或毛呢面料开发。",
+      points: [
+        ["PU / wool-blend / nylon body", "PU / 毛呢 / 尼龙面料"],
+        ["Chenille patch and embroidery", "毛巾绣章仔 / 刺绣"],
+        ["Rib, snap and lining details", "罗纹、按扣、里布细节"]
+      ],
+      image
+    },
+    jackets: {
+      titleEn: "Custom jackets and outerwear built by sample",
+      titleZh: "夹克 / 外套按样衣定制开发",
+      bodyEn: "Work jackets, denim jackets and casual outerwear can be reviewed by fabric structure, lining, zipper, pocket, washing and construction details.",
+      bodyZh: "工装夹克、牛仔夹克和休闲外套，可按面料结构、里布、拉链、口袋、洗水和车缝结构评估。",
+      points: [
+        ["Workwear and denim structures", "工装 / 牛仔结构"],
+        ["Zipper, lining and pocket review", "拉链、里布、口袋确认"],
+        ["Wash and special fabric handling", "洗水 / 特殊面料处理"]
+      ],
+      image
+    }
+  };
+
+  return intros[category] || base;
+}
+
+function updateCatalogIntro(category = selectedCatalogCategory()) {
+  const intro = catalogCategoryIntro(category);
+  document.querySelectorAll("[data-catalog-intro-title]").forEach((target) => {
+    target.innerHTML = createLang(intro.titleEn, intro.titleZh);
+  });
+  document.querySelectorAll("[data-catalog-intro-copy]").forEach((target) => {
+    target.innerHTML = createLang(intro.bodyEn, intro.bodyZh);
+  });
+  document.querySelectorAll("[data-catalog-intro-points]").forEach((target) => {
+    target.innerHTML = intro.points.map(([en, zh]) => `<span>${createLang(en, zh)}</span>`).join("");
+  });
+  document.querySelectorAll("[data-catalog-intro-image]").forEach((target) => {
+    target.src = intro.image;
+    target.alt = currentLang() === "zh" ? intro.titleZh : intro.titleEn;
+  });
+}
+
+function updateCatalogCopy(category = selectedCatalogCategory()) {
+  const copy = catalogCategoryCopy(category);
+  document.querySelectorAll("[data-catalog-title]").forEach((target) => {
+    target.innerHTML = createLang(copy.titleEn, copy.titleZh);
+  });
+  document.querySelectorAll("[data-catalog-heading]").forEach((target) => {
+    target.innerHTML = createLang(copy.headingEn, copy.headingZh);
+  });
+  document.querySelectorAll("[data-catalog-breadcrumb-current]").forEach((target) => {
+    target.innerHTML = category === "all" ? createLang("All", "全部") : createLang(copy.titleEn, copy.titleZh);
+  });
+  updateCatalogIntro(category);
 }
 
 function filterButtonHTML(row, option, activeValue) {
@@ -3760,6 +3911,88 @@ function renderUploadedProductDetailReference(target, item) {
   `;
 }
 
+function catalogProductCardHTML(style) {
+  return `
+    <article class="product-card catalog-style-card reveal" data-product-card data-product-id="${style.product.id}" data-product-filters="${style.filters}">
+      <a class="product-image" href="${style.url}">
+        <img src="${style.image}" alt="${style.titleEn}" loading="lazy">
+      </a>
+      <div class="product-body">
+        <span>${createLang(style.product.navEn, style.product.navZh)}</span>
+        <h3><a href="${style.url}">${createLang(style.titleEn, style.titleZh)}</a></h3>
+        <p>${createLang(style.bodyEn, style.bodyZh)}</p>
+      </div>
+    </article>
+  `;
+}
+
+function renderCategoryCatalogReference(target, item) {
+  document.body.dataset.productMode = "category";
+  document.title = `${item.titleEn} | Dongguan Xiyi Apparel`;
+
+  const copy = catalogCategoryCopy(item.id);
+  const intro = catalogCategoryIntro(item.id);
+  const styles = catalogStyleItems();
+  const breadcrumb = document.querySelector(".breadcrumb .page-shell");
+  if (breadcrumb) {
+    breadcrumb.innerHTML = `
+      <a href="index.html">Home</a>
+      <span> / </span>
+      <a href="products.html">All</a>
+      <span> / </span>
+      <span>${createLang(copy.titleEn, copy.titleZh)}</span>
+    `;
+  }
+
+  target.innerHTML = `
+    <div class="category-catalog-shell">
+      <div class="quick-search reveal" data-product-filter>
+        <div class="quick-search-title">${createLang("Quick Search", "快速筛选")}</div>
+        <div class="quick-search-table" data-dynamic-product-filter></div>
+      </div>
+
+      <div class="catalog-title-row reveal">
+        <h1 data-catalog-title>${createLang(copy.titleEn, copy.titleZh)}</h1>
+      </div>
+
+      <section class="catalog-category-intro reveal" data-catalog-intro>
+        <div class="catalog-intro-copy">
+          <span class="eyebrow">${createLang("Made-to-order OEM/ODM", "OEM/ODM 按单定制")}</span>
+          <h2 data-catalog-intro-title>${createLang(intro.titleEn, intro.titleZh)}</h2>
+          <p data-catalog-intro-copy>${createLang(intro.bodyEn, intro.bodyZh)}</p>
+          <div class="catalog-intro-points" data-catalog-intro-points>
+            ${intro.points.map(([en, zh]) => `<span>${createLang(en, zh)}</span>`).join("")}
+          </div>
+        </div>
+        <figure>
+          <img data-catalog-intro-image src="${intro.image}" alt="${intro.titleEn}" loading="lazy">
+        </figure>
+      </section>
+
+      <div class="catalog-list-heading reveal">
+        <strong data-catalog-heading>${createLang(copy.headingEn, copy.headingZh)}</strong>
+      </div>
+
+      <div class="catalog-result-bar reveal">
+        <span data-product-result-count>0 results</span>
+        <div class="catalog-view-controls" aria-label="Display mode">
+          <span>View</span>
+          <button type="button" aria-label="List view" data-catalog-view="list">☰</button>
+          <button type="button" aria-label="Grid view" class="is-active" data-catalog-view="grid">▦</button>
+        </div>
+      </div>
+
+      <div class="product-grid catalog-products" data-product-cards data-card-mode="category-reference">
+        ${styles.map((style) => catalogProductCardHTML(style)).join("")}
+      </div>
+    </div>
+  `;
+
+  renderProductFilters(item.id, { category: item.id });
+  updateCatalogCopy(item.id);
+  updateProductCatalog();
+}
+
 function renderProductDetail() {
   const target = document.querySelector("[data-product-detail]");
   if (!target) return;
@@ -3773,59 +4006,7 @@ function renderProductDetail() {
 
   const id = params.get("type") || products[0].id;
   const item = products.find((product) => product.id === id) || products[0];
-  document.title = `${item.titleEn} | Dongguan Xiyi Apparel`;
-
-  target.innerHTML = `
-    <div class="detail-hero reveal">
-      <div class="detail-copy">
-        <p class="eyebrow">${createLang("Product Category", "产品分类")}</p>
-        <h1>${createLang(item.titleEn, item.titleZh)}</h1>
-        <p>${createLang(item.detailsEn, item.detailsZh)}</p>
-        <div class="tag-row large">
-          ${item.tagsEn.map((tag, index) => `<em>${createLang(tag, item.tagsZh[index])}</em>`).join("")}
-        </div>
-      </div>
-      <div class="detail-main-image"><img src="${item.image}" alt="${item.titleEn}"></div>
-    </div>
-    <section class="content-section reveal">
-      <div class="section-title-row">
-        <div>
-          <p class="eyebrow">${createLang("Style Gallery", "款式展示")}</p>
-          <h2>${createLang("Multiple style slots are reserved for this category.", "此品类已预留多个款式展示位。")}</h2>
-        </div>
-        <span class="result-count">${item.styles.length} ${createLang("reference styles", "个参考款式")}</span>
-      </div>
-      <div class="style-grid">
-        ${item.styles.map(([en, zh, image]) => `
-          <article class="style-card">
-            <img src="${image}" alt="${en}" loading="lazy">
-            <h3>${createLang(en, zh)}</h3>
-            <p>${createLang("Can be adjusted by sample, measurement, fabric, craft and target quantity.", "可根据样衣、尺寸、面料、工艺和目标数量调整。")}</p>
-          </article>
-        `).join("")}
-      </div>
-    </section>
-    <section class="content-section detail-info-grid reveal">
-      <div>
-        <p class="eyebrow">${createLang("Production Notes", "生产确认点")}</p>
-        <h2>${createLang("What we confirm before quotation and sampling.", "报价和打样前需要确认什么。")}</h2>
-        <p>${createLang("Final feasibility, MOQ, pricing and lead time depend on fabric, trims, craft complexity, size ratio, packing and production schedule.", "最终可行性、起订量、价格和交期取决于面料、辅料、工艺复杂度、尺码配比、包装和生产排期。")}</p>
-      </div>
-      <div class="spec-table">
-        <div><span>${createLang("Order type", "订单类型")}</span><strong>OEM / ODM / CMT / FOB</strong></div>
-        <div><span>${createLang("Suitable quantity", "适合数量")}</span><strong>${createLang("200-300 pcs test order, regular bulk or repeat runs", "二三百件测款、常规批量或爆款返单")}</strong></div>
-        <div><span>${createLang("Required files", "所需资料")}</span><strong>${createLang("Photo, sample, tech pack, artwork, size chart", "图片、样衣、工艺单、图案文件、尺码表")}</strong></div>
-        <div><span>${createLang("Quality focus", "质量重点")}</span><strong>${createLang("Measurements, workmanship, craft placement, packing", "尺寸、做工、工艺位置、包装")}</strong></div>
-      </div>
-    </section>
-    <section class="content-section product-cta reveal">
-      <div>
-        <h2>${createLang("Send this category for review", "把这个品类发来评估")}</h2>
-        <p>${createLang("Share your reference images or sample notes. We will review fabric, craft, order quantity and production route first.", "发送参考图或样衣要求，我们先评估面料、工艺、数量和生产路径。")}</p>
-      </div>
-      <a class="primary-button" href="https://wa.me/${contact.whatsapp}">WhatsApp</a>
-    </section>
-  `;
+  renderCategoryCatalogReference(target, item);
 }
 
 function renderCraftCards() {
@@ -3890,6 +4071,7 @@ function updateProductCatalog() {
   if (!cards.length) return;
 
   const filters = activeProductFilters();
+  updateCatalogCopy(selectedCatalogCategory());
   let visibleCount = 0;
 
   cards.forEach((card) => {
@@ -3981,8 +4163,8 @@ function goSearch() {
 
 function setupReveal() {
   const elements = document.querySelectorAll(".reveal");
+  elements.forEach((item) => item.classList.add("is-visible"));
   if (!("IntersectionObserver" in window)) {
-    elements.forEach((item) => item.classList.add("is-visible"));
     return;
   }
 
