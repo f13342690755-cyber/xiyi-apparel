@@ -424,6 +424,53 @@ const productItems = [
       ["Pocket durability", "口袋牢度", "Diagonal welt pocket, PU binding and inner pocket reinforcement checked by sample", "斜插袋、PU包边和内袋加固按样衣检查"],
       ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"]
     ]
+  },
+  {
+    id: "urban-utility-varsity-jacket",
+    productId: "baseball-jackets",
+    categoryEn: "Custom Varsity Jackets",
+    categoryZh: "棒球服定制",
+    titleEn: "Urban Utility Varsity Jacket",
+    titleZh: "城市机能棒球服",
+    image: "assets/products/baseball-jackets/urban-utility-varsity-jacket/01-main-front.webp",
+    shortEn: "Lightweight urban varsity jacket with high-density matte nylon body, charcoal matte PU raglan sleeves, reflective piping, waterproof zipper pockets and striped rib.",
+    shortZh: "轻量城市机能棒球服，高密哑光尼龙身片、炭黑哑光PU插肩袖、反光包边、防水拉链袋和三色条纹罗纹。",
+    filters: ["baseball-jackets", "oem", "custom", "test", "repeat", "varsity-fit", "oversized", "boxy-fit", "contrast-sleeve", "rib-trim", "lined-jacket", "nylon-poly", "leather-sleeve", "poly-lining", "rib-knit", "embroidery", "snap-button", "reflective-piping", "zipper-hardware", "water-repellent"],
+    tagsEn: ["Matte nylon", "PU raglan sleeves", "Reflective piping", "Zipper pockets"],
+    tagsZh: ["哑光尼龙", "PU插肩袖", "反光包边", "拉链口袋"],
+    gallery: [
+      ["Clean front product view", "白底正面产品图", "assets/products/baseball-jackets/urban-utility-varsity-jacket/01-main-front.webp"],
+      ["Angled front view", "斜侧正面图", "assets/products/baseball-jackets/urban-utility-varsity-jacket/02-angle-front.webp"],
+      ["Rib, snap and sleeve detail", "罗纹、按扣与袖部细节", "assets/products/baseball-jackets/urban-utility-varsity-jacket/03-trim-detail.webp"],
+      ["Front and back structure view", "正反面结构图", "assets/products/baseball-jackets/urban-utility-varsity-jacket/04-front-back-view.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Body fabric", "身片面料", "100% high-density matte nylon woven fabric; optional DWR water-repellent finish", "100%高密哑光尼龙梭织面料；可选DWR环保拒水整理"],
+      ["Yarn / denier", "纱支规格", "40D-70D high-density nylon filament reference", "参考40D-70D高密尼龙长丝"],
+      ["Sleeve fabric", "袖子面料", "Matte PU coating with 100% polyester knitted backing", "哑光PU涂层，100%聚酯针织底布"],
+      ["Lining", "里布", "190T 100% polyester taffeta lining", "190T 100%聚酯塔夫绸里布"],
+      ["Weight", "克重", "Body 120-140GSM; PU sleeve 450-600GSM; rib 650-750GSM reference", "身片参考120-140GSM；PU袖450-600GSM；罗纹650-750GSM"],
+      ["Fit", "版型", "Oversized urban fit with raglan sleeve, cropped body and wide sleeve", "Oversized城市机能版型，插肩袖、微短款、宽袖"],
+      ["Craft", "工艺", "Reflective piping, waterproof zipper pockets, high-density embroidery, matte snap buttons and reinforced seam construction can be reviewed", "可评估反光包边、防水拉链袋、高密刺绣、哑黑四合扣和加固车缝"]
+    ],
+    features: [
+      ["Matte nylon body", "哑光尼龙身片", "High-density matte nylon keeps the jacket lightweight, clean and structured, with optional DWR finish for an urban utility direction.", "高密哑光尼龙让衣身轻量、干净、有挺度，也可按项目评估DWR拒水后整理，适合城市机能方向。"],
+      ["PU raglan sleeve construction", "PU插肩袖结构", "Charcoal matte PU sleeves use curved raglan panel cutting, so the shoulder line, reflective piping and sleeve panel need to be confirmed together by sample.", "炭黑哑光PU袖采用曲线插肩裁片，肩线、反光包边和袖片弧度建议通过样衣一起确认。"],
+      ["Reflective piping detail", "反光包边细节", "Reflective piping is inserted along the shoulder seam and extended toward the sleeve, adding a subtle night-reflective utility detail.", "反光包边沿肩缝夹入并延伸至袖口方向，形成轻微夜间反光的机能细节。"],
+      ["Waterproof zipper pockets", "防水拉链插袋", "Hidden side zipper pockets can be developed with waterproof zipper tape, pocket topstitching and reinforced pocket bags.", "两侧隐藏式拉链袋可按防水拉链贴条、袋口压线和内袋加固方式开发。"],
+      ["Striped rib and snap placket", "条纹罗纹与按扣门襟", "Three-color rib at collar, cuff and hem, plus matte black snap buttons, keeps the product recognizably varsity while moving it toward street utility.", "领口、袖口和下摆三色罗纹，加上哑黑四合扣，让款式保留棒球服识别度，同时更偏街头机能。"]
+    ],
+    quality: [
+      ["Material confirmation", "面料确认", "Nylon shade, matte finish, PU hand feel, fold resistance and lining smoothness should be confirmed by swatch or sample", "尼龙颜色、哑光效果、PU手感、耐折表现和里布顺滑度建议按色卡或样衣确认"],
+      ["Piping alignment", "包边顺直度", "Reflective piping alignment along the raglan seam should be checked before bulk production", "反光包边沿插肩缝的顺直度和左右对称性建议在大货前确认"],
+      ["Pocket function", "口袋功能", "Zipper opening, pocket bag strength and waterproof tape placement checked by approved sample", "拉链开合、袋布牢度和防水拉链贴条位置按确认样检查"],
+      ["Snap durability", "四合扣牢度", "Matte snap button pull force and placket reinforcement should be reviewed before bulk", "哑黑四合扣拉力和门襟加强底布建议在大货前确认"],
+      ["Rib recovery", "罗纹回弹", "Collar, cuff and hem rib recovery checked after stretch test", "领口、袖口和下摆罗纹做拉伸回弹检查"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考 +/- 1.5cm，按最终尺码表确认"]
+    ]
   }
 ];
 
@@ -662,6 +709,9 @@ const catalogFilterRows = {
         ["applique", "Felt / Applique", "毛毡贴布"],
         ["snap-button", "Snap Button Detail", "四合扣细节"],
         ["laser-emboss", "Laser Emboss / HF Lines", "激光压花 / 高周波压线"],
+        ["reflective-piping", "Reflective Piping", "反光包边"],
+        ["zipper-hardware", "Zipper / Hardware", "拉链 / 五金"],
+        ["water-repellent", "Water-repellent Finish", "拒水整理"],
         ["satin-print", "Satin Print", "缎面印花"]
       ]
     },
@@ -685,6 +735,7 @@ const catalogFilterRows = {
       options: [
         ["melton-wool", "Melton / Wool Blend", "麦尔登 / 毛呢混纺"],
         ["leather-sleeve", "PU / Leather Sleeve", "PU / 皮袖"],
+        ["nylon-poly", "Nylon / Polyester", "尼龙 / 涤纶"],
         ["satin", "Satin", "缎面"],
         ["poly-lining", "Poly Lining", "涤纶里布"],
         ["rib-knit", "Rib Knit", "罗纹针织"],
@@ -780,7 +831,8 @@ const styleFilterMap = {
     ["oversized", "satin", "satin-print", "applique"],
     ["regular-fit", "cotton-twill", "tackle-twill", "rib-knit"],
     ["lined-jacket", "poly-lining", "snap-button", "repeat"],
-    ["varsity-fit", "rib-knit", "snap-button"]
+    ["varsity-fit", "rib-knit", "snap-button"],
+    ["oversized", "nylon-poly", "reflective-piping", "zipper-hardware", "water-repellent", "rib-knit"]
   ],
   jackets: [
     ["regular-fit", "corduroy", "zipper-hardware"],
