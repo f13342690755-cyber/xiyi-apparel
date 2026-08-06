@@ -330,6 +330,100 @@ const productItems = [
       ["Snap durability", "四合扣牢度", "Snap button pull force and placket reinforcement checked before bulk", "大货前确认四合扣拉力和门襟加固"],
       ["Finished weight", "成衣重量", "M size reference about 1.25-1.45 kg, confirmed by final material package", "M码参考约 1.25-1.45 kg，按最终面辅料组合确认"]
     ]
+  },
+  {
+    id: "black-gray-patchwork-varsity-jacket",
+    productId: "baseball-jackets",
+    categoryEn: "Custom Varsity Jackets",
+    categoryZh: "棒球服定制",
+    titleEn: "Black & Gray Patchwork Varsity Jacket",
+    titleZh: "黑灰色拼接棒球服",
+    image: "assets/products/baseball-jackets/black-gray-patchwork-varsity-jacket/01-main-front.webp",
+    shortEn: "Black wool-blend body with gray matte PU sleeves, chenille front lettering, sleeve patches, vertical sleeve slogan and striped rib for custom varsity jacket programs.",
+    shortZh: "黑色羊毛混纺大身配灰色哑光PU袖，前胸毛巾绣大字母、袖章、袖子竖向文字和黑白条纹罗纹，适合棒球服定制项目。",
+    filters: ["baseball-jackets", "oem", "custom", "test", "repeat", "varsity-fit", "oversized", "contrast-sleeve", "rib-trim", "lined-jacket", "melton-wool", "leather-sleeve", "poly-lining", "rib-knit", "chenille-patch", "embroidery", "applique", "snap-button"],
+    tagsEn: ["Melton wool blend", "Matte PU sleeves", "Chenille lettering", "Sleeve patches"],
+    tagsZh: ["麦尔登羊毛混纺", "哑光PU袖", "毛巾绣大字母", "袖章系统"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/baseball-jackets/black-gray-patchwork-varsity-jacket/01-main-front.webp"],
+      ["Back product view", "背面产品图", "assets/products/baseball-jackets/black-gray-patchwork-varsity-jacket/02-back-view.webp"],
+      ["Rib cuff and patch details", "罗纹袖口与章仔细节", "assets/products/baseball-jackets/black-gray-patchwork-varsity-jacket/03-rib-patch-detail.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Body fabric", "大身面料", "Heavy Melton wool blend; 50% wool / 50% polyester or 70% wool / 30% polyester can be reviewed", "重磅麦尔登羊毛混纺；可评估50%羊毛/50%聚酯或70%羊毛/30%聚酯"],
+      ["Body weight", "大身克重", "500-600GSM reference, 550GSM recommended for premium varsity structure", "参考500-600GSM，推荐550GSM做高级棒球服结构"],
+      ["Sleeve fabric", "袖子面料", "Matte PU leather, 0.8-1.0mm reference with stable gray tone", "哑光PU仿皮，参考0.8-1.0mm，灰色稳定色调"],
+      ["Lining", "里布", "Black 100% polyester taffeta lining, 210T / 230T reference", "黑色100%聚酯塔夫绸里布，参考210T / 230T"],
+      ["Rib", "罗纹", "Heavy black-and-white striped rib, polyester / spandex blend", "黑白双色厚罗纹，聚酯/氨纶混纺"],
+      ["Fit", "版型", "Oversized unisex varsity fit with drop shoulder and short body proportion", "Oversized中性棒球服版型，落肩、宽松胸围、短款比例"],
+      ["Craft", "图案工艺", "Chenille embroidery, tackle twill, mixed embroidery sleeve patches and flat embroidery sleeve slogan can be reviewed", "可评估毛巾绣、贴布绣、袖章电脑绣和袖子文字高密平绣"],
+      ["Closure", "门襟", "Matte black metal snap button closure, 15-17mm reference", "哑光黑金属四合扣，参考15-17mm"]
+    ],
+    features: [
+      ["Wool body and PU sleeve panels", "羊毛大身与PU袖拼接", "The black wool-blend body and gray PU sleeves create a high-contrast varsity structure, with reinforced armhole seams to reduce bulk at thick joining points.", "黑色羊毛混纺大身和灰色PU袖形成强对比棒球服结构，袖窿拼接建议加固，减少厚料鼓包。"],
+      ["Chenille front lettering", "前胸毛巾绣大字母", "The PLAYERS UNITE artwork can use chenille embroidery with tackle twill base and dense embroidery edging for a raised collectible look.", "PLAYERS UNITE图案可用贴布绣打底、毛巾绣主体和高密平绣包边，形成收藏级立体效果。"],
+      ["Sleeve patch system", "袖章系统", "Achievement, level and champion patches can be reviewed as mixed embroidery patches with heat-cut edges and overlock finishing.", "成就章、等级章和冠军章可评估电脑绣混合章仔，热切边和锁边收口。"],
+      ["Flat embroidery sleeve slogan", "袖子文字平绣", "The vertical sleeve slogan is better reviewed as high-density flat embroidery to keep cost stable and reduce stiffness on the PU sleeve.", "竖向袖子文字建议用高密平绣评估，成本稳定，也能减少PU袖弯曲位置僵硬。"],
+      ["Rib, pocket and snap details", "罗纹、口袋与四合扣细节", "Striped rib, welt pockets with PU binding and matte snap buttons are key details to confirm before sampling.", "黑白条纹罗纹、PU包边斜插袋和哑光四合扣，是打样前需要确认的关键细节。"]
+    ],
+    quality: [
+      ["Fabric tests", "面料测试", "GSM, color fastness, pilling, rubbing fastness and shrinkage should be reviewed before bulk", "大货前建议确认克重、色牢度、起球、摩擦牢度和缩水率"],
+      ["Embroidery quality", "刺绣质量", "Logo edges, stitch breaks, skipped stitches and distortion checked by approved sample", "按确认样检查字体边缘、断线、跳针和变形"],
+      ["PU sleeve surface", "PU袖表面", "No cracking, peeling, obvious crease marks or color mismatch on approved material", "确认面料要求无爆裂、脱皮、明显折痕和色差"],
+      ["Panel joining", "拼接位置", "Shoulder and armhole seams reinforced to avoid bulky joins", "肩部和袖窿拼接位置建议加固，避免厚料拼接鼓包"],
+      ["Snap durability", "四合扣牢度", "Snap pull force and placket reinforcement checked before bulk", "大货前确认四合扣拉力和门襟加固"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"]
+    ]
+  },
+  {
+    id: "retro-patchwork-varsity-jacket",
+    productId: "baseball-jackets",
+    categoryEn: "Custom Varsity Jackets",
+    categoryZh: "棒球服定制",
+    titleEn: "Retro Patchwork Varsity Jacket",
+    titleZh: "复古拼接棒球服",
+    image: "assets/products/baseball-jackets/retro-patchwork-varsity-jacket/01-main-front.webp",
+    shortEn: "Burnt-orange wool-blend varsity jacket with black PU sleeves, oversized boxy fit, NV chenille patch, 87 twill applique and classic sports patch system.",
+    shortZh: "焦糖橙羊毛混纺棒球服，黑色PU袖、宽松短宽版型、NV毛巾绣、87贴布绣和经典美式运动章仔系统。",
+    filters: ["baseball-jackets", "oem", "custom", "test", "repeat", "varsity-fit", "oversized", "boxy-fit", "contrast-sleeve", "rib-trim", "lined-jacket", "melton-wool", "leather-sleeve", "poly-lining", "rib-knit", "chenille-patch", "embroidery", "applique", "tackle-twill", "snap-button", "garment-wash"],
+    tagsEn: ["Burnt orange wool", "PU sleeves", "Chenille patch", "Twill applique"],
+    tagsZh: ["焦糖橙羊毛", "PU皮袖", "毛巾绣章", "贴布绣"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/baseball-jackets/retro-patchwork-varsity-jacket/01-main-front.webp"],
+      ["Back product view", "背面产品图", "assets/products/baseball-jackets/retro-patchwork-varsity-jacket/02-back-view.webp"],
+      ["Angled front view", "斜侧正面图", "assets/products/baseball-jackets/retro-patchwork-varsity-jacket/03-angle-front.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Body fabric", "大身面料", "60% wool / 35% polyester / 5% nylon Melton wool blend, 650-700GSM reference", "60%羊毛 / 35%聚酯 / 5%锦纶麦尔登羊毛混纺，参考650-700GSM"],
+      ["Sleeve fabric", "袖子面料", "Matte PU leather with polyester knitted backing, 380-450GSM reference", "哑光PU仿皮，聚酯针织底布，参考380-450GSM"],
+      ["Lining", "里布", "100% polyester satin or quilted lining, 70-100GSM reference", "100%聚酯缎面或菱格绗棉里布，参考70-100GSM"],
+      ["Rib", "罗纹", "Heavy 7-gauge or 9-gauge striped rib with high recovery", "7针或9针厚条纹罗纹，高弹回复"],
+      ["Finished weight", "成衣重量", "M size reference about 1.5-1.7 kg, confirmed by final material package", "M码参考约1.5-1.7kg，按最终面辅料组合确认"],
+      ["Fit", "版型", "Oversized relaxed fit with drop shoulder and boxy hip-length proportion", "Oversized宽松版型，落肩、短宽比例、衣长至胯部"],
+      ["Craft", "图案工艺", "Chenille patch, twill applique, double-layer sleeve patch, chain stitch and satin stitch can be reviewed", "可评估毛巾绣、斜纹贴布绣、双层袖号贴布、链目绣和平绣包边"],
+      ["Optional finish", "可选后整", "Light vintage aging finish can be reviewed by sample", "可按样衣评估轻微复古旧化处理"]
+    ],
+    features: [
+      ["Classic Letterman structure", "经典美式棒球服结构", "The burnt-orange wool body and black PU sleeves create a vintage varsity direction with enough weight for an oversized boxy silhouette.", "焦糖橙羊毛大身和黑色PU袖形成复古美式棒球服方向，克重能支撑宽松短宽廓形。"],
+      ["NV chenille patch", "NV毛巾绣章", "The front NV artwork can use cream chenille with black embroidery edging, fixed by backing glue and stitching.", "前胸NV可做米白毛巾绣配黑色包边刺绣，背胶定位后车缝固定。"],
+      ["87 and 26 applique numbers", "87与26贴布号码", "The 87 front number and 26 sleeve number can use twill applique with satin-stitch edging for a raised varsity look.", "前胸87和袖子26号码可用斜纹贴布配缎面包边，形成经典校队立体效果。"],
+      ["Sports patch system", "运动章仔系统", "Shield, football and Northvale lettering details can be reviewed by chain stitch, satin stitch and applique placement.", "盾牌、橄榄球和Northvale字母细节可按链目绣、平绣包边和贴布定位评估。"],
+      ["Optional vintage finish", "可选复古后整", "For premium streetwear programs, light brushing, localized aging or old-tone dyeing can be tested carefully before bulk.", "如做高级街头版本，可谨慎测试轻微磨毛、局部旧化或旧感染色。"]
+    ],
+    quality: [
+      ["Color control", "颜色控制", "Burnt orange body shade and black PU sleeve color should be approved by fabric swatches", "焦糖橙大身和黑色PU袖颜色建议按面料色卡确认"],
+      ["Patch placement", "章仔定位", "NV, 87, sleeve 26 and back lettering placement checked by sample measurement points", "NV、87、袖子26和后背字母位置按样衣定位尺寸确认"],
+      ["PU performance", "PU性能", "Anti-crack surface, soft hand feel and fold resistance reviewed before bulk", "大货前确认PU防爆裂表面、柔软手感和耐折表现"],
+      ["Rib recovery", "罗纹回弹", "Collar, cuff and hem rib recovery checked after stretch test", "领口、袖口和下摆罗纹需做拉伸回弹检查"],
+      ["Pocket durability", "口袋牢度", "Diagonal welt pocket, PU binding and inner pocket reinforcement checked by sample", "斜插袋、PU包边和内袋加固按样衣检查"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by size chart", "参考 +/- 1.5cm，按尺码表确认"]
+    ]
   }
 ];
 
