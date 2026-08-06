@@ -471,6 +471,2245 @@ const productItems = [
       ["Rib recovery", "罗纹回弹", "Collar, cuff and hem rib recovery checked after stretch test", "领口、袖口和下摆罗纹做拉伸回弹检查"],
       ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考 +/- 1.5cm，按最终尺码表确认"]
     ]
+  },
+  {
+    "id": "dark-green-patchwork-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Dark Green Patchwork Varsity Jacket",
+    "titleZh": "墨绿色拼接棒球服",
+    "image": "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/01-main-front.webp",
+    "shortEn": "Dark green wool-blend Melton varsity jacket with cream PU sleeves, matte snap closure, striped rib and city-grid back artwork.",
+    "shortZh": "墨绿色羊毛混纺呢料棒球服，米色PU袖、哑黑四合扣、条纹罗纹和后背城市线稿图案。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "oversized",
+      "contrast-sleeve",
+      "rib-trim",
+      "lined-jacket",
+      "melton-wool",
+      "leather-sleeve",
+      "poly-lining",
+      "rib-knit",
+      "embroidery",
+      "screen-print",
+      "snap-button"
+    ],
+    "tagsEn": [
+      "Wool blend",
+      "PU sleeves",
+      "City graphic",
+      "Snap button"
+    ],
+    "tagsZh": [
+      "羊毛混纺",
+      "PU皮袖",
+      "城市图案",
+      "四合扣"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back city-grid artwork",
+        "后背城市线稿图案",
+        "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Collar and snap button detail",
+        "领口与按扣细节",
+        "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/03-collar-snap-detail.webp"
+      ],
+      [
+        "Back artwork close-up",
+        "后背图案细节",
+        "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/04-back-artwork-detail.webp"
+      ],
+      [
+        "Rib cuff detail",
+        "罗纹袖口细节",
+        "assets/products/baseball-jackets/dark-green-patchwork-varsity-jacket/05-rib-cuff-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "50% wool / 45% polyester / 5% other wool-blend Melton, 550-650GSM reference",
+        "50%羊毛 / 45%聚酯 / 5%其他纤维羊毛混纺呢料，参考550-650GSM"
+      ],
+      [
+        "Sleeve fabric",
+        "袖子面料",
+        "Water-based PU sleeve with polyester backing, 0.8-1.0mm reference",
+        "水性PU仿皮袖，聚酯底布，参考0.8-1.0mm"
+      ],
+      [
+        "Lining",
+        "里布",
+        "100% polyester twill or taffeta lining, 80-100GSM reference",
+        "100%聚酯斜纹或塔夫绸里布，参考80-100GSM"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized varsity fit with relaxed body, dropped shoulder and rib hem",
+        "宽松棒球服版型，落肩结构、下摆罗纹收口"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Small 3D chest embroidery, city-grid screen print, partial embroidery or reflective print and matte snap buttons can be reviewed",
+        "可评估前胸小面积立体刺绣、后背城市线稿印花、局部刺绣或反光印和哑黑四合扣"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "navy-vintage-college-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Navy Vintage College Varsity Jacket",
+    "titleZh": "海军蓝复古学院风棒球服",
+    "image": "assets/products/baseball-jackets/navy-vintage-college-varsity-jacket/01-main-front.webp",
+    "shortEn": "Heavy navy wool-blend varsity jacket with cream PU sleeves, chenille badge system, multi-layer back artwork, striped rib and matte snap buttons.",
+    "shortZh": "海军蓝重磅羊毛混纺棒球服，奶油白PU袖、毛巾绣徽章系统、多层后背图案、条纹罗纹和哑光按扣。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "oversized",
+      "contrast-sleeve",
+      "rib-trim",
+      "lined-jacket",
+      "melton-wool",
+      "leather-sleeve",
+      "poly-lining",
+      "rib-knit",
+      "chenille-patch",
+      "embroidery",
+      "applique",
+      "tackle-twill",
+      "snap-button"
+    ],
+    "tagsEn": [
+      "Heavy Melton",
+      "Chenille patches",
+      "PU sleeves",
+      "College style"
+    ],
+    "tagsZh": [
+      "重磅毛呢",
+      "毛巾绣章",
+      "PU皮袖",
+      "学院风"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/navy-vintage-college-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back patch artwork",
+        "后背章仔图案",
+        "assets/products/baseball-jackets/navy-vintage-college-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Chenille and sleeve detail",
+        "毛巾绣与袖章细节",
+        "assets/products/baseball-jackets/navy-vintage-college-varsity-jacket/03-chenille-patch-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "Heavy Melton wool blend, 70% wool / 30% polyester or 50/50 cost-control version",
+        "重磅麦尔登羊毛混纺，可选70%羊毛/30%聚酯或50/50成本平衡版本"
+      ],
+      [
+        "Weight",
+        "克重",
+        "Body fabric 750-850GSM reference; finished garment about 1.4-1.8kg by size",
+        "身片参考750-850GSM；成衣约1.4-1.8kg，按尺码确认"
+      ],
+      [
+        "Sleeve fabric",
+        "袖子面料",
+        "Premium semi-matte PU synthetic leather with polyester backing, 0.8-1.0mm reference",
+        "高级半哑光PU仿皮袖，聚酯底布，参考0.8-1.0mm"
+      ],
+      [
+        "Lining",
+        "里布",
+        "190T/210T polyester taffeta or satin lining can be reviewed",
+        "可评估190T/210T涤塔夫或缎面里布"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Chenille embroidery, twill applique, PU leather applique, satin stitch and reinforced snap placket can be reviewed",
+        "可评估毛巾绣、贴布绣、PU皮贴、缎面包边绣和加固四合扣门襟"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "western-racing-suede-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Western Racing Suede Varsity Jacket",
+    "titleZh": "复古赛车西部主题麂皮棒球服",
+    "image": "assets/products/baseball-jackets/western-racing-suede-varsity-jacket/01-main-front.webp",
+    "shortEn": "Vintage brown suede-look varsity jacket with cream PU sleeves, racing and western patch system, oversized fit and heavy striped rib.",
+    "shortZh": "复古棕色仿麂皮棒球服，米色PU袖、西部赛车章仔系统、宽松版型和重磅条纹罗纹。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "oversized",
+      "contrast-sleeve",
+      "rib-trim",
+      "lined-jacket",
+      "suede",
+      "leather-sleeve",
+      "rib-knit",
+      "chenille-patch",
+      "embroidery",
+      "applique",
+      "snap-button"
+    ],
+    "tagsEn": [
+      "Suede look",
+      "Racing patches",
+      "PU sleeves",
+      "Heavy rib"
+    ],
+    "tagsZh": [
+      "仿麂皮",
+      "赛车章仔",
+      "PU皮袖",
+      "重磅罗纹"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/western-racing-suede-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back western racing artwork",
+        "后背西部赛车图案",
+        "assets/products/baseball-jackets/western-racing-suede-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Patch and rib detail board",
+        "章仔与罗纹细节图",
+        "assets/products/baseball-jackets/western-racing-suede-varsity-jacket/03-patch-detail-board.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "92% polyester / 8% spandex suede or 100% polyester micro suede, 350-420GSM reference",
+        "92%聚酯/8%氨纶仿麂皮或100%聚酯微纤麂皮，参考350-420GSM"
+      ],
+      [
+        "Sleeve fabric",
+        "袖子面料",
+        "Textured cream PU sleeve with polyester backing, 0.8-1.0mm reference",
+        "米色纹理PU仿皮袖，聚酯底布，参考0.8-1.0mm"
+      ],
+      [
+        "Lining",
+        "里布",
+        "190T/210T polyester taffeta; quilted lining can be reviewed for heavier programs",
+        "190T/210T涤塔夫里布；重磅版本可评估绗缝里布"
+      ],
+      [
+        "Weight",
+        "克重",
+        "Finished M size reference about 1.4-1.7kg, confirmed by material package",
+        "M码成衣参考约1.4-1.7kg，按最终面辅料确认"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Chenille patch, leather applique, laser-cut patch, chain stitch, 3D embroidery and reinforced patch sewing can be reviewed",
+        "可评估毛巾绣、皮贴、激光切割章、链目绣、立体刺绣和章仔加固车缝"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "vintage-outdoor-heavy-wool-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Vintage Outdoor Heavy Wool Varsity Jacket",
+    "titleZh": "复古户外主题重磅羊毛棒球服",
+    "image": "assets/products/baseball-jackets/vintage-outdoor-heavy-wool-varsity-jacket/01-main-front.webp",
+    "shortEn": "Olive heavy wool varsity jacket with outdoor heritage patches, cargo flap pockets, striped rib, metal snap buttons and optional quilted lining.",
+    "shortZh": "橄榄绿重磅羊毛棒球服，户外复古章仔、立体袋盖、条纹罗纹、金属按扣和可选绗缝里布。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "oversized",
+      "rib-trim",
+      "lined-jacket",
+      "melton-wool",
+      "poly-lining",
+      "rib-knit",
+      "chenille-patch",
+      "embroidery",
+      "applique",
+      "snap-button",
+      "garment-wash",
+      "quilted-lining"
+    ],
+    "tagsEn": [
+      "550GSM wool",
+      "Outdoor patches",
+      "Cargo pockets",
+      "Vintage wash"
+    ],
+    "tagsZh": [
+      "550GSM羊毛",
+      "户外章仔",
+      "工装口袋",
+      "复古水洗"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/vintage-outdoor-heavy-wool-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back outdoor artwork",
+        "后背户外主题图案",
+        "assets/products/baseball-jackets/vintage-outdoor-heavy-wool-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Pocket and patch detail",
+        "口袋与章仔细节",
+        "assets/products/baseball-jackets/vintage-outdoor-heavy-wool-varsity-jacket/03-pocket-patch-detail.webp"
+      ],
+      [
+        "Rib and logo detail board",
+        "罗纹与Logo细节图",
+        "assets/products/baseball-jackets/vintage-outdoor-heavy-wool-varsity-jacket/04-rib-logo-detail-board.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "Heavy Melton wool blend, 70% wool / 30% polyester or 80% wool / 20% nylon version",
+        "重磅麦尔登羊毛呢，可选70%羊毛/30%聚酯或80%羊毛/20%尼龙版本"
+      ],
+      [
+        "Weight",
+        "克重",
+        "Main wool fabric 550GSM +/-30GSM; heavy rib 900-1000GSM reference",
+        "主身羊毛参考550GSM +/-30GSM；重磅罗纹参考900-1000GSM"
+      ],
+      [
+        "Lining",
+        "里布",
+        "Polyester satin lining or quilted polyester padding can be reviewed",
+        "可评估涤纶缎面里布或绗缝铺棉里布"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Relaxed varsity fit with dropped shoulder and structured cargo pockets",
+        "宽松棒球服版型，落肩结构和立体工装口袋"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Chenille patch, leather debossed patch, leather applique, flat embroidery and vintage wash can be reviewed",
+        "可评估毛巾绣章、压凹皮牌、皮贴、平绣和复古水洗"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "black-heavyweight-street-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Black Heavyweight Street Varsity Jacket",
+    "titleZh": "黑色重磅街头棒球服",
+    "image": "assets/products/baseball-jackets/black-heavyweight-street-varsity-jacket/01-main-front.webp",
+    "shortEn": "Black heavyweight varsity jacket with wool-blend body, matte PU sleeves, tonal chenille and applique artwork, striped rib and gunmetal snap buttons.",
+    "shortZh": "黑色重磅棒球服，羊毛混纺身片、哑光PU袖、同色系毛巾绣与贴布图案、条纹罗纹和枪色四合扣。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "oversized",
+      "boxy-fit",
+      "contrast-sleeve",
+      "rib-trim",
+      "lined-jacket",
+      "melton-wool",
+      "leather-sleeve",
+      "poly-lining",
+      "rib-knit",
+      "chenille-patch",
+      "embroidery",
+      "applique",
+      "snap-button"
+    ],
+    "tagsEn": [
+      "Black wool",
+      "Matte PU sleeves",
+      "Tonal patches",
+      "Heavyweight"
+    ],
+    "tagsZh": [
+      "黑色毛呢",
+      "哑光PU袖",
+      "同色系章仔",
+      "重磅"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/black-heavyweight-street-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back tonal artwork",
+        "后背同色系图案",
+        "assets/products/baseball-jackets/black-heavyweight-street-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Embroidery and sleeve detail",
+        "刺绣与袖部细节",
+        "assets/products/baseball-jackets/black-heavyweight-street-varsity-jacket/03-tonal-patch-detail.webp"
+      ],
+      [
+        "Detail board",
+        "细节说明图",
+        "assets/products/baseball-jackets/black-heavyweight-street-varsity-jacket/04-detail-board.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "70% wool / 30% polyester heavy Melton wool blend, 550GSM reference",
+        "70%羊毛/30%聚酯重磅麦尔登毛呢，参考550GSM"
+      ],
+      [
+        "Sleeve fabric",
+        "袖子面料",
+        "Matte black PU leather with dense polyester backing, 0.8-1.0mm reference",
+        "哑光黑PU仿皮袖，高密聚酯底布，参考0.8-1.0mm"
+      ],
+      [
+        "Finished weight",
+        "成衣重量",
+        "M size reference about 1.8-2.2kg, confirmed by final artwork and lining",
+        "M码参考约1.8-2.2kg，按最终图案和里布确认"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized streetwear fit with drop shoulder, wide sleeve and boxy cropped proportion",
+        "街头宽松版型，落肩、宽袖筒和短身箱型比例"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Tonal chenille patch, multi-layer applique, PU sleeve patch, metal snap button and reinforced pocket construction can be reviewed",
+        "可评估同色系毛巾绣、多层贴布、PU袖章、金属四合扣和加固口袋结构"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "navy-retro-satin-varsity-jacket",
+    "productId": "baseball-jackets",
+    "categoryEn": "Custom Varsity Jackets",
+    "categoryZh": "棒球服定制",
+    "titleEn": "Navy Retro Satin Varsity Jacket",
+    "titleZh": "海军蓝复古棒球服",
+    "image": "assets/products/baseball-jackets/navy-retro-satin-varsity-jacket/01-main-front.webp",
+    "shortEn": "Navy nylon satin varsity jacket with cream sleeves, burgundy lining direction, zipper closure, chenille sleeve numbers and retro club embroidery.",
+    "shortZh": "海军蓝尼龙缎面棒球服，米色袖、酒红里布方向、拉链门襟、毛巾绣袖号和复古学院刺绣图案。",
+    "filters": [
+      "baseball-jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "varsity-fit",
+      "regular-fit",
+      "contrast-sleeve",
+      "rib-trim",
+      "lined-jacket",
+      "satin",
+      "nylon-poly",
+      "leather-sleeve",
+      "poly-lining",
+      "rib-knit",
+      "chenille-patch",
+      "embroidery",
+      "applique",
+      "zipper-hardware",
+      "water-repellent"
+    ],
+    "tagsEn": [
+      "Nylon satin",
+      "Chenille numbers",
+      "Metal zipper",
+      "Water repellent"
+    ],
+    "tagsZh": [
+      "尼龙缎面",
+      "毛巾绣袖号",
+      "金属拉链",
+      "防泼水"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/baseball-jackets/navy-retro-satin-varsity-jacket/01-main-front.webp"
+      ],
+      [
+        "Back club artwork",
+        "后背学院章图案",
+        "assets/products/baseball-jackets/navy-retro-satin-varsity-jacket/02-back-view.webp"
+      ],
+      [
+        "Side sleeve view",
+        "侧面袖型图",
+        "assets/products/baseball-jackets/navy-retro-satin-varsity-jacket/03-side-view.webp"
+      ],
+      [
+        "Rib and logo detail board",
+        "罗纹与Logo细节图",
+        "assets/products/baseball-jackets/navy-retro-satin-varsity-jacket/04-rib-logo-detail-board.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Body fabric",
+        "身片面料",
+        "100% high-density nylon satin, 160-180GSM, 228T/320T reference with water-repellent finish",
+        "100%高密尼龙缎面，参考160-180GSM、228T/320T，可做防泼水整理"
+      ],
+      [
+        "Sleeve option",
+        "袖子方案",
+        "PU synthetic leather sleeve for standard programs; genuine leather can be reviewed for premium programs",
+        "常规可做PU仿皮袖，高端项目可评估真皮袖"
+      ],
+      [
+        "Lining",
+        "里布",
+        "100% polyester taffeta lining, burgundy direction, 60-70GSM reference",
+        "100%涤塔夫里布，酒红色方向，参考60-70GSM"
+      ],
+      [
+        "Filling option",
+        "填充选项",
+        "80-100GSM light padding or 120-150GSM warmer padding can be reviewed",
+        "可评估80-100GSM轻保暖填充或120-150GSM加厚填充"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Chain stitch embroidery, chenille sleeve numbers, applique back patch, metal zipper and welt pockets can be reviewed",
+        "可评估链目绣、毛巾绣袖号、后背贴布章、金属拉链和嵌线口袋"
+      ]
+    ],
+    "features": [
+      [
+        "Varsity structure",
+        "棒球服结构",
+        "Body fabric, sleeve fabric, rib, lining and closure should be checked as one full material package.",
+        "身片、袖子、罗纹、里布和门襟建议作为一套完整面辅料方案确认。"
+      ],
+      [
+        "Patch and embroidery system",
+        "章仔与刺绣系统",
+        "Patch size, stitch density, applique layer and placement can be reviewed by artwork and sample.",
+        "章仔尺寸、针法密度、贴布层次和位置可按图案和样衣评估。"
+      ],
+      [
+        "Sleeve and shoulder joining",
+        "袖子与肩部拼接",
+        "Armhole curve, shoulder seam reinforcement and sleeve symmetry are key checks before bulk production.",
+        "袖窿弧度、肩缝加固和左右袖对称是大货前重点检查点。"
+      ],
+      [
+        "Rib and closure details",
+        "罗纹与门襟细节",
+        "Collar, cuff, hem rib recovery and button or zipper durability should be tested by sample.",
+        "领口、袖口、下摆罗纹回弹，以及按扣或拉链牢度建议按样衣测试。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "washed-heavyweight-street-tshirt",
+    "productId": "tshirts",
+    "categoryEn": "Custom T-Shirts",
+    "categoryZh": "T恤定制",
+    "titleEn": "Washed Heavyweight Street T-Shirt",
+    "titleZh": "加厚水洗街头风T恤",
+    "image": "assets/products/tshirts/washed-heavyweight-street-tshirt/01-main-front-back.webp",
+    "shortEn": "260GSM washed heavyweight cotton jersey T-shirt with oversized boxy fit, faded black wash and high-density distressed screen print.",
+    "shortZh": "260GSM加厚水洗纯棉T恤，宽松箱型版型、炭黑褪色水洗和高密度仿旧丝网印花。",
+    "filters": [
+      "tshirts",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "cotton-jersey",
+      "heavyweight-jersey",
+      "oversized",
+      "boxy-fit",
+      "screen-print",
+      "garment-wash",
+      "rib-trim"
+    ],
+    "tagsEn": [
+      "260GSM cotton",
+      "Mineral wash",
+      "Screen print",
+      "Boxy fit"
+    ],
+    "tagsZh": [
+      "260GSM纯棉",
+      "矿物水洗",
+      "丝网印花",
+      "箱型版型"
+    ],
+    "gallery": [
+      [
+        "Front and back product view",
+        "正反面产品图",
+        "assets/products/tshirts/washed-heavyweight-street-tshirt/01-main-front-back.webp"
+      ],
+      [
+        "Print and fabric detail board",
+        "印花与面料细节图",
+        "assets/products/tshirts/washed-heavyweight-street-tshirt/02-detail-board.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% combed cotton heavyweight single jersey, 260GSM reference",
+        "100%精梳棉重磅单面汗布，参考260GSM"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Enzyme wash, garment wash or mineral wash can be reviewed by target color effect",
+        "可按目标颜色效果评估酵素洗、成衣水洗或矿物洗"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized boxy fit with drop shoulder, wide body and longer sleeve proportion",
+        "Oversized箱型版型，落肩、宽身和偏长袖口比例"
+      ],
+      [
+        "Collar",
+        "领口",
+        "2.2-2.5cm heavy rib collar with shoulder tape and double-needle topstitch",
+        "2.2-2.5cm加厚罗纹圆领，肩部加固带和双针压线"
+      ],
+      [
+        "Print",
+        "印花",
+        "High-density screen print with vintage crack texture can be reviewed",
+        "可评估高密度丝网印花和仿旧裂纹效果"
+      ]
+    ],
+    "features": [
+      [
+        "Heavyweight cotton body",
+        "重磅纯棉面料",
+        "The fabric weight and yarn choice can be adjusted by target hand feel, drape and selling position.",
+        "可根据目标手感、垂感和销售定位调整克重与纱支。"
+      ],
+      [
+        "Washed vintage surface",
+        "水洗复古表面",
+        "Garment wash effects should be tested by sample first to control shade, shrinkage and fabric twisting.",
+        "水洗效果建议先打样测试，控制颜色、缩水率和扭曲率。"
+      ],
+      [
+        "Screen print direction",
+        "丝网印花方向",
+        "Artwork size, color count, crack effect and print hand feel can be confirmed before bulk production.",
+        "图案尺寸、颜色数量、裂纹效果和印花手感可在大货前确认。"
+      ],
+      [
+        "Oversized fit control",
+        "宽松版型控制",
+        "Shoulder width, chest ease, sleeve opening and collar rib recovery are key points for this T-shirt program.",
+        "肩宽、胸围放量、袖口宽度和领口罗纹回弹是这类T恤的重点。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "heavyweight-vintage-tshirt",
+    "productId": "tshirts",
+    "categoryEn": "Custom T-Shirts",
+    "categoryZh": "T恤定制",
+    "titleEn": "Heavyweight Vintage T-Shirt",
+    "titleZh": "重磅复古T恤",
+    "image": "assets/products/tshirts/heavyweight-vintage-tshirt/01-main-front-back.webp",
+    "shortEn": "240GSM off-white heavyweight cotton jersey T-shirt with oversized fit, soft vintage wash and architectural line-art print direction.",
+    "shortZh": "240GSM米燕麦色重磅纯棉T恤，宽松版型、柔软复古水洗和建筑线稿印花方向。",
+    "filters": [
+      "tshirts",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "cotton-jersey",
+      "heavyweight-jersey",
+      "oversized",
+      "boxy-fit",
+      "screen-print",
+      "digital-print",
+      "garment-wash",
+      "rib-trim"
+    ],
+    "tagsEn": [
+      "240GSM cotton",
+      "Vintage wash",
+      "Line-art print",
+      "Rib collar"
+    ],
+    "tagsZh": [
+      "240GSM纯棉",
+      "复古柔洗",
+      "线稿印花",
+      "罗纹圆领"
+    ],
+    "gallery": [
+      [
+        "Front and back product view",
+        "正反面产品图",
+        "assets/products/tshirts/heavyweight-vintage-tshirt/01-main-front-back.webp"
+      ],
+      [
+        "Collar and fabric detail",
+        "领口与面料细节",
+        "assets/products/tshirts/heavyweight-vintage-tshirt/02-collar-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% cotton heavyweight single jersey, 16S/1 or 18S/1 reference",
+        "100%纯棉重磅单面汗布，参考16S/1或18S/1"
+      ],
+      [
+        "Weight",
+        "克重",
+        "240GSM +/-5% reference for balanced structure and hand feel",
+        "参考240GSM +/-5%，兼顾挺度和手感"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Enzyme wash and silicone softener can be reviewed for a soft vintage finish",
+        "可评估酵素洗和硅油柔软处理，形成柔软复古手感"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized boxy fit with drop shoulder, wide sleeve and slightly cropped proportion",
+        "宽松箱型版型，落肩、宽袖和微短比例"
+      ],
+      [
+        "Print",
+        "印花",
+        "Water-based screen print or DTG can be reviewed for fine line-art graphics",
+        "细线稿图案可评估水浆丝网印或数码直喷"
+      ]
+    ],
+    "features": [
+      [
+        "Heavyweight cotton body",
+        "重磅纯棉面料",
+        "The fabric weight and yarn choice can be adjusted by target hand feel, drape and selling position.",
+        "可根据目标手感、垂感和销售定位调整克重与纱支。"
+      ],
+      [
+        "Washed vintage surface",
+        "水洗复古表面",
+        "Garment wash effects should be tested by sample first to control shade, shrinkage and fabric twisting.",
+        "水洗效果建议先打样测试，控制颜色、缩水率和扭曲率。"
+      ],
+      [
+        "Screen print direction",
+        "丝网印花方向",
+        "Artwork size, color count, crack effect and print hand feel can be confirmed before bulk production.",
+        "图案尺寸、颜色数量、裂纹效果和印花手感可在大货前确认。"
+      ],
+      [
+        "Oversized fit control",
+        "宽松版型控制",
+        "Shoulder width, chest ease, sleeve opening and collar rib recovery are key points for this T-shirt program.",
+        "肩宽、胸围放量、袖口宽度和领口罗纹回弹是这类T恤的重点。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "vintage-college-heavyweight-washed-tshirt",
+    "productId": "tshirts",
+    "categoryEn": "Custom T-Shirts",
+    "categoryZh": "T恤定制",
+    "titleEn": "Vintage College Heavyweight Washed T-Shirt",
+    "titleZh": "复古学院风重磅水洗T恤",
+    "image": "assets/products/tshirts/vintage-college-heavyweight-washed-tshirt/01-main-front-back.webp",
+    "shortEn": "300GSM vintage college T-shirt with mineral wash, oversized boxy fit, aged rib collar and distressed athletic screen print.",
+    "shortZh": "300GSM复古学院风T恤，矿物水洗、宽松箱型版型、做旧罗纹领和运动风仿旧丝网印花。",
+    "filters": [
+      "tshirts",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "cotton-jersey",
+      "heavyweight-jersey",
+      "oversized",
+      "boxy-fit",
+      "screen-print",
+      "garment-wash",
+      "rib-trim"
+    ],
+    "tagsEn": [
+      "300GSM cotton",
+      "Mineral wash",
+      "College graphic",
+      "Distressed edge"
+    ],
+    "tagsZh": [
+      "300GSM纯棉",
+      "矿物水洗",
+      "学院图案",
+      "边位做旧"
+    ],
+    "gallery": [
+      [
+        "Front and back product view",
+        "正反面产品图",
+        "assets/products/tshirts/vintage-college-heavyweight-washed-tshirt/01-main-front-back.webp"
+      ],
+      [
+        "Distressed collar and sleeve detail",
+        "领口袖口做旧细节",
+        "assets/products/tshirts/vintage-college-heavyweight-washed-tshirt/02-distressed-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% cotton heavyweight single jersey, 300GSM reference",
+        "100%纯棉重磅单面汗布，参考300GSM"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Vintage mineral wash plus enzyme wash can be reviewed by sample",
+        "可按样衣评估复古矿物洗加酵素洗"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized boxy fit with dropped shoulder and wide half sleeve",
+        "Oversized箱型版型，落肩和宽松五分袖比例"
+      ],
+      [
+        "Edge finish",
+        "边位处理",
+        "Light abrasion at collar, sleeve opening and hem can be reviewed without damaging garment strength",
+        "可评估领口、袖口和下摆轻磨做旧，但不影响结构牢度"
+      ],
+      [
+        "Print",
+        "印花",
+        "Discharge screen print or vintage crack screen print can be reviewed for the college artwork",
+        "学院图案可评估拔染丝印或仿旧裂纹丝网印"
+      ]
+    ],
+    "features": [
+      [
+        "Heavyweight cotton body",
+        "重磅纯棉面料",
+        "The fabric weight and yarn choice can be adjusted by target hand feel, drape and selling position.",
+        "可根据目标手感、垂感和销售定位调整克重与纱支。"
+      ],
+      [
+        "Washed vintage surface",
+        "水洗复古表面",
+        "Garment wash effects should be tested by sample first to control shade, shrinkage and fabric twisting.",
+        "水洗效果建议先打样测试，控制颜色、缩水率和扭曲率。"
+      ],
+      [
+        "Screen print direction",
+        "丝网印花方向",
+        "Artwork size, color count, crack effect and print hand feel can be confirmed before bulk production.",
+        "图案尺寸、颜色数量、裂纹效果和印花手感可在大货前确认。"
+      ],
+      [
+        "Oversized fit control",
+        "宽松版型控制",
+        "Shoulder width, chest ease, sleeve opening and collar rib recovery are key points for this T-shirt program.",
+        "肩宽、胸围放量、袖口宽度和领口罗纹回弹是这类T恤的重点。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "black-gray-vintage-denim-workwear-jacket",
+    "productId": "jackets",
+    "categoryEn": "Custom Jackets & Outerwear",
+    "categoryZh": "夹克外套定制",
+    "titleEn": "Black Gray Vintage Workwear Jacket",
+    "titleZh": "黑灰色复古牛仔夹克",
+    "image": "assets/products/jackets/black-gray-vintage-denim-workwear-jacket/01-main-front.webp",
+    "shortEn": "Black gray vintage workwear jacket with heavy washed cotton canvas, corduroy collar, metal zipper, large utility pockets and back flat embroidery.",
+    "shortZh": "黑灰色复古工装夹克，重磅水洗棉帆布、灯芯绒拼领、金属拉链、大贴袋和后背平绣图案。",
+    "filters": [
+      "jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "workwear-fit",
+      "outerwear-fit",
+      "canvas",
+      "corduroy",
+      "poly-lining",
+      "zipper-hardware",
+      "patch-label",
+      "embroidery",
+      "garment-wash"
+    ],
+    "tagsEn": [
+      "Washed canvas",
+      "Corduroy collar",
+      "Metal zipper",
+      "Back embroidery"
+    ],
+    "tagsZh": [
+      "水洗帆布",
+      "灯芯绒领",
+      "金属拉链",
+      "后背刺绣"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/jackets/black-gray-vintage-denim-workwear-jacket/01-main-front.webp"
+      ],
+      [
+        "Back embroidery artwork",
+        "后背刺绣图案",
+        "assets/products/jackets/black-gray-vintage-denim-workwear-jacket/02-back-view.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% cotton heavy washed canvas, 500GSM +/-20GSM reference",
+        "100%棉重磅水洗帆布，参考500GSM +/-20GSM"
+      ],
+      [
+        "Collar",
+        "领子",
+        "100% cotton corduroy collar, 8W-14W, 280-320GSM reference",
+        "100%棉灯芯绒拼领，8W-14W，参考280-320GSM"
+      ],
+      [
+        "Lining",
+        "里布",
+        "Polyester quilted lining or lightweight taffeta lining can be reviewed",
+        "可评估涤纶绗缝里布或轻薄塔夫绸里布"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Acid wash, enzyme wash, hand brushing and pre-shrink finishing can be reviewed",
+        "可评估酸洗、酵素洗、手擦边位和预缩定型"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Back flat embroidery, antique zipper, snap pocket flap and double-needle workwear stitching can be reviewed",
+        "可评估后背平绣、古铜拉链、袋盖四合扣和双针工装车线"
+      ]
+    ],
+    "features": [
+      [
+        "Heavy workwear fabric",
+        "重磅工装面料",
+        "Canvas weight, wash level and collar contrast material can be adjusted by the target workwear direction.",
+        "可根据目标工装方向调整帆布克重、水洗程度和拼领材料。"
+      ],
+      [
+        "Vintage wash control",
+        "复古水洗控制",
+        "Wash shade, abrasion level and shrinkage should be tested before bulk to avoid unstable color difference.",
+        "大货前建议测试水洗颜色、磨损程度和缩水率，避免色差不稳定。"
+      ],
+      [
+        "Embroidery and hardware",
+        "刺绣与五金",
+        "Back embroidery, zipper teeth, snap finish and pocket reinforcement can be confirmed through the approved sample.",
+        "后背刺绣、拉链牙色、四合扣表面和口袋加固可通过确认样确认。"
+      ],
+      [
+        "Workwear construction",
+        "工装结构",
+        "Double-needle stitching, bar tack reinforcement and lining construction are key production details.",
+        "双针明线、打枣加固和里布结构是重点生产细节。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "vintage-heavy-washed-canvas-workwear-jacket",
+    "productId": "jackets",
+    "categoryEn": "Custom Jackets & Outerwear",
+    "categoryZh": "夹克外套定制",
+    "titleEn": "Vintage Heavy Washed Canvas Workwear Jacket",
+    "titleZh": "复古重磅水洗帆布工装夹克",
+    "image": "assets/products/jackets/vintage-heavy-washed-canvas-workwear-jacket/01-main-front.webp",
+    "shortEn": "Heavy washed duck canvas workwear jacket with brown corduroy collar, antique metal zipper, vintage fading and flat embroidery artwork.",
+    "shortZh": "重磅水洗帆布工装夹克，深咖灯芯绒领、古铜金属拉链、复古褪色和高密平绣图案。",
+    "filters": [
+      "jackets",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "workwear-fit",
+      "outerwear-fit",
+      "canvas",
+      "corduroy",
+      "poly-lining",
+      "zipper-hardware",
+      "patch-label",
+      "embroidery",
+      "garment-wash"
+    ],
+    "tagsEn": [
+      "Duck canvas",
+      "Heavy wash",
+      "Corduroy collar",
+      "Flat embroidery"
+    ],
+    "tagsZh": [
+      "鸭帆布",
+      "重水洗",
+      "灯芯绒领",
+      "平绣"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/jackets/vintage-heavy-washed-canvas-workwear-jacket/01-main-front.webp"
+      ],
+      [
+        "Back workwear artwork",
+        "后背工装图案",
+        "assets/products/jackets/vintage-heavy-washed-canvas-workwear-jacket/02-back-view.webp"
+      ],
+      [
+        "Corduroy collar and zipper detail",
+        "灯芯绒领与拉链细节",
+        "assets/products/jackets/vintage-heavy-washed-canvas-workwear-jacket/03-collar-zip-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% cotton heavy duck canvas, 480-520GSM reference",
+        "100%棉重磅鸭帆布，参考480-520GSM"
+      ],
+      [
+        "Collar",
+        "领子",
+        "8W dark brown cotton corduroy collar, 280-320GSM reference",
+        "8W深咖棉灯芯绒领，参考280-320GSM"
+      ],
+      [
+        "Lining",
+        "里布",
+        "60-80GSM polyester taffeta or 80-120GSM quilted padding can be reviewed",
+        "可评估60-80GSM涤塔夫或80-120GSM绗缝铺棉"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Enzyme wash, stone wash, light sanding and localized vintage fading can be reviewed",
+        "可评估酵素洗、石磨洗、轻砂洗和局部复古褪色"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "High-density flat embroidery, antique metal zipper, metal snap and reinforced pocket stitching can be reviewed",
+        "可评估高密平绣、古铜金属拉链、金属四合扣和口袋加固车缝"
+      ]
+    ],
+    "features": [
+      [
+        "Heavy workwear fabric",
+        "重磅工装面料",
+        "Canvas weight, wash level and collar contrast material can be adjusted by the target workwear direction.",
+        "可根据目标工装方向调整帆布克重、水洗程度和拼领材料。"
+      ],
+      [
+        "Vintage wash control",
+        "复古水洗控制",
+        "Wash shade, abrasion level and shrinkage should be tested before bulk to avoid unstable color difference.",
+        "大货前建议测试水洗颜色、磨损程度和缩水率，避免色差不稳定。"
+      ],
+      [
+        "Embroidery and hardware",
+        "刺绣与五金",
+        "Back embroidery, zipper teeth, snap finish and pocket reinforcement can be confirmed through the approved sample.",
+        "后背刺绣、拉链牙色、四合扣表面和口袋加固可通过确认样确认。"
+      ],
+      [
+        "Workwear construction",
+        "工装结构",
+        "Double-needle stitching, bar tack reinforcement and lining construction are key production details.",
+        "双针明线、打枣加固和里布结构是重点生产细节。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "washed-distressed-pullover-hoodie",
+    "productId": "hoodies",
+    "categoryEn": "Custom Hoodies",
+    "categoryZh": "卫衣定制",
+    "titleEn": "Washed Distressed Pullover Hoodie",
+    "titleZh": "洗水做旧连帽卫衣",
+    "image": "assets/products/hoodies/washed-distressed-pullover-hoodie/01-main-front-back.webp",
+    "shortEn": "Washed charcoal pullover hoodie with heavyweight cotton terry, drop-shoulder fit, chest chain stitch badge and vintage back screen print.",
+    "shortZh": "炭黑水洗做旧套头卫衣，重磅棉毛圈、落肩版型、胸前链目绣徽章和后背复古丝网印花。",
+    "filters": [
+      "hoodies",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "heavyweight-fleece",
+      "french-terry",
+      "cotton-fleece",
+      "oversized",
+      "boxy-fit",
+      "screen-print",
+      "embroidery",
+      "garment-wash",
+      "rib-trim"
+    ],
+    "tagsEn": [
+      "450GSM terry",
+      "Garment wash",
+      "Chain stitch",
+      "Back print"
+    ],
+    "tagsZh": [
+      "450GSM毛圈",
+      "成衣水洗",
+      "链目绣",
+      "后背印花"
+    ],
+    "gallery": [
+      [
+        "Front and back product view",
+        "正反面产品图",
+        "assets/products/hoodies/washed-distressed-pullover-hoodie/01-main-front-back.webp"
+      ],
+      [
+        "Multi-angle hoodie view",
+        "多角度卫衣图",
+        "assets/products/hoodies/washed-distressed-pullover-hoodie/02-multi-view.webp"
+      ],
+      [
+        "Rib cuff detail",
+        "罗纹袖口细节",
+        "assets/products/hoodies/washed-distressed-pullover-hoodie/03-rib-cuff-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% cotton heavyweight French terry, or 80% cotton / 20% polyester fleece by target hand feel",
+        "100%棉重磅毛圈，或按手感选择80%棉/20%聚酯抓绒"
+      ],
+      [
+        "Weight",
+        "克重",
+        "Main fabric 420-460GSM, 450GSM recommended; rib 380-450GSM reference",
+        "主身参考420-460GSM，推荐450GSM；罗纹参考380-450GSM"
+      ],
+      [
+        "Wash",
+        "水洗",
+        "Enzyme wash, light stone wash or localized vintage spray effect can be reviewed",
+        "可评估酵素洗、轻石磨洗或局部喷马骝做旧效果"
+      ],
+      [
+        "Construction",
+        "结构",
+        "Dropped shoulder, double-layer hood, kangaroo pocket, rib cuff and hem with reinforced stress points",
+        "落肩、双层帽、袋鼠袋、袖口下摆罗纹和受力位加固"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Chest chain stitch plus flat embroidery and water-based vintage back screen print can be reviewed",
+        "可评估胸前链目绣加平绣，以及后背水性仿旧丝网印花"
+      ]
+    ],
+    "features": [
+      [
+        "Heavy hoodie fabric",
+        "重磅卫衣面料",
+        "Fabric weight, terry or fleece backing and wash effect can be adjusted by the target season and hand feel.",
+        "可根据目标季节和手感调整克重、毛圈或抓绒底面以及水洗效果。"
+      ],
+      [
+        "Structured hood and rib",
+        "立体帽型与罗纹",
+        "Double-layer hood, cuff rib and hem rib should be confirmed by sample for shape and recovery.",
+        "双层帽、袖口罗纹和下摆罗纹建议通过样衣确认立体度和回弹。"
+      ],
+      [
+        "Artwork development",
+        "图案工艺开发",
+        "Chest embroidery, screen print and vintage cracking can be reviewed by artwork, fabric and sample comments.",
+        "胸前刺绣、丝网印花和仿旧裂纹效果可按图案、面料和样衣意见评估。"
+      ],
+      [
+        "Reinforced sewing",
+        "加固车缝",
+        "Shoulder seam, hood joining, pocket opening and rib joining are reinforced for repeat wear.",
+        "肩线、帽子连接、口袋开口和罗纹拼接位需要加固，提升耐穿性。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
+  },
+  {
+    "id": "burgundy-heavyweight-pullover-hoodie",
+    "productId": "hoodies",
+    "categoryEn": "Custom Hoodies",
+    "categoryZh": "卫衣定制",
+    "titleEn": "Burgundy Heavyweight Pullover Hoodie",
+    "titleZh": "酒红色连帽卫衣",
+    "image": "assets/products/hoodies/burgundy-heavyweight-pullover-hoodie/01-main-front.webp",
+    "shortEn": "Burgundy 450GSM heavyweight cotton fleece hoodie with oversized boxy fit, double-layer hood, vintage athletic screen print and heavy rib.",
+    "shortZh": "酒红色450GSM重磅棉抓绒卫衣，宽松箱型版型、双层帽、复古运动风丝网印花和加厚罗纹。",
+    "filters": [
+      "hoodies",
+      "oem",
+      "custom",
+      "test",
+      "repeat",
+      "heavyweight-fleece",
+      "cotton-fleece",
+      "oversized",
+      "boxy-fit",
+      "screen-print",
+      "garment-wash",
+      "rib-trim"
+    ],
+    "tagsEn": [
+      "450GSM fleece",
+      "Boxy fit",
+      "Double hood",
+      "Vintage print"
+    ],
+    "tagsZh": [
+      "450GSM抓绒",
+      "箱型版型",
+      "双层帽",
+      "复古印花"
+    ],
+    "gallery": [
+      [
+        "Clean front product view",
+        "白底正面产品图",
+        "assets/products/hoodies/burgundy-heavyweight-pullover-hoodie/01-main-front.webp"
+      ],
+      [
+        "Back athletic artwork",
+        "后背学院图案",
+        "assets/products/hoodies/burgundy-heavyweight-pullover-hoodie/02-back-view.webp"
+      ],
+      [
+        "Side hood fit view",
+        "侧面帽型版型",
+        "assets/products/hoodies/burgundy-heavyweight-pullover-hoodie/03-side-view.webp"
+      ],
+      [
+        "Rib and hem detail",
+        "罗纹与下摆细节",
+        "assets/products/hoodies/burgundy-heavyweight-pullover-hoodie/04-rib-hem-detail.webp"
+      ]
+    ],
+    "specs": [
+      [
+        "MOQ",
+        "起订量",
+        "From 200 pcs",
+        "200件起"
+      ],
+      [
+        "Sampling",
+        "打样时间",
+        "3-7 days reference",
+        "参考 3-7 天"
+      ],
+      [
+        "Bulk lead time",
+        "大货周期",
+        "7-20 days, confirmed by quantity and craft",
+        "参考 7-20 天，按数量和工艺确认"
+      ],
+      [
+        "Fabric",
+        "面料",
+        "100% premium cotton heavyweight fleece, 3-thread fleece structure",
+        "100%优质棉重磅抓绒，三线卫衣布结构"
+      ],
+      [
+        "Weight",
+        "克重",
+        "Main fabric 450GSM reference; rib 650-750GSM reference",
+        "主身参考450GSM；罗纹参考650-750GSM"
+      ],
+      [
+        "Fit",
+        "版型",
+        "Oversized boxy fit with dropped shoulder, wide sleeve and slightly cropped proportion",
+        "Oversized箱型版型，落肩、宽袖和微短衣长比例"
+      ],
+      [
+        "Hood",
+        "帽子",
+        "Double-layer hood without drawcord, structured hood shape and reinforced hood seam",
+        "无抽绳双层帽，立体帽型和帽缝加固"
+      ],
+      [
+        "Craft",
+        "工艺",
+        "Vintage distressed screen print, enzyme wash and reinforced four-needle/six-thread seam construction can be reviewed",
+        "可评估复古仿旧丝网印花、酵素洗和四针六线加固车缝"
+      ]
+    ],
+    "features": [
+      [
+        "Heavy hoodie fabric",
+        "重磅卫衣面料",
+        "Fabric weight, terry or fleece backing and wash effect can be adjusted by the target season and hand feel.",
+        "可根据目标季节和手感调整克重、毛圈或抓绒底面以及水洗效果。"
+      ],
+      [
+        "Structured hood and rib",
+        "立体帽型与罗纹",
+        "Double-layer hood, cuff rib and hem rib should be confirmed by sample for shape and recovery.",
+        "双层帽、袖口罗纹和下摆罗纹建议通过样衣确认立体度和回弹。"
+      ],
+      [
+        "Artwork development",
+        "图案工艺开发",
+        "Chest embroidery, screen print and vintage cracking can be reviewed by artwork, fabric and sample comments.",
+        "胸前刺绣、丝网印花和仿旧裂纹效果可按图案、面料和样衣意见评估。"
+      ],
+      [
+        "Reinforced sewing",
+        "加固车缝",
+        "Shoulder seam, hood joining, pocket opening and rib joining are reinforced for repeat wear.",
+        "肩线、帽子连接、口袋开口和罗纹拼接位需要加固，提升耐穿性。"
+      ]
+    ],
+    "quality": [
+      [
+        "Material confirmation",
+        "面辅料确认",
+        "Fabric shade, GSM, hand feel and approved accessory package should be confirmed before bulk.",
+        "大货前确认面料颜色、克重、手感和面辅料组合。"
+      ],
+      [
+        "Artwork placement",
+        "图案定位",
+        "Logo, patch, print and embroidery placement should follow the approved sample and measurement points.",
+        "Logo、章仔、印花和刺绣位置按确认样和定位尺寸执行。"
+      ],
+      [
+        "Craft quality",
+        "工艺品质",
+        "Check skipped stitches, loose threads, patch edge, print hand feel and color matching by sample standard.",
+        "按样衣标准检查跳针、线头、章仔边缘、印花手感和颜色匹配。"
+      ],
+      [
+        "Seam reinforcement",
+        "车缝加固",
+        "Shoulder, armhole, pocket, placket, collar and rib joining points should be reinforced where needed.",
+        "肩部、袖窿、口袋、门襟、领口和罗纹拼接位按需要加固。"
+      ],
+      [
+        "Wash and shrinkage",
+        "水洗与缩水",
+        "Washed styles should confirm shade band, shrinkage and twisting before bulk production.",
+        "水洗款建议大货前确认色差范围、缩水率和扭曲率。"
+      ],
+      [
+        "Measurement tolerance",
+        "尺寸误差",
+        "+/- 1.5 cm reference, confirm by final size chart",
+        "参考 +/- 1.5cm，按最终尺码表确认"
+      ]
+    ]
   }
 ];
 
@@ -735,6 +2974,8 @@ const catalogFilterRows = {
       options: [
         ["melton-wool", "Melton / Wool Blend", "麦尔登 / 毛呢混纺"],
         ["leather-sleeve", "PU / Leather Sleeve", "PU / 皮袖"],
+        ["suede", "Suede / Micro Suede", "麂皮 / 仿麂皮"],
+        ["quilted-lining", "Quilted Lining", "绗缝里布"],
         ["nylon-poly", "Nylon / Polyester", "尼龙 / 涤纶"],
         ["satin", "Satin", "缎面"],
         ["poly-lining", "Poly Lining", "涤纶里布"],
