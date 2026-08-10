@@ -4259,9 +4259,6 @@ function renderCategoryCatalogReference(target, item) {
             ${intro.points.map(([en, zh]) => `<span>${createLang(en, zh)}</span>`).join("")}
           </div>
         </div>
-        <figure>
-          <img data-catalog-intro-image src="${intro.image}" alt="${intro.titleEn}" loading="lazy">
-        </figure>
       </section>
 
       <div class="catalog-list-heading reveal">
