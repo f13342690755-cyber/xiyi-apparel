@@ -243,6 +243,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Vintage Garage Car Heavyweight T-Shirt",
     titleZh: "复古车库汽车主题重磅T恤",
+    cardTitleEn: "Custom Vintage Garage Car Heavyweight T-Shirt with Distressed Screen Print",
+    cardTitleZh: "定制复古车库汽车主题重磅T恤 / 做旧丝网印花",
     image: "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp",
     shortEn: "280GSM heavyweight cotton jersey T-shirt with oversized drop-shoulder fit, vintage garage car artwork, garment wash and distressed screen print direction.",
     shortZh: "280GSM 重磅棉单面汗布T恤，落肩宽松版型、复古车库汽车图案、成衣水洗和做旧丝网印花方向。",
@@ -1550,6 +1552,8 @@ const productItems = [
     "categoryZh": "T恤定制",
     "titleEn": "Washed Heavyweight Street T-Shirt",
     "titleZh": "加厚水洗街头风T恤",
+    "cardTitleEn": "Custom Washed Heavyweight Street T-Shirt with High-Density Distressed Print",
+    "cardTitleZh": "定制加厚水洗街头风T恤 / 高密度仿旧印花",
     "image": "assets/products/tshirts/washed-heavyweight-street-tshirt/01-main-front-back.webp",
     "shortEn": "260GSM washed heavyweight cotton jersey T-shirt with oversized boxy fit, faded black wash and high-density distressed screen print.",
     "shortZh": "260GSM加厚水洗纯棉T恤，宽松箱型版型、炭黑褪色水洗和高密度仿旧丝网印花。",
@@ -1713,6 +1717,8 @@ const productItems = [
     "categoryZh": "T恤定制",
     "titleEn": "Heavyweight Vintage T-Shirt",
     "titleZh": "重磅复古T恤",
+    "cardTitleEn": "Custom Heavyweight Vintage T-Shirt with Architectural Line-Art Print",
+    "cardTitleZh": "定制重磅复古T恤 / 建筑线稿印花",
     "image": "assets/products/tshirts/heavyweight-vintage-tshirt/01-main-front-back.webp",
     "shortEn": "240GSM off-white heavyweight cotton jersey T-shirt with oversized fit, soft vintage wash and architectural line-art print direction.",
     "shortZh": "240GSM米燕麦色重磅纯棉T恤，宽松版型、柔软复古水洗和建筑线稿印花方向。",
@@ -1877,6 +1883,8 @@ const productItems = [
     "categoryZh": "T恤定制",
     "titleEn": "Vintage College Heavyweight Washed T-Shirt",
     "titleZh": "复古学院风重磅水洗T恤",
+    "cardTitleEn": "Custom Vintage College Heavyweight Washed T-Shirt with Distressed Athletic Graphic",
+    "cardTitleZh": "定制复古学院风重磅水洗T恤 / 仿旧运动图案",
     "image": "assets/products/tshirts/vintage-college-heavyweight-washed-tshirt/01-main-front-back.webp",
     "shortEn": "300GSM vintage college T-shirt with mineral wash, oversized boxy fit, aged rib collar and distressed athletic screen print.",
     "shortZh": "300GSM复古学院风T恤，矿物水洗、宽松箱型版型、做旧罗纹领和运动风仿旧丝网印花。",
@@ -2718,6 +2726,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Series Washed Heavyweight T-Shirt",
     titleZh: "系列水洗重磅T恤",
+    cardTitleEn: "Custom Washed Heavyweight T-Shirt Series with Architectural Back Print",
+    cardTitleZh: "定制系列水洗重磅T恤 / 建筑线稿后背印花",
     image: "assets/products/tshirts/series-washed-heavyweight-tshirt/10-color-lineup.webp",
     shortEn: "270GSM heavyweight cotton jersey T-shirt series with oversized drop-shoulder fit, soft enzyme wash and front/back architectural screen print direction.",
     shortZh: "270GSM重磅纯棉汗布T恤系列，落肩宽松版型、柔软酵素水洗，前胸小Logo和后背建筑线稿丝网印花方向。",
@@ -2768,6 +2778,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Vintage Washed Colorblock T-Shirt",
     titleZh: "复古水洗拼色T恤",
+    cardTitleEn: "Custom Vintage Washed Colorblock T-Shirt with Athletic Club Graphic",
+    cardTitleZh: "定制复古水洗拼色T恤 / 学院运动图案",
     image: "assets/products/tshirts/vintage-washed-colorblock-tshirt/01-color-lineup.webp",
     shortEn: "270GSM vintage washed colorblock T-shirt with boxy oversized fit, contrast rib collar and distressed athletic screen print direction.",
     shortZh: "270GSM复古水洗拼色T恤，宽松箱型版型、撞色罗纹领，搭配仿旧学院运动风丝网印花方向。",
@@ -2818,6 +2830,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Urban Memory Archive Vintage T-Shirt",
     titleZh: "城市记忆档案复古T恤",
+    cardTitleEn: "Custom Urban Archive Graphic T-Shirt with Vintage Crack Screen Print",
+    cardTitleZh: "定制城市记忆档案复古T恤 / 裂纹丝网印花",
     image: "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp",
     shortEn: "260GSM premium combed cotton archive graphic T-shirt with oversized streetwear fit, vintage wash and crack screen print direction.",
     shortZh: "260GSM精梳棉档案图案T恤，宽松街头版型、复古水洗和裂纹丝网印花方向。",
@@ -2868,6 +2882,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Art Association Heavyweight Washed T-Shirt",
     titleZh: "艺术协会重磅水洗T恤",
+    cardTitleEn: "Custom Art Society Heavyweight Washed T-Shirt with Back Graphic",
+    cardTitleZh: "定制艺术协会重磅水洗T恤 / 后背艺术图案",
     image: "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp",
     shortEn: "260GSM heavyweight washed cotton T-shirt with oversized fit, art society back graphic, distressed screen print and vintage colorways.",
     shortZh: "260GSM重磅水洗纯棉T恤，宽松版型、艺术协会后背图案、仿旧丝网印花和复古颜色方向。",
@@ -2918,6 +2934,8 @@ const productItems = [
     categoryZh: "T恤定制",
     titleEn: "Vintage Motor Club T-Shirt",
     titleZh: "复古机车俱乐部T恤",
+    cardTitleEn: "Custom Vintage Motor Club T-Shirt with Faded Wash & Crack Print",
+    cardTitleZh: "定制复古机车俱乐部T恤 / 成衣染洗裂纹印花",
     image: "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp",
     shortEn: "260GSM heavyweight combed cotton motor club T-shirt with oversized relaxed fit, garment dye wash and vintage cracked screen print.",
     shortZh: "260GSM重磅精梳棉机车俱乐部T恤，宽松版型、成衣染洗和复古裂纹丝网印花方向。",
@@ -3389,14 +3407,25 @@ function styleFilters(product, index) {
   ])].join(" ");
 }
 
+function madeToOrderCatalogTitle(item, product) {
+  const productTypeEn = product.navEn.replace(/^Custom\s+/i, "");
+  const titleEn = item.cardTitleEn || (item.titleEn.startsWith("Custom ")
+    ? `${item.titleEn} | OEM/ODM Made to Order`
+    : `Custom ${item.titleEn} | OEM/ODM ${productTypeEn} Made to Order`);
+  const titleZhBase = item.titleZh.startsWith("定制") ? item.titleZh : `定制${item.titleZh}`;
+  const titleZh = item.cardTitleZh || `${titleZhBase} / OEM ODM 来图来样`;
+  return { titleEn, titleZh };
+}
+
 function catalogStyleItems() {
   return productItems.map((item) => {
     const product = products.find((entry) => entry.id === item.productId) || products[0];
+    const title = madeToOrderCatalogTitle(item, product);
     return {
       id: item.id,
       product,
-      titleEn: item.titleEn,
-      titleZh: item.titleZh,
+      titleEn: title.titleEn,
+      titleZh: title.titleZh,
       image: item.image,
       bodyEn: item.shortEn,
       bodyZh: item.shortZh,
@@ -4108,7 +4137,7 @@ function renderUploadedProductDetailReference(target, item) {
       <div class="reference-tab-title">${createLang("Detail Information", "详情信息")}</div>
       <div class="reference-info-grid">
         <article>
-          <h2>${createLang("Made-to-order hoodie development reference", "按单定制卫衣开发参考")}</h2>
+          <h2>${createLang(`Made-to-order ${product.navEn.replace(/^Custom\s+/i, "").toLowerCase()} development reference`, `按单定制${product.navZh.replace(/定制$/, "")}开发参考`)}</h2>
           <p>${createLang("This style is prepared as an OEM/ODM reference for sampling and quotation. Final fabric, craft, measurements, color and lead time should be confirmed by sample, artwork files and order quantity.", "此款作为 OEM/ODM 打样和报价参考。最终面料、工艺、尺寸、颜色和交期，需要根据样衣、图稿文件和订单数量确认。")}</p>
         </article>
         <article>
