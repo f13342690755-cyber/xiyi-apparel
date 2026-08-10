@@ -3417,6 +3417,21 @@ function madeToOrderCatalogTitle(item, product) {
   return { titleEn, titleZh };
 }
 
+function productHoverImage(item) {
+  const galleryImages = (item.gallery || [])
+    .map((entry) => entry[2])
+    .filter(Boolean);
+  return item.hoverImage || galleryImages.find((image) => image !== item.image) || item.image;
+}
+
+function productCardImages(style) {
+  const hasHoverImage = style.hoverImage && style.hoverImage !== style.image;
+  return `
+    <img class="product-main-img" src="${style.image}" alt="${style.titleEn}" loading="lazy">
+    ${hasHoverImage ? `<img class="product-hover-img" src="${style.hoverImage}" alt="" aria-hidden="true" loading="lazy">` : ""}
+  `;
+}
+
 function catalogStyleItems() {
   return productItems.map((item) => {
     const product = products.find((entry) => entry.id === item.productId) || products[0];
@@ -3427,6 +3442,7 @@ function catalogStyleItems() {
       titleEn: title.titleEn,
       titleZh: title.titleZh,
       image: item.image,
+      hoverImage: productHoverImage(item),
       bodyEn: item.shortEn,
       bodyZh: item.shortZh,
       url: productItemUrl(item.id),
@@ -3877,7 +3893,7 @@ function renderProductCards() {
       target.innerHTML = catalogStyleItems().map((style) => `
         <article class="product-card catalog-style-card reveal" data-product-card data-product-id="${style.product.id}" data-product-filters="${style.filters}">
           <a class="product-image" href="${style.url}">
-            <img src="${style.image}" alt="${style.titleEn}" loading="lazy">
+            ${productCardImages(style)}
           </a>
           <div class="product-body">
             <span>${createLang(style.product.navEn, style.product.navZh)}</span>
@@ -4194,7 +4210,7 @@ function catalogProductCardHTML(style) {
   return `
     <article class="product-card catalog-style-card reveal" data-product-card data-product-id="${style.product.id}" data-product-filters="${style.filters}">
       <a class="product-image" href="${style.url}">
-        <img src="${style.image}" alt="${style.titleEn}" loading="lazy">
+        ${productCardImages(style)}
       </a>
       <div class="product-body">
         <span>${createLang(style.product.navEn, style.product.navZh)}</span>
