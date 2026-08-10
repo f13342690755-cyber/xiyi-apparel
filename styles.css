@@ -1060,7 +1060,9 @@ body[data-product-mode="category"] .section.alt {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: clamp(210px, 16.5vw, 285px);
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: auto;
   background: #ffffff;
   border: 0;
   overflow: hidden;
