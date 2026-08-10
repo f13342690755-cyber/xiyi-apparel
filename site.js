@@ -139,7 +139,7 @@ const products = [
       ["Rib-collar casual jacket", "罗纹领休闲夹克", "review-assets/pdf-images/menswear-p13-91-750x888.jpg"],
       ["Washed utility jacket", "水洗工装外套", "review-assets/pdf-images/menswear-p13-95-632x646.jpg"]
     ]
-  }
+  },
 ];
 
 const productItems = [
@@ -2709,6 +2709,256 @@ const productItems = [
         "+/- 1.5 cm reference, confirm by final size chart",
         "参考 +/- 1.5cm，按最终尺码表确认"
       ]
+    ]
+  },
+  {
+    id: "series-washed-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Series Washed Heavyweight T-Shirt",
+    titleZh: "系列水洗重磅T恤",
+    image: "assets/products/tshirts/series-washed-heavyweight-tshirt/10-color-lineup.webp",
+    shortEn: "270GSM heavyweight cotton jersey T-shirt series with oversized drop-shoulder fit, soft enzyme wash and front/back architectural screen print direction.",
+    shortZh: "270GSM重磅纯棉汗布T恤系列，落肩宽松版型、柔软酵素水洗，前胸小Logo和后背建筑线稿丝网印花方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["270GSM cotton", "Enzyme wash", "Screen print", "Oversized fit"],
+    tagsZh: ["270GSM纯棉", "酵素水洗", "丝网印花", "宽松版型"],
+    gallery: [
+      ["Blue model front view", "蓝色上身正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/01-blue-model-front.webp"],
+      ["Blue flat front view", "蓝色平铺正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/02-blue-flat-front.webp"],
+      ["Blue back artwork", "蓝色后背图案", "assets/products/tshirts/series-washed-heavyweight-tshirt/03-blue-flat-back.webp"],
+      ["Black model front view", "黑色上身正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/04-black-model-front.webp"],
+      ["Black flat front view", "黑色平铺正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/05-black-flat-front.webp"],
+      ["Black back artwork", "黑色后背图案", "assets/products/tshirts/series-washed-heavyweight-tshirt/06-black-flat-back.webp"],
+      ["Green model front view", "绿色上身正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/07-green-model-front.webp"],
+      ["Green flat front view", "绿色平铺正面", "assets/products/tshirts/series-washed-heavyweight-tshirt/08-green-flat-front.webp"],
+      ["Green back artwork", "绿色后背图案", "assets/products/tshirts/series-washed-heavyweight-tshirt/09-green-flat-back.webp"],
+      ["Three color lineup", "三色系列展示", "assets/products/tshirts/series-washed-heavyweight-tshirt/10-color-lineup.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight cotton single jersey, compact knit construction", "重磅纯棉单面汗布，紧密针织结构"],
+      ["Composition", "面料成分", "100% cotton or 100% combed cotton can be reviewed", "可评估100%棉或100%精梳棉"],
+      ["Weight", "克重", "270GSM +/-5GSM recommended; 260-280GSM range", "推荐270GSM +/-5GSM，范围260-280GSM"],
+      ["Fit", "版型", "Oversized relaxed fit, drop shoulder, wide sleeve and longer body", "宽松落肩版型，宽袖，衣长比常规T恤略长"],
+      ["Craft", "图案工艺", "Water-based chest print and high-precision screen print for back line artwork", "前胸水浆小Logo，后背线稿图案可做高精度丝网印花"]
+    ],
+    features: [
+      ["Series color direction", "系列颜色方向", "Blue, black and green washed colorways support a clean streetwear series presentation for made-to-order programs.", "蓝色、黑色和绿色水洗配色适合做成系列化街头T恤定制项目。"],
+      ["Heavyweight cotton hand feel", "重磅纯棉手感", "The recommended 270GSM jersey balances structure, drape and comfort for oversized short-sleeve T-shirts.", "推荐270GSM汗布，兼顾挺度、垂感和宽松短袖T恤的穿着舒适度。"],
+      ["Wash finishing route", "水洗后整路线", "Pre-shrink, light enzyme wash and soft silicone finishing can be reviewed to control shrinkage and improve hand feel.", "可评估预缩、轻酵素水洗和硅油柔软后整，帮助控制缩水并提升手感。"],
+      ["Architectural print development", "建筑线稿印花开发", "Back artwork with fine lines should be sampled first to confirm line clarity, color matching and print hand feel.", "后背细线稿图案建议先打样确认线条清晰度、颜色匹配和印花手感。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 270GSM +/-5GSM", "目标270GSM +/-5GSM"],
+      ["Shrinkage", "缩水率", "Target <=3% after pre-shrink and wash testing", "预缩和水洗测试后目标<=3%"],
+      ["Print clarity", "印花清晰度", "Fine line artwork should be checked by approved sample", "细线图案按确认样检查清晰度"],
+      ["Collar recovery", "领口回弹", "1x1 rib collar and back neck tape should be confirmed by sample", "1x1罗纹领和后领包边按样衣确认"],
+      ["Stitch density", "针距", "About 11 stitches per inch reference", "参考约11针/英寸"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "vintage-washed-colorblock-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Vintage Washed Colorblock T-Shirt",
+    titleZh: "复古水洗拼色T恤",
+    image: "assets/products/tshirts/vintage-washed-colorblock-tshirt/01-color-lineup.webp",
+    shortEn: "270GSM vintage washed colorblock T-shirt with boxy oversized fit, contrast rib collar and distressed athletic screen print direction.",
+    shortZh: "270GSM复古水洗拼色T恤，宽松箱型版型、撞色罗纹领，搭配仿旧学院运动风丝网印花方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["270GSM cotton", "Colorblock panels", "Vintage wash", "Boxy fit"],
+    tagsZh: ["270GSM纯棉", "拼色裁片", "复古水洗", "箱型版型"],
+    gallery: [
+      ["Three color lineup", "三色系列展示", "assets/products/tshirts/vintage-washed-colorblock-tshirt/01-color-lineup.webp"],
+      ["Olive flat front", "橄榄色平铺正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/02-olive-flat-front.webp"],
+      ["Olive back artwork", "橄榄色后背图案", "assets/products/tshirts/vintage-washed-colorblock-tshirt/03-olive-flat-back.webp"],
+      ["Olive model front", "橄榄色上身正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/04-olive-model-front.webp"],
+      ["Navy back artwork", "藏蓝色后背图案", "assets/products/tshirts/vintage-washed-colorblock-tshirt/05-navy-flat-back.webp"],
+      ["Navy flat front", "藏蓝色平铺正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/06-navy-flat-front.webp"],
+      ["Navy model front", "藏蓝色上身正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/07-navy-model-front.webp"],
+      ["Charcoal back artwork", "炭灰色后背图案", "assets/products/tshirts/vintage-washed-colorblock-tshirt/08-charcoal-flat-back.webp"],
+      ["Charcoal flat front", "炭灰色平铺正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/09-charcoal-flat-front.webp"],
+      ["Charcoal model front", "炭灰色上身正面", "assets/products/tshirts/vintage-washed-colorblock-tshirt/10-charcoal-model-front.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight cotton jersey for body and sleeves", "衣身与袖片使用重磅棉汗布"],
+      ["Composition", "面料成分", "100% combed cotton body; 95% cotton / 5% spandex rib can be reviewed", "衣身100%精梳棉；领口可评估95%棉/5%氨纶罗纹"],
+      ["Weight", "克重", "270GSM reference for main fabric; 320-360GSM rib reference", "主布参考270GSM；罗纹参考320-360GSM"],
+      ["Fit", "版型", "Unisex oversized boxy fit with drop shoulder and wide sleeve", "中性宽松箱型版型，落肩宽袖"],
+      ["Craft", "图案工艺", "Panel dyeing, garment wash and distressed screen print can be reviewed", "可评估裁片染色、成衣水洗和仿旧丝网印花"]
+    ],
+    features: [
+      ["Colorblock sewing route", "拼色车缝路线", "Body and sleeve panels can be dyed separately before sewing to keep a clearer colorblock effect.", "衣身和袖片可先分开染色再车缝，帮助保持更清晰的拼色效果。"],
+      ["Vintage wash texture", "复古水洗质感", "Enzyme wash and light vintage fading can create a natural worn surface while keeping the fabric structured.", "酵素水洗和轻度复古褪色可形成自然旧化表面，同时保留面料骨感。"],
+      ["Athletic club artwork", "学院运动图案", "The Northline style artwork is better suited to thin distressed screen print instead of heavy raised printing.", "此类学院运动图案更适合薄层仿旧丝网印，不建议做过厚立体印花。"],
+      ["Rib and seam reinforcement", "罗纹与拼缝加固", "Contrast rib collar, shoulder seams and sleeve joining points should be reinforced for repeated wear and washing.", "撞色罗纹领、肩缝和袖片拼接位建议加固，适合反复穿着和水洗。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 270GSM +/-5%", "目标270GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target around +/-3% after garment wash", "成衣水洗后目标约+/-3%"],
+      ["Color matching", "颜色匹配", "Panel shades and rib color should be approved by sample", "裁片颜色和罗纹颜色按确认样执行"],
+      ["Print hand feel", "印花手感", "Distressed print should stay soft and flexible after washing", "仿旧印花水洗后应保持柔软和弹性"],
+      ["Seam strength", "拼缝强度", "Colorblock shoulder and sleeve seams should be checked carefully", "拼色肩缝和袖片拼接处重点检查"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "urban-memory-archive-vintage-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Urban Memory Archive Vintage T-Shirt",
+    titleZh: "城市记忆档案复古T恤",
+    image: "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp",
+    shortEn: "260GSM premium combed cotton archive graphic T-shirt with oversized streetwear fit, vintage wash and crack screen print direction.",
+    shortZh: "260GSM精梳棉档案图案T恤，宽松街头版型、复古水洗和裂纹丝网印花方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260GSM cotton", "Archive graphic", "Crack print", "Oversized fit"],
+    tagsZh: ["260GSM纯棉", "档案图案", "裂纹印花", "宽松版型"],
+    gallery: [
+      ["Black model front and back", "黑色上身正反面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp"],
+      ["Black flat front", "黑色平铺正面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/02-black-flat-front.webp"],
+      ["Black back artwork", "黑色后背图案", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/03-black-flat-back.webp"],
+      ["Cream model front and back", "米色上身正反面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/04-cream-model-front-back.webp"],
+      ["Cream flat front", "米色平铺正面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/05-cream-flat-front.webp"],
+      ["Cream back artwork", "米色后背图案", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/06-cream-flat-back.webp"],
+      ["Navy model front and back", "藏蓝色上身正反面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/07-navy-model-front-back.webp"],
+      ["Navy flat front", "藏蓝色平铺正面", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/08-navy-flat-front.webp"],
+      ["Navy back artwork", "藏蓝色后背图案", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/09-navy-flat-back.webp"],
+      ["Three color lineup", "三色系列展示", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/10-color-lineup.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% premium combed cotton heavyweight single jersey", "100%精梳棉重磅单面汗布"],
+      ["Yarn", "纱支", "21S compact yarn reference", "参考21S紧密纺纱"],
+      ["Weight", "克重", "260GSM +/-5% recommended", "推荐260GSM +/-5%"],
+      ["Fit", "版型", "Oversized streetwear fit, drop shoulder, wide sleeve and straight hem", "宽松街头版型，落肩、宽袖和平下摆"],
+      ["Craft", "图案工艺", "Vintage crack screen print with soft-hand ink can be reviewed", "可评估柔软手感油墨和复古裂纹丝网印花"]
+    ],
+    features: [
+      ["Archive poster graphic", "档案海报图案", "The back graphic uses architectural and archive elements, suitable for a multi-color vintage screen print route.", "后背图案包含建筑与档案元素，适合做多色复古丝网印花。"],
+      ["Premium cotton base", "高级纯棉底布", "260GSM combed cotton single jersey provides a clear surface for detailed artwork while keeping a natural drape.", "260GSM精梳棉单面汗布适合承载细节图案，同时保持自然垂感。"],
+      ["Washed vintage finish", "水洗复古后整", "Vintage enzyme wash and softener can create faded black, cream and navy color directions.", "复古酵素洗和柔软处理可形成黑色、米色、藏蓝色等旧化颜色方向。"],
+      ["Oversized fit control", "宽松版型控制", "Drop shoulder amount, sleeve opening, body length and collar rib recovery should be checked in the sample stage.", "落肩量、袖口宽度、衣长和领口罗纹回弹建议在打样阶段确认。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "260GSM +/-5% reference", "参考260GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target <=3% after pre-shrink treatment", "预缩处理后目标<=3%"],
+      ["Print color", "印花颜色", "Warm white, dusty red and charcoal gray should be matched by approved sample", "米白、灰红和炭灰等颜色按确认样匹配"],
+      ["Print durability", "印花耐洗", "Crack effect should be controlled without obvious peeling", "裂纹效果需受控，不应明显脱落"],
+      ["Reinforcement", "加固工艺", "Shoulder tape, back neck tape and double-needle hems can be reviewed", "可评估肩带、后领包边和双针下摆"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "art-association-heavyweight-washed-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Art Association Heavyweight Washed T-Shirt",
+    titleZh: "艺术协会重磅水洗T恤",
+    image: "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp",
+    shortEn: "260GSM heavyweight washed cotton T-shirt with oversized fit, art society back graphic, distressed screen print and vintage colorways.",
+    shortZh: "260GSM重磅水洗纯棉T恤，宽松版型、艺术协会后背图案、仿旧丝网印花和复古颜色方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260GSM cotton", "Garment wash", "Distressed print", "Rib collar"],
+    tagsZh: ["260GSM纯棉", "成衣水洗", "仿旧印花", "罗纹圆领"],
+    gallery: [
+      ["Black model back view", "黑色上身背面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp"],
+      ["Black flat front", "黑色平铺正面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/02-black-flat-front.webp"],
+      ["Black back artwork", "黑色后背图案", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/03-black-flat-back.webp"],
+      ["Grey model front", "灰色上身正面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/04-grey-model-front.webp"],
+      ["Grey flat front", "灰色平铺正面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/05-grey-flat-front.webp"],
+      ["Grey back artwork", "灰色后背图案", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/06-grey-flat-back.webp"],
+      ["Green model front", "绿色上身正面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/07-green-model-front.webp"],
+      ["Green flat front", "绿色平铺正面", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/08-green-flat-front.webp"],
+      ["Green back artwork", "绿色后背图案", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/09-green-flat-back.webp"],
+      ["Three color lineup", "三色系列展示", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/10-color-lineup.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% cotton heavyweight combed cotton single jersey", "100%棉重磅精梳棉单面汗布"],
+      ["Weight", "克重", "260GSM reference", "参考260GSM"],
+      ["Fit", "版型", "Unisex oversized fit, drop shoulder, wide sleeve and straight hem", "中性宽松版型，落肩、宽袖和平下摆"],
+      ["Wash", "水洗", "Enzyme wash with light stone or vintage wash can be reviewed", "可评估酵素洗、轻石磨或复古水洗"],
+      ["Craft", "图案工艺", "Water-based or plastisol screen print with distressed crack effect", "可做水浆或胶浆丝网印花，并评估仿旧裂纹效果"]
+    ],
+    features: [
+      ["Art society visual route", "艺术社团视觉方向", "The back artwork is suited for premium vintage streetwear programs with black, grey and forest green colorways.", "后背艺术社团图案适合高级复古街头T恤项目，可开发黑色、灰色和森林绿方向。"],
+      ["Washed color control", "水洗颜色控制", "Vintage washed black, stone grey and washed forest green should be confirmed by lab dip or sample before production.", "复古水洗黑、石灰色和水洗森林绿建议通过色样或样衣确认。"],
+      ["Print texture development", "印花质感开发", "Distressed screen print can create a poster-like aged texture while keeping the print hand feel comfortable.", "仿旧丝网印花能形成海报旧化质感，同时保持穿着手感。"],
+      ["T-shirt construction", "T恤结构工艺", "High-density rib collar, shoulder-to-shoulder tape and double-needle hems are key details for this style.", "高密罗纹领、肩到肩压条和袖口下摆双针车是这款的结构重点。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "260GSM +/-5% reference", "参考260GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target around +/-3% after garment wash", "成衣水洗后目标约+/-3%"],
+      ["Color fastness", "色牢度", "Target grade 4 or above by sample standard", "按样衣标准目标4级以上"],
+      ["Print check", "印花检查", "Check print color, crack texture and hand feel against approved sample", "按确认样检查印花颜色、裂纹质感和手感"],
+      ["Sewing", "车缝", "Shoulder tape, overlock and double-needle hems should be clean and even", "肩带、包缝和双针下摆应干净均匀"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "vintage-motor-club-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Vintage Motor Club T-Shirt",
+    titleZh: "复古机车俱乐部T恤",
+    image: "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp",
+    shortEn: "260GSM heavyweight combed cotton motor club T-shirt with oversized relaxed fit, garment dye wash and vintage cracked screen print.",
+    shortZh: "260GSM重磅精梳棉机车俱乐部T恤，宽松版型、成衣染洗和复古裂纹丝网印花方向。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260GSM cotton", "Motor graphic", "Vintage wash", "Screen print"],
+    tagsZh: ["260GSM纯棉", "机车图案", "复古水洗", "丝网印花"],
+    gallery: [
+      ["Navy model front and back", "藏蓝色上身正反面", "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp"],
+      ["Navy flat front", "藏蓝色平铺正面", "assets/products/tshirts/vintage-motor-club-tshirt/02-navy-flat-front.webp"],
+      ["Navy back artwork", "藏蓝色后背图案", "assets/products/tshirts/vintage-motor-club-tshirt/03-navy-flat-back.webp"],
+      ["Black model front and back", "黑色上身正反面", "assets/products/tshirts/vintage-motor-club-tshirt/04-black-model-front-back.webp"],
+      ["Black flat front", "黑色平铺正面", "assets/products/tshirts/vintage-motor-club-tshirt/05-black-flat-front.webp"],
+      ["Black back artwork", "黑色后背图案", "assets/products/tshirts/vintage-motor-club-tshirt/06-black-flat-back.webp"],
+      ["Green model front and back", "绿色上身正反面", "assets/products/tshirts/vintage-motor-club-tshirt/07-green-model-front-back.webp"],
+      ["Green flat front", "绿色平铺正面", "assets/products/tshirts/vintage-motor-club-tshirt/08-green-flat-front.webp"],
+      ["Green back artwork", "绿色后背图案", "assets/products/tshirts/vintage-motor-club-tshirt/09-green-flat-back.webp"],
+      ["Three color lineup", "三色系列展示", "assets/products/tshirts/vintage-motor-club-tshirt/10-color-lineup.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight combed cotton jersey", "重磅精梳棉汗布"],
+      ["Composition", "面料成分", "100% combed cotton", "100%精梳棉"],
+      ["Weight", "克重", "260GSM reference, tolerance by sample standard", "参考260GSM，公差按样衣标准确认"],
+      ["Fit", "版型", "Oversized relaxed boxy fit with drop shoulder and wide sleeves", "宽松箱型版型，落肩宽袖"],
+      ["Craft", "图案工艺", "Garment dye wash, enzyme wash and 3-color vintage screen print can be reviewed", "可评估成衣染洗、酵素洗和三色复古丝网印花"]
+    ],
+    features: [
+      ["Motor club artwork", "机车俱乐部图案", "The back artwork uses motor culture typography and map details, suitable for vintage cracked screen print.", "后背图案结合机车文化字体和地图细节，适合复古裂纹丝网印花。"],
+      ["Heavy streetwear fabric", "重磅街头面料", "260GSM combed cotton jersey supports a premium streetwear hand feel without making the T-shirt too stiff.", "260GSM精梳棉汗布能做出高级街头手感，同时不会让T恤过硬。"],
+      ["Garment dye wash route", "成衣染洗路线", "Faded navy, washed black and faded forest green can be reviewed through garment dye, enzyme wash and softener finish.", "褪色藏蓝、水洗黑和褪色森林绿可通过成衣染色、酵素洗和柔软处理评估。"],
+      ["Durable construction", "耐穿结构", "A high-density rib collar, shoulder reinforcement and double-needle hems help the style hold shape after repeated wear.", "高密罗纹领、肩部加固和双针下摆有助于反复穿着后保持版型。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 260GSM +/-5%", "目标260GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target <=5% after wash testing", "水洗测试后目标<=5%"],
+      ["Color fastness", "色牢度", "Target grade 4 or above by sample standard", "按样衣标准目标4级以上"],
+      ["Print durability", "印花耐洗", "Target no obvious peeling after repeated wash testing", "反复水洗测试后目标无明显脱落"],
+      ["Pilling and twisting", "起球与扭曲", "Fabric surface and side seam twisting should be checked after wash", "水洗后检查布面起球和侧缝扭曲"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
     ]
   }
 ];
