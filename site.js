@@ -36,7 +36,7 @@ const products = [
     navZh: "T恤定制",
     titleEn: "Custom T-Shirts & Polo Shirts",
     titleZh: "T恤 / Polo 衫定制",
-    image: "review-assets/pdf-images/menswear-p03-10-1023x769.jpg",
+    image: "assets/products/tshirts/series-washed-heavyweight-tshirt/01-blue-model-front.webp",
     shortEn: "Basic tees, graphic tees, polo shirts, color programs, labels and logo craft placement.",
     shortZh: "基础T恤、图案T恤、Polo衫、颜色系列、领标和Logo工艺位置。",
     detailsEn: "A practical category for test orders, company uniforms, private-label programs and repeat production.",
@@ -44,12 +44,12 @@ const products = [
     tagsEn: ["Cotton jersey", "Polo", "Screen print", "Private label"],
     tagsZh: ["针织棉", "Polo", "丝网印", "贴牌"],
     styles: [
-      ["Polo color series", "Polo 多色系列", "review-assets/pdf-images/menswear-p03-10-1023x769.jpg"],
-      ["Raglan basic T-shirt", "插肩基础T恤", "review-assets/pdf-images/menswear-p08-33-838x836.jpg"],
-      ["Tie-dye crewneck T-shirt", "扎染圆领T恤", "review-assets/pdf-images/menswear-p08-34-1100x1100.jpg"],
-      ["Print placement T-shirt", "定位印花T恤", "review-assets/pdf-images/menswear-p12-77-683x904.jpg"],
-      ["Long-sleeve graphic tee", "长袖图案T恤", "review-assets/pdf-images/menswear-p08-35-369x480.jpg"],
-      ["All-over print T-shirt", "满版印花T恤", "review-assets/pdf-images/menswear-p08-36-754x878.jpg"]
+      ["Washed heavyweight T-shirt series", "水洗重磅T恤系列", "assets/products/tshirts/series-washed-heavyweight-tshirt/01-blue-model-front.webp"],
+      ["Vintage colorblock washed T-shirt", "复古水洗拼色T恤", "assets/products/tshirts/vintage-washed-colorblock-tshirt/04-olive-model-front.webp"],
+      ["Garage car heavyweight T-shirt", "车库汽车主题重磅T恤", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp"],
+      ["Urban archive graphic T-shirt", "城市档案图案T恤", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp"],
+      ["Art association back graphic T-shirt", "艺术协会后背图案T恤", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp"],
+      ["Vintage motor club T-shirt", "复古机车俱乐部T恤", "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp"]
     ]
   },
   {
@@ -2728,7 +2728,8 @@ const productItems = [
     titleZh: "系列水洗重磅T恤",
     cardTitleEn: "Custom Washed Heavyweight T-Shirt Series with Architectural Back Print",
     cardTitleZh: "定制系列水洗重磅T恤 / 建筑线稿后背印花",
-    image: "assets/products/tshirts/series-washed-heavyweight-tshirt/10-color-lineup.webp",
+    image: "assets/products/tshirts/series-washed-heavyweight-tshirt/01-blue-model-front.webp",
+    hoverImage: "assets/products/tshirts/series-washed-heavyweight-tshirt/03-blue-flat-back.webp",
     shortEn: "270GSM heavyweight cotton jersey T-shirt series with oversized drop-shoulder fit, soft enzyme wash and front/back architectural screen print direction.",
     shortZh: "270GSM重磅纯棉汗布T恤系列，落肩宽松版型、柔软酵素水洗，前胸小Logo和后背建筑线稿丝网印花方向。",
     filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
@@ -2780,7 +2781,8 @@ const productItems = [
     titleZh: "复古水洗拼色T恤",
     cardTitleEn: "Custom Vintage Washed Colorblock T-Shirt with Athletic Club Graphic",
     cardTitleZh: "定制复古水洗拼色T恤 / 学院运动图案",
-    image: "assets/products/tshirts/vintage-washed-colorblock-tshirt/01-color-lineup.webp",
+    image: "assets/products/tshirts/vintage-washed-colorblock-tshirt/04-olive-model-front.webp",
+    hoverImage: "assets/products/tshirts/vintage-washed-colorblock-tshirt/03-olive-flat-back.webp",
     shortEn: "270GSM vintage washed colorblock T-shirt with boxy oversized fit, contrast rib collar and distressed athletic screen print direction.",
     shortZh: "270GSM复古水洗拼色T恤，宽松箱型版型、撞色罗纹领，搭配仿旧学院运动风丝网印花方向。",
     filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
