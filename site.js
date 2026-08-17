@@ -4114,11 +4114,17 @@ function styleFilters(product, index) {
 
 function madeToOrderCatalogTitle(item, product) {
   const productTypeEn = product.navEn.replace(/^Custom\s+/i, "");
-  const titleEn = item.cardTitleEn || (item.titleEn.startsWith("Custom ")
+  const titleEnBase = item.cardTitleEn || (item.titleEn.startsWith("Custom ")
     ? `${item.titleEn} | OEM/ODM Made to Order`
     : `Custom ${item.titleEn} | OEM/ODM ${productTypeEn} Made to Order`);
   const titleZhBase = item.titleZh.startsWith("定制") ? item.titleZh : `定制${item.titleZh}`;
-  const titleZh = item.cardTitleZh || `${titleZhBase} / OEM ODM 来图来样`;
+  const titleZhBaseWithCraft = item.cardTitleZh || `${titleZhBase} / OEM ODM 来图来样`;
+  const titleEn = /OEM\s*\/?\s*ODM/i.test(titleEnBase)
+    ? titleEnBase
+    : `${titleEnBase} | OEM/ODM From Photo or Sample`;
+  const titleZh = /OEM\s*\/?\s*ODM|来图来样/i.test(titleZhBaseWithCraft)
+    ? titleZhBaseWithCraft
+    : `${titleZhBaseWithCraft} / OEM ODM 来图来样`;
   return { titleEn, titleZh };
 }
 
@@ -4664,12 +4670,13 @@ function updateProductHero(eyebrowEn, eyebrowZh, titleEn, titleZh, bodyEn, bodyZ
 
 function renderUploadedProductDetail(target, item) {
   const product = products.find((entry) => entry.id === item.productId) || products[0];
-  document.title = `${item.titleEn} | Dongguan Xiyi Apparel`;
+  const displayTitle = madeToOrderCatalogTitle(item, product);
+  document.title = `${displayTitle.titleEn} | Dongguan Xiyi Apparel`;
   updateProductHero(
     "Product Detail",
     "产品详情",
-    item.titleEn,
-    item.titleZh,
+    displayTitle.titleEn,
+    displayTitle.titleZh,
     "Made-to-order OEM/ODM hoodie reference. Final price, fabric and lead time are confirmed by sample, artwork and order quantity.",
     "定制 OEM/ODM 卫衣产品参考。最终价格、面料和周期按样衣、图案和订单数量确认。"
   );
@@ -4682,7 +4689,7 @@ function renderUploadedProductDetail(target, item) {
       <span> / </span>
       <a href="${productUrl(product.id)}">${createLang(product.navEn, product.navZh)}</a>
       <span> / </span>
-      <span>${createLang(item.titleEn, item.titleZh)}</span>
+      <span>${createLang(displayTitle.titleEn, displayTitle.titleZh)}</span>
     `;
   }
 
@@ -4703,7 +4710,7 @@ function renderUploadedProductDetail(target, item) {
       </div>
       <div class="item-detail-copy">
         <p class="eyebrow">${createLang(product.navEn, product.navZh)}</p>
-        <h1>${createLang(item.titleEn, item.titleZh)}</h1>
+        <h1>${createLang(displayTitle.titleEn, displayTitle.titleZh)}</h1>
         <p>${createLang(item.shortEn, item.shortZh)}</p>
         <div class="tag-row large">
           ${item.tagsEn.map((tag, index) => `<em>${createLang(tag, item.tagsZh[index])}</em>`).join("")}
@@ -4774,12 +4781,13 @@ function renderUploadedProductDetail(target, item) {
 
 function renderUploadedProductDetailReference(target, item) {
   const product = products.find((entry) => entry.id === item.productId) || products[0];
-  document.title = `${item.titleEn} | Dongguan Xiyi Apparel`;
+  const displayTitle = madeToOrderCatalogTitle(item, product);
+  document.title = `${displayTitle.titleEn} | Dongguan Xiyi Apparel`;
   updateProductHero(
     "Product Detail",
     "产品详情",
-    item.titleEn,
-    item.titleZh,
+    displayTitle.titleEn,
+    displayTitle.titleZh,
     "Made-to-order OEM/ODM style reference. Final price, fabric and lead time are confirmed by sample, artwork and order quantity.",
     "OEM/ODM 按单定制款式参考。最终价格、面料和周期按样衣、图案和订单数量确认。"
   );
@@ -4793,7 +4801,7 @@ function renderUploadedProductDetailReference(target, item) {
       <span> / </span>
       <a href="${productUrl(product.id)}">${createLang(product.navEn, product.navZh)}</a>
       <span> / </span>
-      <span>${createLang(item.titleEn, item.titleZh)}</span>
+      <span>${createLang(displayTitle.titleEn, displayTitle.titleZh)}</span>
     `;
   }
 
@@ -4817,7 +4825,7 @@ function renderUploadedProductDetailReference(target, item) {
 
   target.innerHTML = `
     <article class="reference-product-detail reveal">
-      <h1 class="reference-product-title">${createLang(item.titleEn, item.titleZh)}</h1>
+      <h1 class="reference-product-title">${createLang(displayTitle.titleEn, displayTitle.titleZh)}</h1>
       <div class="reference-product-grid">
         <div class="reference-gallery">
           <div class="reference-main-media">
