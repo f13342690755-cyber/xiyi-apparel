@@ -14,7 +14,7 @@ const products = [
     navZh: "卫衣定制",
     titleEn: "Custom Hoodies & Sweatshirts",
     titleZh: "卫衣 / 套头衫定制",
-    image: "review-assets/pdf-images/menswear-p09-50-1234x1234.jpg",
+    image: "assets/products/hoodies/washed-oversized-boxy-hoodie/01-front-black.webp",
     shortEn: "Pullover hoodies, zip hoodies, crewnecks, sets, rib details, drawcords, printing and embroidery.",
     shortZh: "套头卫衣、拉链卫衣、圆领卫衣、套装、罗纹、抽绳、印花和刺绣。",
     detailsEn: "Suitable for brand drops, streetwear collections, team programs and repeatable casualwear orders.",
@@ -22,12 +22,12 @@ const products = [
     tagsEn: ["Fleece", "French terry", "Embroidery", "Puff print"],
     tagsZh: ["抓绒", "毛圈", "刺绣", "发泡印花"],
     styles: [
-      ["Zip hoodie with clean seams", "拉链连帽卫衣", "review-assets/pdf-images/menswear-p09-50-1234x1234.jpg"],
-      ["Pullover hoodie shorts set", "套头卫衣短裤套装", "review-assets/pdf-images/menswear-p14-105-446x1180.jpg"],
-      ["Zip hoodie sweat set", "拉链卫衣卫裤套装", "review-assets/pdf-images/menswear-p14-106-402x1148.jpg"],
-      ["Half-zip graphic sweatshirt", "半拉链图案卫衣", "review-assets/pdf-images/menswear-p14-103-600x796.jpg"],
-      ["Solid fleece hoodie set", "纯色抓绒卫衣套装", "review-assets/pdf-images/menswear-p14-107-745x742.jpg"],
-      ["Washed hoodie set", "水洗卫衣套装", "review-assets/pdf-images/menswear-p15-118-744x743.jpg"]
+      ["Washed oversized boxy hoodie", "宽松版型洗水卫衣", "assets/products/hoodies/washed-oversized-boxy-hoodie/01-front-black.webp"],
+      ["Deconstructed panel washed hoodie", "拼接洗水连帽卫衣", "assets/products/hoodies/deconstructed-panel-washed-hoodie/01-front-view.webp"],
+      ["Washed distressed panel hoodie", "水洗做旧拼接卫衣", "assets/products/hoodies/washed-distressed-panel-hoodie/01-front-view.webp"],
+      ["Gray distressed panel hoodie", "灰色做旧拼接卫衣", "assets/products/hoodies/gray-distressed-panel-hoodie/01-front-view.webp"],
+      ["Black gray destroyed hoodie", "黑灰色磨破做旧卫衣", "assets/products/hoodies/black-gray-destroyed-distressed-hoodie/01-front-view.webp"],
+      ["Red oversized zip hoodie", "红色拉链卫衣", "assets/products/hoodies/red-oversized-zip-hoodie/01-model-collage.webp"]
     ]
   },
   {
@@ -3180,6 +3180,477 @@ const productItems = [
   }
 ];
 
+const hoodieBatchQuality = [
+  ["GSM tolerance", "克重公差", "Target +/-5%, confirmed by approved bulk fabric", "目标+/-5%，按确认大货面料标准"],
+  ["Shrinkage", "缩水率", "Pre-shrink, wash test and final size chart confirmation before bulk", "大货前做预缩、水洗测试并按最终尺码表确认"],
+  ["Wash consistency", "洗水一致性", "Washed color, edge fading and vintage effect should follow the approved sample", "水洗颜色、骨位泛白和做旧效果按确认样控制"],
+  ["Craft placement", "工艺位置", "Artwork, embroidery, patch and panel positions should be checked on sample before production", "印花、刺绣、贴布和拼接位置需先在样衣确认"],
+  ["Sewing strength", "车缝牢度", "Shoulder, sleeve, hood, pocket and rib joints should be reinforced where needed", "肩缝、袖笼、帽口、袋口和罗纹拼接按需要加固"],
+  ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+];
+
+function makeHoodieBatchItem(item) {
+  const base = `assets/products/hoodies/${item.id}`;
+  return {
+    id: item.id,
+    productId: "hoodies",
+    categoryEn: "Custom Hoodies",
+    categoryZh: "卫衣定制",
+    titleEn: item.titleEn,
+    titleZh: item.titleZh,
+    cardTitleEn: item.cardTitleEn,
+    cardTitleZh: item.cardTitleZh,
+    image: `${base}/${item.image}`,
+    hoverImage: `${base}/${item.hoverImage}`,
+    shortEn: item.shortEn,
+    shortZh: item.shortZh,
+    filters: ["hoodies", "oem", "custom", "test", "repeat", ...item.filters],
+    tagsEn: item.tagsEn,
+    tagsZh: item.tagsZh,
+    gallery: item.gallery.map(([en, zh, file]) => [en, zh, `${base}/${file}`]),
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", item.fabricEn, item.fabricZh],
+      ["Weight", "克重", item.weightEn, item.weightZh],
+      ["Fit", "版型", item.fitEn, item.fitZh],
+      ["Craft", "工艺", item.craftEn, item.craftZh]
+    ],
+    features: item.features,
+    quality: hoodieBatchQuality
+  };
+}
+
+productItems.push(...[
+  {
+    id: "washed-oversized-boxy-hoodie",
+    titleEn: "Washed Oversized Boxy Hoodie",
+    titleZh: "宽松版型洗水卫衣",
+    cardTitleEn: "Custom Washed Oversized Boxy Hoodie with Tonal Embroidery",
+    cardTitleZh: "定制宽松版型洗水卫衣 / 同色刺绣",
+    image: "01-front-black.webp",
+    hoverImage: "02-back-black.webp",
+    shortEn: "420GSM brushed cotton fleece hoodie with oversized boxy fit, double-layer hood, tonal chest embroidery and garment-wash color options.",
+    shortZh: "420GSM重磅抓绒卫衣，宽松箱型版型、双层帽、左胸同色刺绣，可做黑色、灰色和橄榄色洗水系列。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["420GSM fleece", "Washed colors", "Tonal embroidery", "Boxy fit"],
+    tagsZh: ["420GSM抓绒", "洗水多色", "同色刺绣", "箱型版"],
+    fabricEn: "100% cotton brushed fleece, or 80% cotton / 20% polyester for better stability",
+    fabricZh: "100%棉重磅抓绒卫衣布，也可用80%棉 / 20%涤提升稳定性",
+    weightEn: "420GSM reference, 400-450GSM can be reviewed",
+    weightZh: "参考420GSM，可评估400-450GSM",
+    fitEn: "Oversized boxy fit with dropped shoulder, slightly shorter body and large hood",
+    fitZh: "落肩宽松箱型版型，衣长略短，大帽型",
+    craftEn: "Tonal flat embroidery, garment wash, pre-shrink and heavy rib cuffs",
+    craftZh: "同色平绣、成衣洗水、预缩定型和重磅罗纹袖口",
+    gallery: [
+      ["Black front view", "黑色正面", "01-front-black.webp"],
+      ["Black back view", "黑色背面", "02-back-black.webp"],
+      ["Gray front view", "灰色正面", "03-front-gray.webp"],
+      ["Gray back view", "灰色背面", "04-back-gray.webp"],
+      ["Olive front view", "橄榄色正面", "05-front-olive.webp"],
+      ["Olive back view", "橄榄色背面", "06-back-olive.webp"],
+      ["Three-color lineup", "三色系列展示", "07-color-lineup.webp"]
+    ],
+    features: [
+      ["Multi-color sample direction", "多色系列方向", "Black, heather grey and dust olive can be developed as one color program for brand drops.", "黑色、麻灰和灰橄榄可作为同系列配色开发。"],
+      ["Clean streetwear silhouette", "干净街头廓形", "The wide body, dropped shoulder and controlled body length keep the hoodie wide but not overly long.", "宽身、落肩和控制衣长，让卫衣宽松但不拖沓。"],
+      ["Tonal embroidery", "同色刺绣", "Small low-contrast chest embroidery gives the style a quieter premium detail.", "低对比左胸小刺绣让款式更克制高级。"]
+    ]
+  },
+  {
+    id: "deconstructed-panel-washed-hoodie",
+    titleEn: "Deconstructed Panel Washed Hoodie",
+    titleZh: "拼接洗水连帽卫衣",
+    cardTitleEn: "Custom Deconstructed Washed Hoodie with Tonal Applique Panels",
+    cardTitleZh: "定制拼接洗水连帽卫衣 / 同色贴布结构",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "460-500GSM heavyweight washed hoodie with deconstructed panel construction, tonal applique chest detail and structured oversized hood.",
+    shortZh: "460-500GSM重磅洗水连帽卫衣，解构拼接结构、同色贴布胸标和立体大帽型。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["Deconstructed panels", "Washed charcoal", "Applique", "Heavy rib"],
+    tagsZh: ["解构拼接", "水洗炭黑", "贴布", "重磅罗纹"],
+    fabricEn: "100% combed cotton heavyweight French terry or brushed fleece; 80/20 cotton-poly can be reviewed for cost control",
+    fabricZh: "100%精梳棉重磅毛圈或抓绒卫衣布，也可评估80/20棉涤成本版",
+    weightEn: "460-500GSM premium reference, 420-450GSM cost-optimized version",
+    weightZh: "高端版参考460-500GSM，成本版可做420-450GSM",
+    fitEn: "Oversized boxy fit with dropped shoulder, wide sleeve and double-layer hood",
+    fitZh: "宽松箱型版型，落肩宽袖，双层大帽",
+    craftEn: "Garment wash, enzyme wash, panel splicing, tonal applique and reinforced kangaroo pocket",
+    craftZh: "成衣洗水、酵素洗、异形拼接、同色贴布和袋鼠袋加固",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Tonal applique detail", "同色贴布细节", "03-logo-detail.webp"]
+    ],
+    features: [
+      ["Deconstructed panel layout", "解构拼接结构", "Irregular panels around the body, sleeves, pocket and back create an engineered streetwear look.", "前后身、袖片和口袋区域的不规则拼接形成结构感。"],
+      ["Washed charcoal surface", "水洗炭黑表面", "Garment wash and enzyme finish soften the heavy body while creating natural fading at seams.", "成衣水洗和酵素后整让重磅面料柔软，并在骨位形成自然旧感。"],
+      ["Layered tonal badge", "同色层次胸标", "Tonal fabric applique and embroidery can add detail without making the logo too loud.", "同色贴布和绣花能增加细节，同时保持低调。"]
+    ]
+  },
+  {
+    id: "washed-distressed-panel-hoodie",
+    titleEn: "Washed Distressed Panel Hoodie",
+    titleZh: "水洗做旧拼接卫衣",
+    cardTitleEn: "Custom Washed Distressed Hoodie with Raw-Edge Panel Construction",
+    cardTitleZh: "定制水洗做旧拼接卫衣 / 毛边结构拼接",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "450GSM washed charcoal cotton hoodie with geometric panel construction, raw-edge details, tonal stitching and heavy streetwear fit.",
+    shortZh: "450GSM水洗炭黑纯棉卫衣，几何拼接、轻毛边、同色明线和重磅街头廓形。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "garment-wash", "rib-trim"],
+    tagsEn: ["450GSM cotton", "Raw edge", "Panel construction", "Washed charcoal"],
+    tagsZh: ["450GSM纯棉", "毛边", "拼接结构", "水洗炭黑"],
+    fabricEn: "100% cotton heavyweight fleece or French terry with brushed cotton interior",
+    fabricZh: "100%棉重磅卫衣毛圈/抓毛布，内里厚实柔软",
+    weightEn: "450GSM +/-5% reference",
+    weightZh: "参考450GSM +/-5%",
+    fitEn: "Oversized relaxed boxy fit with dropped shoulder, wide sleeves and double-layer hood",
+    fitZh: "宽松箱型版型，落肩宽袖，双层帽",
+    craftEn: "Garment wash, controlled raw edge, layered panels, tonal double-needle stitching and reinforced pocket",
+    craftZh: "成衣水洗、控制毛边、叠层拼接、同色双针明线和口袋加固",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Panel detail board", "拼接细节展示", "03-panel-detail.webp"]
+    ],
+    features: [
+      ["Panel-first design", "拼接为核心", "The style is built around fabric, panel cutting, wash and stitch detail rather than a large print.", "这款核心是面料、裁片、水洗和车线，而不是大面积印花。"],
+      ["Controlled raw edge", "可控毛边", "Raw edges should be fixed internally so the visual remains distressed without unlimited fraying.", "毛边内层需固定，做到有做旧感但不无限散边。"],
+      ["Heavy construction", "重磅结构", "Shoulder, hood and pocket stress points should be reinforced because the fabric and panels add weight.", "面料和拼接增加重量，肩部、帽口和袋口需重点加固。"]
+    ]
+  },
+  {
+    id: "gray-distressed-panel-hoodie",
+    titleEn: "Gray Distressed Panel Hoodie",
+    titleZh: "灰色做旧拼接卫衣",
+    cardTitleEn: "Custom Gray Washed Panel Hoodie with Controlled Raw Edges",
+    cardTitleZh: "定制灰色做旧拼接卫衣 / 可控毛边结构",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "460GSM gray-black reconstructed hoodie with layered panel splicing, controlled distressing, raw-edge details and vintage wash.",
+    shortZh: "460GSM灰黑解构拼接卫衣，叠层拼接、可控做旧、毛边细节和复古洗水。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "garment-wash", "rib-trim"],
+    tagsEn: ["460GSM fleece", "Gray wash", "Raw edge", "Patchwork"],
+    tagsZh: ["460GSM卫衣布", "灰色洗水", "毛边", "拼接"],
+    fabricEn: "100% combed cotton heavyweight French terry or fleece with matching cotton rib",
+    fabricZh: "100%精梳棉重磅毛圈或抓绒卫衣布，搭配棉质罗纹",
+    weightEn: "460GSM +/-20GSM reference; 480GSM can be reviewed for a heavier version",
+    weightZh: "参考460GSM +/-20GSM，可评估480GSM重磅版本",
+    fitEn: "Oversized boxy fit with slightly cropped body, drop shoulder and wide sleeve",
+    fitZh: "宽松箱型略短版，落肩宽袖",
+    craftEn: "Garment dyed vintage wash, irregular panel splicing, double-needle topstitching and controlled distressing",
+    craftZh: "成衣染色复古洗、异形拼接、双针装饰线和可控做旧",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"]
+    ],
+    features: [
+      ["Industrial reconstruction", "工业解构感", "Gray-black panels, outer seams and raw edges give the hoodie a controlled reconstructed look.", "灰黑拼片、外露缝位和毛边形成可控解构感。"],
+      ["Vintage graphite wash", "石墨灰洗水", "Garment wash can create subtle shade difference between panels and natural seam fading.", "成衣洗水可让不同裁片有轻微色差，并在骨位自然泛白。"],
+      ["Production balance", "适合大货控制", "Panel count should stay reasonable so the design keeps complexity without making production unstable.", "拼接数量需控制，保留复杂感的同时保证大货稳定。"]
+    ]
+  },
+  {
+    id: "black-gray-destroyed-distressed-hoodie",
+    titleEn: "Black Gray Destroyed Distressed Hoodie",
+    titleZh: "黑灰色磨破做旧卫衣",
+    cardTitleEn: "Custom Black Gray Destroyed Hoodie with Acid Wash and Raw-Edge Patchwork",
+    cardTitleZh: "定制黑灰色磨破做旧卫衣 / 酸洗毛边拼接",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "420-500GSM black gray heavyweight cotton hoodie with acid wash, manual distressing, raw-edge patchwork and tonal graphic print.",
+    shortZh: "420-500GSM黑灰重磅纯棉卫衣，酸洗雪花、手工磨破、毛边拼接和同色图案印花。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["Acid wash", "Destroyed edge", "Patchwork", "Heavy cotton"],
+    tagsZh: ["酸洗雪花", "磨破毛边", "拼接贴布", "重磅纯棉"],
+    fabricEn: "100% cotton high-density French terry; cotton rib or cotton-spandex rib for better recovery",
+    fabricZh: "100%棉高密度毛圈布，罗纹可用纯棉或棉氨提升回弹",
+    weightEn: "420-500GSM heavyweight reference",
+    weightZh: "参考420-500GSM重磅范围",
+    fitEn: "Oversized destroyed hoodie with dropped shoulder, wide body and structured hood",
+    fitZh: "宽松做旧连帽版型，落肩宽身，帽型立体",
+    craftEn: "Acid wash, enzyme stone wash, manual distressing, raw-edge patchwork and tone-on-tone print",
+    craftZh: "酸洗雪花、酵素石磨、手工磨破、毛边拼接和同色印花",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"]
+    ],
+    features: [
+      ["Destroyed vintage wash", "重度复古做旧", "Acid wash and enzyme stone wash create strong black-gray variation and seam fading.", "酸洗和酵素石磨形成强烈黑灰层次和骨位泛白。"],
+      ["Raw-edge construction", "毛边解构结构", "Exposed edges and patchwork should be stitched down to keep the distressed look controlled.", "外露毛边和贴布需要固定，保持做旧视觉同时控制散边。"],
+      ["Tone-on-tone print option", "同色印花方案", "A low-contrast plastisol or water-based print can sit on the patch without overpowering the garment.", "低对比胶浆或水浆印花可落在贴布上，不抢整体做旧感。"]
+    ]
+  },
+  {
+    id: "red-oversized-zip-hoodie",
+    titleEn: "Red Oversized Zip Hoodie",
+    titleZh: "红色拉链卫衣",
+    cardTitleEn: "Custom Red Oversized Zip Hoodie for Streetwear Drops",
+    cardTitleZh: "定制红色宽松拉链卫衣 / 街头上新款",
+    image: "01-model-collage.webp",
+    hoverImage: "02-side-model.webp",
+    shortEn: "Red oversized zip hoodie direction with relaxed streetwear fit, full front zip, large hood, rib trims and clean development presentation.",
+    shortZh: "红色宽松拉链卫衣方向，街头休闲版型、前中全拉链、大帽型、罗纹收口和完整开发展示。",
+    filters: ["cotton-fleece", "oversized", "boxy-fit", "zip-up", "rib-trim"],
+    tagsEn: ["Zip hoodie", "Red colorway", "Oversized fit", "Rib trim"],
+    tagsZh: ["拉链卫衣", "红色款", "宽松版型", "罗纹收口"],
+    fabricEn: "Heavyweight cotton fleece or cotton-poly fleece, final hand feel confirmed by sample",
+    fabricZh: "重磅棉卫衣布或棉涤卫衣布，最终手感按样衣确认",
+    weightEn: "420-460GSM reference for structured zip hoodie",
+    weightZh: "参考420-460GSM，适合有结构感的拉链卫衣",
+    fitEn: "Oversized zip hoodie with relaxed shoulder, wide sleeve and layered styling proportion",
+    fitZh: "宽松拉链连帽版型，肩部自然放量，袖型宽松，适合叠穿比例",
+    craftEn: "Full front zip, double-layer hood, kangaroo pockets, rib cuffs and clean stitching",
+    craftZh: "前中全拉链、双层帽、袋鼠袋、罗纹袖口和干净车缝",
+    gallery: [
+      ["Model collage", "上身组合图", "01-model-collage.webp"],
+      ["Side model view", "侧面上身图", "02-side-model.webp"],
+      ["Development board", "开发展示图", "03-development-board.webp"],
+      ["Packaging set reference", "包装展示参考", "04-packaging-set.webp"]
+    ],
+    features: [
+      ["Strong color statement", "醒目红色单品", "The red colorway works well as a statement style for a small streetwear drop.", "红色适合作为街头系列里的主推视觉款。"],
+      ["Zip-up structure", "拉链结构", "Full-zip construction needs stable front placket sewing so the zipper stays straight after washing.", "全拉链结构需要门襟车缝稳定，保证洗后拉链顺直。"],
+      ["Sample-ready direction", "适合快速打样", "With simpler craft than destroyed wash styles, this design can be assessed quickly by fabric weight, zipper and fit.", "相比重做旧款工艺更简单，可先按克重、拉链和版型快速评估。"]
+    ]
+  },
+  {
+    id: "green-distressed-raw-edge-hoodie",
+    titleEn: "Green Distressed Raw-Edge Hoodie",
+    titleZh: "绿色做旧磨边卫衣",
+    cardTitleEn: "Custom Green Distressed Hoodie with Raw-Edge Patch and Puff Print",
+    cardTitleZh: "定制绿色做旧磨边卫衣 / 毛边贴布发泡印花",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "Vintage green heavyweight hoodie with acid wash, raw-edge patchwork, tonal puff print and oversized streetwear fit.",
+    shortZh: "复古绿色重磅卫衣，酸洗做旧、毛边贴布、同色发泡印花和宽松街头版型。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "puff-print", "garment-wash", "rib-trim"],
+    tagsEn: ["Vintage green", "Raw edge", "Puff print", "Acid wash"],
+    tagsZh: ["复古绿色", "毛边", "发泡印花", "酸洗"],
+    fabricEn: "100% cotton heavyweight fleece recommended; high cotton blend can be reviewed for stability",
+    fabricZh: "推荐100%棉重磅卫衣布，也可评估高棉混纺提升稳定性",
+    weightEn: "400-550GSM range, 450GSM+ recommended for premium weight",
+    weightZh: "参考400-550GSM，建议450GSM以上更有重磅感",
+    fitEn: "Oversized drop-shoulder hoodie with wide sleeve and double-layer hood",
+    fitZh: "落肩宽松连帽版型，宽袖，双层加厚帽",
+    craftEn: "Acid wash, garment dye, raw-edge patches, tonal puff print and rough double-needle stitching",
+    craftZh: "酸洗、成衣染、毛边贴布、同色发泡印花和粗犷双线车缝",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"]
+    ],
+    features: [
+      ["Vintage forest color", "复古森林绿", "Garment dye and acid wash give the green body a worn vintage surface.", "成衣染和酸洗让绿色衣身形成自然旧化表面。"],
+      ["Raw-edge patchwork", "毛边贴布", "Back patches use same-tone fabric with loose edge details for a deconstructed look.", "后背同色贴布配合毛边和线头形成解构感。"],
+      ["Low-contrast puff print", "低对比发泡印花", "Tone-on-tone puff print adds texture while staying mature and not overly loud.", "同色发泡增加肌理，视觉成熟不张扬。"]
+    ]
+  },
+  {
+    id: "washed-forest-deconstructed-patchwork-hoodie",
+    titleEn: "Washed Forest Deconstructed Patchwork Hoodie",
+    titleZh: "水洗做旧解构拼接卫衣",
+    cardTitleEn: "Custom Washed Forest Green Hoodie with Patchwork and Loose Thread Details",
+    cardTitleZh: "定制水洗森林绿解构卫衣 / 拼接散线细节",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "430GSM forest green French terry hoodie with garment dye, heavy vintage wash, deconstructed patchwork, controlled raw edges and tonal puff print.",
+    shortZh: "430GSM森林绿毛圈卫衣，成衣染重水洗、解构拼接、可控毛边和同色轻发泡印花。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "applique", "puff-print", "garment-wash", "rib-trim"],
+    tagsEn: ["430GSM terry", "Forest green", "Patchwork", "Loose thread"],
+    tagsZh: ["430GSM毛圈", "森林绿", "拼接", "散线细节"],
+    fabricEn: "100% cotton 430GSM heavyweight French terry recommended; 80/20 can be reviewed for cost",
+    fabricZh: "推荐100%棉430GSM重磅毛圈布，也可评估80/20棉涤成本版",
+    weightEn: "420-450GSM range, 430GSM preferred",
+    weightZh: "参考420-450GSM，首选430GSM",
+    fitEn: "Oversized boxy fit with dropped shoulder, large double-layer hood and wide body",
+    fitZh: "宽松箱型版型，落肩、大双层帽、宽身",
+    craftEn: "Garment dye, heavy vintage wash, same-fabric patchwork, controlled raw edge, loose thread and tonal puff print",
+    craftZh: "成衣染、重水洗、同布拼接、可控毛边、装饰散线和同色发泡印花",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Patch detail", "拼接细节", "03-patch-detail.webp"],
+      ["Front patch detail", "前片拼接细节", "04-front-patch-detail.webp"],
+      ["Wide detail view", "细节横图", "05-wide-detail.webp"]
+    ],
+    features: [
+      ["Production-ready distressing", "可大货落地的做旧", "Raw edges are controlled with internal stitching, so the style keeps design detail while remaining wearable.", "毛边通过内层固定，既有设计感也适合实际穿着和大货控制。"],
+      ["Same-fabric panels", "同布拼接", "Using the same body fabric for patches allows subtle color differences after wash without looking mismatched.", "同布拼片水洗后产生自然色差，不会显得材质突兀。"],
+      ["Tonal puff detail", "同色轻发泡", "A low-height puff print gives texture without making the hoodie stiff.", "轻发泡增加肌理，同时避免衣身过硬。"]
+    ]
+  },
+  {
+    id: "navy-rugby-collar-half-zip-sweatshirt",
+    titleEn: "Navy Rugby Collar Half-Zip Sweatshirt",
+    titleZh: "藏蓝色翻领卫衣",
+    cardTitleEn: "Custom Navy Rugby-Inspired Half-Zip Sweatshirt with Embroidery and Back Print",
+    cardTitleZh: "定制藏蓝色翻领卫衣 / 半拉链刺绣后背印花",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "400GSM navy half-zip sweatshirt with rugby-inspired contrast collar, relaxed oversized fit, chest embroidery and technical back print.",
+    shortZh: "400GSM藏蓝色半拉链翻领卫衣，复古运动撞色领、宽松版型、前胸刺绣和后背技术图案印花。",
+    filters: ["cotton-fleece", "oversized", "zip-up", "embroidery", "screen-print", "rib-trim"],
+    tagsEn: ["Half zip", "Rugby collar", "Embroidery", "Back print"],
+    tagsZh: ["半拉链", "翻领", "刺绣", "后背印花"],
+    fabricEn: "80% cotton / 20% polyester heavyweight French terry or light brushed fleece",
+    fabricZh: "80%棉 / 20%涤重磅毛圈布或轻抓毛卫衣布",
+    weightEn: "380-420GSM range, 400GSM recommended",
+    weightZh: "参考380-420GSM，推荐400GSM",
+    fitEn: "Unisex relaxed oversized fit with raglan sleeve, boxy body and rib hem",
+    fitZh: "男女同款宽松版型，插肩袖、短宽身型和罗纹下摆",
+    craftEn: "Contrast knit collar, half zip, chest embroidery, screen print and optional local embroidery on back artwork",
+    craftZh: "撞色针织翻领、半拉链、前胸刺绣、丝网印花和后背局部刺绣",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Chest logo detail", "前胸Logo细节", "03-chest-logo-detail.webp"],
+      ["Collar detail", "翻领细节", "04-collar-detail.webp"],
+      ["Front print detail", "前片印花细节", "05-front-print-detail.webp"],
+      ["Back print detail", "后背图案细节", "06-back-print-detail.webp"]
+    ],
+    features: [
+      ["Rugby-inspired collar", "复古运动翻领", "The grey collar with red and white stripe gives the sweatshirt a retro sport direction.", "灰色红白条翻领让卫衣更偏复古运动风。"],
+      ["Half-zip structure", "半拉链结构", "Front placket and zipper alignment should be clean so the collar sits flat.", "前中门襟和拉链需要顺直，保证翻领平服。"],
+      ["Mixed craft artwork", "组合工艺图案", "Chest embroidery and back screen print can be combined for a richer but controlled finish.", "前胸刺绣和后背丝印组合，细节更丰富但成本可控。"]
+    ]
+  },
+  {
+    id: "smoke-gray-washed-zip-hoodie",
+    titleEn: "Smoke Gray Washed Zip Hoodie",
+    titleZh: "烟灰色水洗拉链卫衣",
+    cardTitleEn: "Custom Smoke Gray Washed Zip Hoodie with Patch and Crack Print",
+    cardTitleZh: "定制烟灰色水洗拉链卫衣 / 贴布裂纹印花",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "450GSM smoke gray cropped boxy zip hoodie with mineral wash, metal zipper, patch details and vintage crack screen print.",
+    shortZh: "450GSM烟灰色短宽拉链卫衣，矿物洗水、金属开尾拉链、贴布细节和复古裂纹丝网印花。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "zip-up", "applique", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["450GSM fleece", "Zip hoodie", "Mineral wash", "Crack print"],
+    tagsZh: ["450GSM卫衣布", "拉链卫衣", "矿物洗水", "裂纹印花"],
+    fabricEn: "100% cotton heavyweight fleece, or 80/20 cotton-poly for improved stability",
+    fabricZh: "100%棉重磅卫衣布，也可用80/20棉涤提升稳定性",
+    weightEn: "420-460GSM range, 450GSM recommended",
+    weightZh: "参考420-460GSM，推荐450GSM",
+    fitEn: "Unisex cropped boxy oversized fit with dropped shoulder, wide body and large hood",
+    fitZh: "男女同款短宽箱型版型，落肩宽身，大帽型",
+    craftEn: "Mineral wash, open-end metal zipper, slash pockets, patch panels, crack screen print and light embroidery option",
+    craftZh: "矿物洗水、金属开尾拉链、斜插口袋、贴布、裂纹丝印和局部刺绣可选",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Rib and zipper detail", "罗纹拉链细节", "03-rib-zip-detail.webp"],
+      ["Graphic detail", "图案细节", "04-graphic-detail.webp"],
+      ["Model fit reference", "上身版型参考", "05-model-fit.webp"]
+    ],
+    features: [
+      ["Cropped boxy proportion", "短宽比例", "The style should stay wide horizontally and controlled vertically, not a long oversized hoodie.", "重点是横向宽、纵向短，不做成长款宽松卫衣。"],
+      ["Washed smoke gray finish", "烟灰洗水效果", "Mineral wash creates uneven charcoal fading that suits patch and distress details.", "矿物洗水形成炭灰不均匀褪色，适合贴布和做旧细节。"],
+      ["Patch and crack print", "贴布裂纹印花", "Bone-white and antique-yellow crack print can be placed with raw-edge patches for layered texture.", "骨白和古董黄裂纹印花可与毛边贴布叠加，增强层次。"]
+    ]
+  },
+  {
+    id: "black-contrast-stitch-zip-hoodie",
+    titleEn: "Black Contrast Stitch Zip Hoodie",
+    titleZh: "黑色白线连帽拉链卫衣",
+    cardTitleEn: "Custom Black Zip Hoodie with Contrast Stitching, Chest Embroidery and Back Print",
+    cardTitleZh: "定制黑色白线连帽拉链卫衣 / 前胸刺绣后背印花",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "450GSM black oversized zip hoodie with bone-white contrast stitching, antique brass zipper, chest embroidery and retro back screen print.",
+    shortZh: "450GSM黑色宽松拉链卫衣，骨白撞色明线、古铜金属拉链、前胸刺绣和复古后背丝网印花。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "zip-up", "embroidery", "screen-print", "rib-trim"],
+    tagsEn: ["Contrast stitch", "Zip hoodie", "Embroidery", "Back print"],
+    tagsZh: ["撞色明线", "拉链卫衣", "刺绣", "后背印花"],
+    fabricEn: "100% cotton 450GSM heavyweight fleece; 80/20 cotton-poly can be reviewed for stability",
+    fabricZh: "100%棉450GSM重磅卫衣布，也可评估80/20棉涤稳定版",
+    weightEn: "420-460GSM range, 450GSM recommended",
+    weightZh: "参考420-460GSM，推荐450GSM",
+    fitEn: "Unisex oversized zip hoodie with drop shoulder, slightly cropped boxy body and wide sleeves",
+    fitZh: "男女同款宽松拉链卫衣，落肩、略短箱型身、宽袖",
+    craftEn: "Chest embroidery, three-color back screen print, contrast topstitching, antique brass zipper and rivet details",
+    craftZh: "前胸刺绣、三色后背丝印、撞色明线、古铜拉链和铆钉细节",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Chest embroidery detail", "前胸刺绣细节", "03-chest-embroidery-detail.webp"],
+      ["Back print detail", "后背印花细节", "04-back-print-detail.webp"]
+    ],
+    features: [
+      ["Contrast stitch language", "撞色明线设计", "Bone-white stitching around the hood, zipper, pocket and seams is a key design feature.", "帽边、拉链、口袋和拼缝的骨白明线是核心设计点。"],
+      ["Embroidery plus print", "刺绣加印花组合", "The chest uses high-density embroidery while the back graphic stays practical through screen print.", "前胸做高密刺绣，后背大图用丝网印花更适合大货。"],
+      ["Hardware consistency", "五金统一", "Antique brass zipper and rivets should stay in one color family for a cohesive finish.", "古铜拉链和铆钉需保持同色系，整体更完整。"]
+    ]
+  },
+  {
+    id: "charcoal-gradient-hoodie",
+    titleEn: "Charcoal Gradient Hoodie",
+    titleZh: "碳灰色渐变连帽卫衣",
+    cardTitleEn: "Custom Charcoal Gradient Hoodie with Tonal Embroidery",
+    cardTitleZh: "定制碳灰色渐变连帽卫衣 / 同色刺绣",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "440GSM charcoal gradient hoodie with oversized boxy fit, double-layer hood, tonal embroidery and clean garment-dye wash effect.",
+    shortZh: "440GSM碳灰色渐变连帽卫衣，宽松箱型版型、双层帽、同色刺绣和干净成衣渐变洗水。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["Gradient wash", "Tonal embroidery", "440GSM fleece", "Boxy fit"],
+    tagsZh: ["渐变洗水", "同色刺绣", "440GSM卫衣布", "箱型版"],
+    fabricEn: "100% cotton or 80/20 cotton-poly heavyweight fleece with dense surface",
+    fabricZh: "100%棉或80/20棉涤重磅卫衣布，表面紧密低毛羽",
+    weightEn: "420-460GSM range, 440GSM preferred",
+    weightZh: "参考420-460GSM，首选440GSM",
+    fitEn: "Unisex oversized boxy fit with dropped shoulder, large sleeve and structured hood",
+    fitZh: "男女同款宽松箱型版型，落肩、大袖肥、立体帽型",
+    craftEn: "Garment dye, gradient spray or section dye, enzyme wash, tonal flat embroidery and clean rib finish",
+    craftZh: "成衣染、渐变喷染或分区染、酵素洗、同色平绣和干净罗纹后整",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Embroidery detail", "刺绣细节", "03-embroidery-detail.webp"]
+    ],
+    features: [
+      ["Quiet gradient finish", "克制渐变效果", "The upper smoky charcoal transitions into deeper charcoal near hem and cuffs without a hard line.", "上身烟灰逐渐过渡到下摆深炭灰，避免明显分界线。"],
+      ["Minimal branding", "极简Logo", "Small tonal embroidery keeps the hoodie premium and clean rather than graphic-heavy.", "小面积同色刺绣让款式更高级干净。"],
+      ["Clean wash control", "干净洗水控制", "The style should avoid heavy holes or raw edges so the gradient remains the main visual.", "这款不建议做重破洞或毛边，让渐变成为主视觉。"]
+    ]
+  },
+  {
+    id: "misty-purple-gradient-hoodie",
+    titleEn: "Misty Purple Gradient Hoodie",
+    titleZh: "雾霾紫渐变连帽卫衣",
+    cardTitleEn: "Custom Misty Purple Gradient Hoodie with Tonal Embroidery",
+    cardTitleZh: "定制雾霾紫渐变连帽卫衣 / 同色刺绣",
+    image: "01-front-view.webp",
+    hoverImage: "02-back-view.webp",
+    shortEn: "440GSM misty purple gradient hoodie with oversized boxy fit, double-layer hood, tonal embroidery and soft garment wash.",
+    shortZh: "440GSM雾霾紫渐变连帽卫衣，宽松箱型版型、双层帽、同色刺绣和柔和成衣洗水。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["Misty purple", "Gradient dye", "Tonal embroidery", "Boxy fit"],
+    tagsZh: ["雾霾紫", "渐变染", "同色刺绣", "箱型版"],
+    fabricEn: "100% cotton, or 80% cotton / 20% polyester heavyweight fleece with low-pilling surface",
+    fabricZh: "100%棉，或80%棉 / 20%涤重磅卫衣布，表面细腻低毛羽",
+    weightEn: "420-460GSM range, 440GSM preferred",
+    weightZh: "参考420-460GSM，首选440GSM",
+    fitEn: "Unisex oversized boxy hoodie with dropped shoulder, wide sleeve and large double-layer hood",
+    fitZh: "男女同款宽松箱型连帽版型，落肩、宽袖、大双层帽",
+    craftEn: "Light purple garment dye, gradient spray or section dye, soft wash and tonal embroidery",
+    craftZh: "浅雾紫成衣染、渐变喷染或分区染、柔软洗和同色刺绣",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.webp"],
+      ["Back product view", "背面产品图", "02-back-view.webp"],
+      ["Embroidery detail", "刺绣细节", "03-embroidery-detail.webp"]
+    ],
+    features: [
+      ["Soft purple gradient", "柔和紫色渐变", "The color should move from misty purple to deeper grey-purple without a harsh boundary.", "颜色从雾霾紫自然过渡到深灰紫，避免硬分界。"],
+      ["Premium quiet finish", "高级克制后整", "Light enzyme or soft wash keeps the color gentle and avoids overly distressed effects.", "轻酵素或柔软洗让颜色更柔和，不做重破坏。"],
+      ["Structured hood shape", "立体帽型", "A double-layer hood and controlled body length help the soft colorway keep a strong shape.", "双层帽和控制衣长，让柔和配色也有廓形支撑。"]
+    ]
+  }
+].map(makeHoodieBatchItem));
+
 const productFilterMap = {
   hoodies: ["hoodies", "oem", "custom", "test", "repeat"],
   tshirts: ["tshirts", "oem", "custom", "test", "repeat"],
@@ -3505,12 +3976,12 @@ Object.values(catalogFilterRows).forEach((rows) => {
 
 const styleFilterMap = {
   hoodies: [
-    ["zip-up", "regular-fit", "heavyweight-fleece", "rib-trim", "embroidery"],
-    ["regular-fit", "french-terry", "screen-print", "heat-transfer"],
-    ["oversized", "set-program", "cotton-fleece", "puff-print", "embroidery"],
-    ["boxy-fit", "cotton-fleece", "screen-print", "puff-print"],
-    ["set-program", "french-terry", "rib-trim", "custom"],
-    ["cotton-fleece", "screen-print", "puff-print", "heat-transfer"]
+    ["oversized", "boxy-fit", "heavyweight-fleece", "cotton-fleece", "embroidery", "garment-wash", "rib-trim"],
+    ["oversized", "boxy-fit", "heavyweight-fleece", "cotton-fleece", "applique", "embroidery", "garment-wash", "rib-trim"],
+    ["oversized", "boxy-fit", "heavyweight-fleece", "cotton-fleece", "applique", "garment-wash", "rib-trim"],
+    ["oversized", "boxy-fit", "heavyweight-fleece", "cotton-fleece", "applique", "garment-wash", "rib-trim"],
+    ["oversized", "boxy-fit", "heavyweight-fleece", "cotton-fleece", "applique", "screen-print", "garment-wash", "rib-trim"],
+    ["zip-up", "oversized", "boxy-fit", "cotton-fleece", "rib-trim"]
   ],
   tshirts: [
     ["polo-fit", "pique-knit", "embroidery", "woven-label"],
