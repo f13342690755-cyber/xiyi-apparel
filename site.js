@@ -1569,6 +1569,7 @@ const productItems = [
       "oversized",
       "boxy-fit",
       "screen-print",
+      "puff-print",
       "garment-wash",
       "rib-trim"
     ],
@@ -3103,7 +3104,7 @@ const catalogFilterRows = {
         ["embroidery", "Logo Embroidery", "Logo刺绣"],
         ["garment-wash", "Garment Wash", "成衣水洗"],
         ["heat-transfer", "Heat Transfer", "热转印"],
-        ["sublimation", "Sublimation", "升华印花"],
+        ["puff-print", "Puff Print", "发泡印花"],
         ["crew-neck", "Crew Neck", "圆领"],
         ["v-neck", "V-Neck", "V领"],
         ["polo-collar", "Polo Collar", "Polo领"],
