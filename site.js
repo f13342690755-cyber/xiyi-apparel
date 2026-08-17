@@ -50,7 +50,10 @@ const products = [
       ["Urban archive graphic T-shirt", "城市档案图案T恤", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp"],
       ["Art association back graphic T-shirt", "艺术协会后背图案T恤", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp"],
       ["Vintage motor club T-shirt", "复古机车俱乐部T恤", "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp"],
-      ["Smoke gray tech graphic T-shirt", "烟灰色科技图案T恤", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp"]
+      ["Smoke gray tech graphic T-shirt", "烟灰色科技图案T恤", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp"],
+      ["Vintage cream analog signal T-shirt", "奶油白模拟信号T恤", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/01-front-view.webp"],
+      ["White portrait back graphic T-shirt", "白色后背人物大图T恤", "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp"],
+      ["Washed charcoal hooded camo logo T-shirt", "水洗炭黑迷彩Logo短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"]
     ]
   },
   {
@@ -3032,6 +3035,148 @@ const productItems = [
       ["Sewing finish", "车缝做工", "Shoulder seams, sleeve opening and hem should use clean double-needle or reinforced stitching", "肩缝、袖口和下摆建议做干净双针或加固车线"],
       ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
     ]
+  },
+  {
+    id: "vintage-cream-analog-signal-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Vintage Cream Analog Signal T-Shirt",
+    titleZh: "奶油白模拟信号T恤",
+    cardTitleEn: "Custom Vintage Cream T-Shirt with Analog Signal Archive Graphic",
+    cardTitleZh: "定制奶油白重磅T恤 / 模拟信号档案图案",
+    image: "assets/products/tshirts/vintage-cream-analog-signal-tshirt/01-front-view.webp",
+    hoverImage: "assets/products/tshirts/vintage-cream-analog-signal-tshirt/02-back-view.webp",
+    shortEn: "270GSM vintage cream combed cotton jersey T-shirt with unisex oversized boxy fit, heavy 2x2 rib crew neck, distressed halftone front graphic and small back-neck text.",
+    shortZh: "270GSM复古奶油白精梳棉汗布T恤，男女同款宽松箱型版型、2x2厚罗纹圆领，搭配做旧网点前幅大图和后领小字。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["270GSM cotton", "Vintage cream", "Halftone print", "Boxy fit"],
+    tagsZh: ["270GSM纯棉", "复古奶油白", "网点印花", "箱型版"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/01-front-view.webp"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/02-back-view.webp"],
+      ["Analog signal print detail", "模拟信号印花细节", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/03-print-detail.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed cotton single jersey", "100%精梳棉单面针织汗布"],
+      ["Weight", "克重", "270GSM reference, 260-280GSM can be reviewed", "参考270GSM，可评估260-280GSM"],
+      ["Color", "颜色", "Vintage cream / off-white", "复古奶油白 / 米白"],
+      ["Fit", "版型", "Unisex oversized boxy fit with dropped shoulder and wide sleeve", "男女同款宽松箱型版型，落肩宽袖"],
+      ["Collar", "领口", "2x2 cotton rib, about 2.2-2.5cm wide, with back neck tape", "2x2棉罗纹，宽约2.2-2.5cm，后领加压条"],
+      ["Print", "印花", "Water-based screen print with distressed halftone effect and four-color artwork", "水浆丝网印花，做旧网点效果，约四色图案"]
+    ],
+    features: [
+      ["Vintage cream base", "复古奶油白底色", "The off-white body gives the graphic a softer vintage tone and works well for brand capsule collections.", "米白衣身能让图案更有复古感，适合品牌胶囊系列和上新款。"],
+      ["Analog signal artwork", "模拟信号图案", "The front artwork combines dark red, charcoal, smoke grey and cobalt blue with distressed halftone details.", "前幅图案结合暗红、炭黑、烟灰和钴蓝，并带做旧网点细节。"],
+      ["Back-neck small print", "后领小字", "A small back-neck text placement adds detail without making the style too busy.", "后领小字增加细节感，同时不会让整件衣服过满。"],
+      ["Soft but structured hand feel", "柔软但有骨感", "Pre-shrink and light enzyme wash can help control shrinkage while keeping a comfortable heavyweight hand feel.", "预缩和轻酵素洗可帮助控制缩水，同时保留重磅T恤的舒适手感。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 270GSM +/-5%", "目标270GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target within +/-3% after pre-shrink and wash test", "预缩和洗水测试后目标控制在+/-3%以内"],
+      ["Print proofing", "印花打样", "Halftone dots, distressed texture and color matching should be confirmed by sample before production", "网点、做旧肌理和颜色需要先打样确认"],
+      ["Collar recovery", "领口回弹", "2x2 rib collar and back neck tape should hold shape after washing", "2x2罗纹领和后领压条需保证水洗后不易变形"],
+      ["Sewing finish", "车缝做工", "Sleeve opening and hem should use clean double-needle stitching", "袖口和下摆建议做干净双针车线"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "white-portrait-back-graphic-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "White Portrait Back Graphic T-Shirt",
+    titleZh: "白色后背人物大图T恤",
+    cardTitleEn: "Custom White Heavyweight T-Shirt with Portrait Back Graphic",
+    cardTitleZh: "定制白色重磅T恤 / 后背人物大图",
+    image: "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp",
+    hoverImage: "assets/products/tshirts/white-portrait-back-graphic-tshirt/02-back-view.webp",
+    shortEn: "280GSM white combed cotton jersey T-shirt with oversized boxy fit, small gothic chest logo and large halftone portrait back print.",
+    shortZh: "280GSM白色精梳棉重磅汗布T恤，宽松箱型版型，前胸哥特小标与后背大幅半色调人物图案。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "digital-print", "rib-trim"],
+    tagsEn: ["280GSM cotton", "Back graphic", "Halftone portrait", "Boxy fit"],
+    tagsZh: ["280GSM纯棉", "后背大图", "半色调人物", "箱型版"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/white-portrait-back-graphic-tshirt/02-back-view.webp"],
+      ["Front logo detail", "前胸小标细节", "assets/products/tshirts/white-portrait-back-graphic-tshirt/03-front-logo-detail.webp"],
+      ["Back portrait print detail", "后背人物图案细节", "assets/products/tshirts/white-portrait-back-graphic-tshirt/04-back-print-detail.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed cotton single jersey", "100%精梳棉单面针织汗布"],
+      ["Weight", "克重", "280GSM reference, 260-280GSM can be reviewed", "参考280GSM，可评估260-280GSM"],
+      ["Color", "颜色", "Pure white / vintage white", "纯白 / 复古白"],
+      ["Fit", "版型", "Unisex oversized boxy fit with dropped shoulder and straight hem", "男女同款宽松箱型版型，落肩直下摆"],
+      ["Collar", "领口", "1x1 rib, about 2.2-2.5cm wide, with back neck tape", "1x1罗纹，宽约2.2-2.5cm，后领加压条"],
+      ["Print", "印花", "Small two-color chest logo and large black/red halftone back graphic", "前胸双色小标，后背黑红半色调大图"]
+    ],
+    features: [
+      ["Large back artwork", "后背大图重点", "The large portrait graphic is the core visual, so print size, placement and halftone clarity should be confirmed before production.", "后背人物大图是核心视觉，大货前需确认尺寸、位置和半色调清晰度。"],
+      ["Clean white heavyweight base", "白色重磅底衫", "A heavier 280GSM cotton jersey helps support the large back print and gives the T-shirt a more structured look.", "280GSM重磅棉汗布能支撑后背大图，并让整件T恤更有骨感。"],
+      ["Front chest logo", "前胸小标", "The front uses a smaller gothic logo with a red number accent, keeping the front clean while echoing the back graphic.", "前胸使用哥特字体小标和红色数字点缀，正面更干净，同时呼应后背图案。"],
+      ["Sample-first print route", "先打样确认印花", "DTG can be reviewed for sampling, while screen print with halftone separation is more practical for production.", "样衣可评估DTG数码直喷，大货更建议按半色调分色做丝网印花。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 280GSM +/-5%", "目标280GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target within +/-3% after pre-shrink testing", "预缩测试后目标控制在+/-3%以内"],
+      ["White fabric handling", "白色面料处理", "White fabric should avoid yellowing, staining and heavy wash effects during finishing", "白色面料后整需避免发黄、沾污和过重洗水效果"],
+      ["Print detail", "印花细节", "Portrait face detail, gothic text and red accent color should match the approved sample", "人物脸部细节、哥特文字和红色点缀按确认样匹配"],
+      ["Collar and shoulder", "领口与肩部", "Rib collar, shoulder tape and shoulder seams should stay flat after washing", "罗纹领、肩颈压条和肩缝水洗后需保持平整"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "washed-charcoal-camo-logo-hooded-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Washed Charcoal Camo Logo Hooded T-Shirt",
+    titleZh: "水洗炭黑迷彩Logo短袖连帽T恤",
+    cardTitleEn: "Custom Washed Charcoal Short Sleeve Hooded T-Shirt with Camo Logo Print",
+    cardTitleZh: "定制水洗炭黑短袖连帽T恤 / 迷彩Logo印花",
+    image: "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp",
+    hoverImage: "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/02-back-view.webp",
+    shortEn: "280GSM washed charcoal cotton short sleeve hooded T-shirt with oversized boxy fit, double-layer hood and large olive camo terrain graphic.",
+    shortZh: "280GSM水洗炭黑纯棉短袖连帽T恤，宽松箱型版型、双层帽结构，搭配橄榄绿迷彩地形大图。",
+    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash"],
+    tagsEn: ["280GSM cotton", "Short sleeve hood", "Washed charcoal", "Camo print"],
+    tagsZh: ["280GSM纯棉", "短袖连帽", "水洗炭黑", "迷彩图案"],
+    gallery: [
+      ["Front hooded T-shirt view", "正面短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"],
+      ["Back hooded T-shirt view", "背面短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/02-back-view.webp"],
+      ["Camo logo print detail", "迷彩Logo印花细节", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/03-print-detail.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% cotton heavyweight single jersey", "100%纯棉重磅单面针织汗布"],
+      ["Weight", "克重", "280GSM reference, 260-280GSM can be reviewed", "参考280GSM，可评估260-280GSM"],
+      ["Wash", "水洗", "Washed charcoal black with enzyme wash and light vintage effect", "水洗炭黑，酵素洗加轻做旧效果"],
+      ["Fit", "版型", "Oversized boxy relaxed fit with dropped shoulder and wide short sleeves", "宽松箱型休闲版型，落肩宽短袖"],
+      ["Hood", "帽子结构", "Double-layer self-fabric hood with center seam, no drawcord and no eyelets", "双层本布帽，中缝结构，无抽绳无鸡眼"],
+      ["Print", "印花", "Water-based or discharge-effect screen print with olive camo terrain lines and small red accents", "水浆或拔染效果丝印，橄榄绿迷彩地形线条加小红色点缀"]
+    ],
+    features: [
+      ["Short sleeve hooded silhouette", "短袖连帽廓形", "This style keeps the comfort of a T-shirt but adds a hood structure for a stronger streetwear look.", "这款保留T恤的舒适感，同时加入帽子结构，更有街头廓形感。"],
+      ["Washed charcoal surface", "水洗炭黑表面", "Enzyme wash and light vintage finishing give the black body a worn-in surface without losing structure.", "酵素洗和轻做旧让黑色衣身有旧感，同时保留面料骨感。"],
+      ["Terrain camo artwork", "地形迷彩图案", "The olive terrain graphic uses thin lines and worn texture, so ink thickness and wash testing should be controlled.", "橄榄绿地形图案包含细线和做旧肌理，需要控制墨层厚度并做水洗测试。"],
+      ["No-drawcord hood detail", "无抽绳帽子细节", "The clean no-drawcord hood avoids extra hardware and keeps the silhouette simple for brand customization.", "无抽绳帽子减少五金细节，让廓形更干净，适合品牌定制。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 280GSM +/-5%", "目标280GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Target within +/-3% after garment wash testing", "成衣洗水测试后目标控制在+/-3%以内"],
+      ["Wash consistency", "洗水一致性", "Washed charcoal shade and vintage effect should match the approved sample across sizes", "水洗炭黑色差和做旧效果需按确认样控制"],
+      ["Print durability", "印花耐洗", "Thin terrain lines and logo edges should stay clear after wash testing", "细地形线条和Logo边缘水洗后需保持清晰"],
+      ["Hood construction", "帽子结构", "Double-layer hood seam, hood opening and neck seam should stay flat and balanced", "双层帽中缝、帽口和领圈车缝需平整对称"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
   }
 ];
 
@@ -3374,7 +3519,10 @@ const styleFilterMap = {
     ["regular-fit", "cotton-jersey", "screen-print", "heat-transfer"],
     ["regular-fit", "cotton-jersey", "pique-knit", "custom"],
     ["regular-fit", "stretch-cotton", "woven-label"],
-    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "digital-print", "garment-wash"]
+    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "digital-print", "garment-wash"],
+    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "garment-wash", "rib-trim"],
+    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "digital-print", "rib-trim"],
+    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "garment-wash"]
   ],
   sweatpants: [
     ["straight-leg", "french-terry", "contrast-piping", "screen-print"],
