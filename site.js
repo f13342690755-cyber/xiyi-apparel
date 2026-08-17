@@ -49,7 +49,8 @@ const products = [
       ["Garage car heavyweight T-shirt", "车库汽车主题重磅T恤", "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp"],
       ["Urban archive graphic T-shirt", "城市档案图案T恤", "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp"],
       ["Art association back graphic T-shirt", "艺术协会后背图案T恤", "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp"],
-      ["Vintage motor club T-shirt", "复古机车俱乐部T恤", "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp"]
+      ["Vintage motor club T-shirt", "复古机车俱乐部T恤", "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp"],
+      ["Smoke gray tech graphic T-shirt", "烟灰色科技图案T恤", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp"]
     ]
   },
   {
@@ -2984,6 +2985,53 @@ const productItems = [
       ["Pilling and twisting", "起球与扭曲", "Fabric surface and side seam twisting should be checked after wash", "水洗后检查布面起球和侧缝扭曲"],
       ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
     ]
+  },
+  {
+    id: "smoke-gray-tech-graphic-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Smoke Gray Tech Graphic T-Shirt",
+    titleZh: "烟灰色科技图案T恤",
+    cardTitleEn: "Custom Smoke Gray Washed T-Shirt with Signal Core Tech Graphic",
+    cardTitleZh: "定制烟灰色水洗T恤 / 科技声波图案",
+    image: "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp",
+    hoverImage: "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/02-back-view.webp",
+    shortEn: "260GSM washed black cotton jersey T-shirt with unisex oversized boxy fit, rib crew neck and high-detail signal waveform graphic for screen print or DTG sampling.",
+    shortZh: "260GSM水洗黑纯棉汗布T恤，中性宽松箱型版型、罗纹圆领，搭配高细节科技声波图案，可评估高精度丝印或DTG打样。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "digital-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260GSM cotton", "Washed black", "Tech graphic", "Boxy fit"],
+    tagsZh: ["260GSM纯棉", "水洗黑", "科技图案", "箱型版"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/02-back-view.webp"],
+      ["Waveform print detail", "声波图案细节", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/03-print-detail.webp"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity", "参考 7-20 天，按数量确认"],
+      ["Fabric", "面料", "100% cotton combed single jersey, heavyweight construction", "100%棉精梳单面针织布，重磅Jersey结构"],
+      ["Weight", "克重", "260GSM reference", "参考260GSM"],
+      ["Wash", "水洗", "Washed black finish with light vintage fading; pre-shrink and garment wash recommended", "水洗黑轻做旧效果，建议预缩加成衣洗水"],
+      ["Fit", "版型", "Unisex oversized boxy fit, dropped shoulder, wide chest and sleeve, controlled body length", "男女同款宽松箱型版型，落肩、胸宽袖肥，衣长控制不拖沓"],
+      ["Collar", "领口", "2x1 high-density rib crew neck, about 2.2-2.8cm wide, with back neck tape", "2x1高密罗纹圆领，宽度约2.2-2.8cm，后领内侧加肩颈压条"],
+      ["Print", "印花", "High-detail tech graphic can be reviewed by CMYK screen print plus spot purple, or DTG for sampling", "高细节科技图案可评估CMYK丝印加紫色专色，样衣可用DTG数码直喷"]
+    ],
+    features: [
+      ["Washed black streetwear base", "水洗黑街头底色", "The washed black body gives the T-shirt a vintage surface while keeping a clean independent-brand direction.", "水洗黑衣身形成复古表面，同时保持独立品牌常用的干净街头感。"],
+      ["Oversized boxy silhouette", "宽松箱型版型", "Shoulder width, chest ease, sleeve width and body length should be balanced so the fit stays wide but not overly long.", "肩宽、胸围放量、袖肥和衣长需要平衡，做到宽松但不变成长款大码T恤。"],
+      ["High-detail signal artwork", "高细节声波图案", "The artwork includes fine lines, grids, waveforms, gradients and purple accents, so sample proofing is important before bulk production.", "图案包含细线、网格、波形、渐变和紫色点缀，大货前建议先打样确认还原度。"],
+      ["Print route flexibility", "印花方案灵活", "For bulk orders, high-mesh screen print with matte ink is practical; for samples or complex gradients, DTG can be reviewed first.", "大货可评估高目数哑光丝印；样衣或复杂渐变可先用DTG数码直喷测试。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 260GSM +/-5%", "目标260GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Pre-shrink and garment wash should control shrinkage before bulk", "建议预缩和成衣洗水后控制缩水"],
+      ["Print detail", "印花细节", "Fine lines, grid dots, waveform clarity and purple spot color should match the approved sample", "细线、网点、声波清晰度和紫色专色按确认样匹配"],
+      ["Collar recovery", "领口回弹", "High-density rib collar and back neck tape should hold shape after washing", "高密罗纹领和后领压条需保证水洗后不易变形"],
+      ["Sewing finish", "车缝做工", "Shoulder seams, sleeve opening and hem should use clean double-needle or reinforced stitching", "肩缝、袖口和下摆建议做干净双针或加固车线"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
   }
 ];
 
@@ -3325,7 +3373,8 @@ const styleFilterMap = {
     ["regular-fit", "cotton-jersey", "woven-label"],
     ["regular-fit", "cotton-jersey", "screen-print", "heat-transfer"],
     ["regular-fit", "cotton-jersey", "pique-knit", "custom"],
-    ["regular-fit", "stretch-cotton", "woven-label"]
+    ["regular-fit", "stretch-cotton", "woven-label"],
+    ["oversized", "boxy-fit", "cotton-jersey", "heavyweight-jersey", "screen-print", "digital-print", "garment-wash"]
   ],
   sweatpants: [
     ["straight-leg", "french-terry", "contrast-piping", "screen-print"],
