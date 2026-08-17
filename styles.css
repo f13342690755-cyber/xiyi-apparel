@@ -647,6 +647,18 @@ p {
   object-fit: cover;
 }
 
+.product-image img {
+  transform: scale(1);
+  transition: transform 320ms ease, opacity 220ms ease;
+  will-change: transform;
+}
+
+.product-card:hover .product-image img,
+.product-card:focus-within .product-image img,
+.product-image:hover img {
+  transform: scale(1.08);
+}
+
 .product-body {
   display: grid;
   align-content: start;
@@ -1083,7 +1095,7 @@ body[data-product-mode="category"] .section.alt {
   padding: 0;
   object-fit: contain;
   object-position: center center;
-  transition: opacity 220ms ease, transform 260ms ease;
+  transition: opacity 220ms ease, transform 320ms ease;
 }
 
 .catalog-style-card .product-main-img {
@@ -1098,13 +1110,14 @@ body[data-product-mode="category"] .section.alt {
 .catalog-style-card:focus-within .product-main-img,
 .catalog-style-card .product-image:hover .product-main-img {
   opacity: 0;
+  transform: scale(1.08);
 }
 
 .catalog-style-card:hover .product-hover-img,
 .catalog-style-card:focus-within .product-hover-img,
 .catalog-style-card .product-image:hover .product-hover-img {
   opacity: 1;
-  transform: scale(1.015);
+  transform: scale(1.08);
 }
 
 .catalog-style-card .product-body {
@@ -1255,6 +1268,13 @@ body[data-page="product-detail"] .page-hero {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  transform: scale(1);
+  transition: transform 360ms ease;
+  will-change: transform;
+}
+
+.detail-main-image:hover img {
+  transform: scale(1.06);
 }
 
 .item-detail-hero {
@@ -1284,6 +1304,17 @@ body[data-page="product-detail"] .page-hero {
   height: 100%;
   object-fit: cover;
   object-position: center top;
+  transform: scale(1);
+  transition: transform 360ms ease;
+  will-change: transform;
+}
+
+.item-main-photo:hover img {
+  transform: scale(1.06);
+}
+
+.item-thumb-grid figure:hover img {
+  transform: scale(1.08);
 }
 
 .item-thumb-grid {
@@ -1302,7 +1333,10 @@ body[data-page="product-detail"] .page-hero {
 }
 
 .item-thumb-grid figcaption {
+  position: relative;
+  z-index: 1;
   padding: 8px;
+  background: #ffffff;
   color: var(--muted);
   font-size: 12px;
   font-weight: 800;
@@ -1425,6 +1459,15 @@ body[data-page="product-detail"] .page-hero {
   height: 100%;
   object-fit: contain;
   object-position: center top;
+  transform: scale(1);
+  transition: transform 360ms ease;
+  will-change: transform;
+}
+
+.reference-main-media:hover img,
+.reference-thumb-row figure:hover img,
+.reference-photo-grid figure:hover img {
+  transform: scale(1.06);
 }
 
 .reference-thumb-row {
@@ -1447,7 +1490,10 @@ body[data-page="product-detail"] .page-hero {
 
 .reference-thumb-row figcaption,
 .reference-photo-grid figcaption {
+  position: relative;
+  z-index: 1;
   padding: 8px 10px;
+  background: #ffffff;
   color: var(--muted);
   font-size: 12px;
   font-weight: 800;
