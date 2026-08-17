@@ -3100,8 +3100,7 @@ const catalogFilterRows = {
         ["embroidery", "Logo Embroidery", "Logo刺绣"],
         ["garment-wash", "Garment Wash", "成衣水洗"],
         ["heat-transfer", "Heat Transfer", "热转印"],
-        ["sublimation", "Sublimation", "升华印花"],
-        ["woven-label", "Neck Label / Hangtag", "领标 / 吊牌"]
+        ["sublimation", "Sublimation", "升华印花"]
       ]
     },
     {
