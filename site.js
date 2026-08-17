@@ -4112,19 +4112,192 @@ function styleFilters(product, index) {
   ])].join(" ");
 }
 
+const productDisplayTitleOverrides = {
+  "future-academy-heavyweight-oversized-hoodie": {
+    en: "Custom Future Academy Heavyweight Hoodie with Front & Back Graphic",
+    zh: "定制未来学院风重磅连帽卫衣 / 前后幅图案印花"
+  },
+  "future-street-tech-zip-hoodie": {
+    en: "Custom Future Tech Zip Hoodie with Sleeve Graphic and Chest Embroidery",
+    zh: "定制未来机能拉链连帽卫衣 / 袖部图案与胸前刺绣"
+  },
+  "vintage-garage-car-heavyweight-tshirt": {
+    en: "Custom Vintage Garage Car Heavyweight T-Shirt with Distressed Screen Print",
+    zh: "定制复古车库汽车重磅T恤 / 做旧丝网印花"
+  },
+  "track-code-tech-varsity-jacket": {
+    en: "Custom Tech Code Varsity Jacket with Chenille Patches and PU Sleeves",
+    zh: "定制科技线路棒球服 / 毛巾绣章仔与PU袖"
+  },
+  "black-gray-patchwork-varsity-jacket": {
+    en: "Custom Black & Gray Varsity Jacket with Chenille Letter Patches",
+    zh: "定制黑灰拼接棒球服 / 毛巾绣字母章仔"
+  },
+  "retro-patchwork-varsity-jacket": {
+    en: "Custom Retro Orange Varsity Jacket with Chenille and Twill Applique",
+    zh: "定制复古橙黑棒球服 / 毛巾绣与贴布绣"
+  },
+  "urban-utility-varsity-jacket": {
+    en: "Custom Urban Utility Varsity Jacket with Reflective Piping",
+    zh: "定制城市机能棒球服 / 反光条与防泼面料"
+  },
+  "dark-green-patchwork-varsity-jacket": {
+    en: "Custom Dark Green Varsity Jacket with City-Grid Back Artwork",
+    zh: "定制墨绿色拼接棒球服 / 城市图案后背工艺"
+  },
+  "navy-vintage-college-varsity-jacket": {
+    en: "Custom Navy College Varsity Jacket with Chenille Badge System",
+    zh: "定制海军蓝学院风棒球服 / 毛巾绣章仔系统"
+  },
+  "western-racing-suede-varsity-jacket": {
+    en: "Custom Western Racing Varsity Jacket with Suede-Look Body and Patch Artwork",
+    zh: "定制西部赛车棒球服 / 麂皮质感与章仔图案"
+  },
+  "vintage-outdoor-heavy-wool-varsity-jacket": {
+    en: "Custom Olive Outdoor Varsity Jacket with Heavy Wool Body and Cargo Pockets",
+    zh: "定制橄榄绿户外棒球服 / 重磅羊毛与工装口袋"
+  },
+  "black-heavyweight-street-varsity-jacket": {
+    en: "Custom Black Heavyweight Varsity Jacket with Tonal Chenille Artwork",
+    zh: "定制黑色重磅棒球服 / 同色毛巾绣章仔"
+  },
+  "navy-retro-satin-varsity-jacket": {
+    en: "Custom Navy Satin Varsity Jacket with Retro Club Embroidery",
+    zh: "定制海军蓝缎面棒球服 / 复古俱乐部刺绣"
+  },
+  "washed-heavyweight-street-tshirt": {
+    en: "Custom Washed Black Heavyweight T-Shirt with High-Density Distressed Print",
+    zh: "定制水洗黑重磅T恤 / 高密度仿旧印花"
+  },
+  "heavyweight-vintage-tshirt": {
+    en: "Custom Off-White Heavyweight T-Shirt with Architectural Line-Art Print",
+    zh: "定制米白重磅T恤 / 建筑线稿印花"
+  },
+  "vintage-college-heavyweight-washed-tshirt": {
+    en: "Custom Vintage College Washed T-Shirt with Distressed Athletic Graphic",
+    zh: "定制复古学院运动T恤 / 水洗仿旧图案"
+  },
+  "black-gray-vintage-denim-workwear-jacket": {
+    en: "Custom Black Gray Denim Workwear Jacket with Vintage Washed Finish",
+    zh: "定制黑灰牛仔工装夹克 / 复古洗水后整"
+  },
+  "vintage-heavy-washed-canvas-workwear-jacket": {
+    en: "Custom Heavy Washed Canvas Workwear Jacket with Multi-Pocket Construction",
+    zh: "定制重磅水洗帆布夹克 / 多口袋工装结构"
+  },
+  "washed-distressed-pullover-hoodie": {
+    en: "Custom Washed Distressed Graphic Pullover Hoodie",
+    zh: "定制水洗做旧图案套头卫衣 / 复古印花工艺"
+  },
+  "burgundy-heavyweight-pullover-hoodie": {
+    en: "Custom Burgundy Heavyweight Graphic Hoodie with Rib Detail",
+    zh: "定制酒红重磅图案连帽卫衣 / 前幅印花与罗纹细节"
+  },
+  "series-washed-heavyweight-tshirt": {
+    en: "Custom Washed Heavyweight T-Shirt Series with Architectural Back Print",
+    zh: "定制水洗重磅T恤系列 / 建筑线稿后背印花"
+  },
+  "vintage-washed-colorblock-tshirt": {
+    en: "Custom Vintage Washed Colorblock T-Shirt with Athletic Club Graphic",
+    zh: "定制复古水洗拼色T恤 / 学院运动图案"
+  },
+  "urban-memory-archive-vintage-tshirt": {
+    en: "Custom Urban Archive Vintage T-Shirt with Crack Screen Print",
+    zh: "定制城市档案复古T恤 / 裂纹丝网印花"
+  },
+  "art-association-heavyweight-washed-tshirt": {
+    en: "Custom Art Society Washed T-Shirt with Back Graphic",
+    zh: "定制艺术社团水洗T恤 / 后背艺术图案"
+  },
+  "vintage-motor-club-tshirt": {
+    en: "Custom Vintage Motor Club T-Shirt with Faded Wash and Crack Print",
+    zh: "定制复古机车俱乐部T恤 / 成衣染洗裂纹印花"
+  },
+  "smoke-gray-tech-graphic-tshirt": {
+    en: "Custom Smoke Gray Signal Core T-Shirt with Tech Graphic Print",
+    zh: "定制烟灰信号核心T恤 / 科技图案印花"
+  },
+  "vintage-cream-analog-signal-tshirt": {
+    en: "Custom Vintage Cream Analog Signal T-Shirt with Archive Graphic",
+    zh: "定制奶油白模拟信号T恤 / 档案图案印花"
+  },
+  "white-portrait-back-graphic-tshirt": {
+    en: "Custom White Heavyweight T-Shirt with Portrait Back Graphic",
+    zh: "定制白色重磅T恤 / 人物后背大图"
+  },
+  "washed-charcoal-camo-logo-hooded-tshirt": {
+    en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
+    zh: "定制水洗炭黑短袖连帽T恤 / 迷彩图案印花"
+  },
+  "washed-oversized-boxy-hoodie": {
+    en: "Custom Washed Heavyweight Hoodie with Tonal Embroidery Color Series",
+    zh: "定制重磅水洗连帽卫衣 / 同色刺绣多色系列"
+  },
+  "deconstructed-panel-washed-hoodie": {
+    en: "Custom Washed Deconstructed Hoodie with Tonal Applique Panels",
+    zh: "定制水洗解构连帽卫衣 / 同色贴布拼接"
+  },
+  "washed-distressed-panel-hoodie": {
+    en: "Custom Raw-Edge Washed Patchwork Hoodie",
+    zh: "定制毛边水洗拼接连帽卫衣 / 解构裁片结构"
+  },
+  "gray-distressed-panel-hoodie": {
+    en: "Custom Graphite Gray Reconstructed Hoodie with Raw-Edge Panels",
+    zh: "定制石墨灰解构连帽卫衣 / 毛边拼接做旧"
+  },
+  "black-gray-destroyed-distressed-hoodie": {
+    en: "Custom Acid Wash Destroyed Hoodie with Raw-Edge Patchwork",
+    zh: "定制酸洗磨破连帽卫衣 / 毛边拼接贴布"
+  },
+  "red-oversized-zip-hoodie": {
+    en: "Custom Red Oversized Zip Hoodie with Clean Streetwear Fit",
+    zh: "定制红色宽松拉链连帽卫衣 / 街头廓形开发"
+  },
+  "green-distressed-raw-edge-hoodie": {
+    en: "Custom Vintage Green Hoodie with Raw-Edge Patch and Puff Print",
+    zh: "定制复古绿连帽卫衣 / 毛边贴布发泡印花"
+  },
+  "washed-forest-deconstructed-patchwork-hoodie": {
+    en: "Custom Forest Green Deconstructed Hoodie with Loose Thread Details",
+    zh: "定制森林绿解构连帽卫衣 / 拼接散线细节"
+  },
+  "navy-rugby-collar-half-zip-sweatshirt": {
+    en: "Custom Navy Rugby-Collar Half-Zip Sweatshirt with Embroidery and Back Print",
+    zh: "定制藏蓝翻领半拉链卫衣 / 前胸刺绣后背印花"
+  },
+  "smoke-gray-washed-zip-hoodie": {
+    en: "Custom Smoke Gray Washed Zip Hoodie with Patchwork and Crack Print",
+    zh: "定制烟灰水洗拉链连帽卫衣 / 贴布裂纹印花"
+  },
+  "black-contrast-stitch-zip-hoodie": {
+    en: "Custom Black Zip Hoodie with Contrast Stitching and Chest Embroidery",
+    zh: "定制黑色撞色明线拉链卫衣 / 前胸刺绣与后背印花"
+  },
+  "charcoal-gradient-hoodie": {
+    en: "Custom Charcoal Gradient Hoodie with Tonal Chest Embroidery",
+    zh: "定制碳灰渐变连帽卫衣 / 同色胸标刺绣"
+  },
+  "misty-purple-gradient-hoodie": {
+    en: "Custom Misty Purple Gradient Hoodie with Tonal Chest Embroidery",
+    zh: "定制雾霾紫渐变连帽卫衣 / 同色胸标刺绣"
+  }
+};
+
 function madeToOrderCatalogTitle(item, product) {
   const productTypeEn = product.navEn.replace(/^Custom\s+/i, "");
-  const titleEnBase = item.cardTitleEn || (item.titleEn.startsWith("Custom ")
+  const titleOverride = productDisplayTitleOverrides[item.id];
+  const titleEnBase = titleOverride?.en || item.cardTitleEn || (item.titleEn.startsWith("Custom ")
     ? `${item.titleEn} | OEM/ODM Made to Order`
     : `Custom ${item.titleEn} | OEM/ODM ${productTypeEn} Made to Order`);
   const titleZhBase = item.titleZh.startsWith("定制") ? item.titleZh : `定制${item.titleZh}`;
-  const titleZhBaseWithCraft = item.cardTitleZh || `${titleZhBase} / OEM ODM 来图来样`;
+  const titleZhBaseWithCraft = titleOverride?.zh || item.cardTitleZh || titleZhBase;
+  const titleZhSuffix = " / OEM ODM 来图来样";
   const titleEn = /OEM\s*\/?\s*ODM/i.test(titleEnBase)
     ? titleEnBase
     : `${titleEnBase} | OEM/ODM From Photo or Sample`;
-  const titleZh = /OEM\s*\/?\s*ODM|来图来样/i.test(titleZhBaseWithCraft)
+  const titleZh = titleZhBaseWithCraft.includes(titleZhSuffix)
     ? titleZhBaseWithCraft
-    : `${titleZhBaseWithCraft} / OEM ODM 来图来样`;
+    : `${titleZhBaseWithCraft}${titleZhSuffix}`;
   return { titleEn, titleZh };
 }
 
