@@ -248,7 +248,7 @@ const productItems = [
     image: "assets/products/tshirts/vintage-garage-car-heavyweight-tshirt/01-main-front.webp",
     shortEn: "280GSM heavyweight cotton jersey T-shirt with oversized drop-shoulder fit, vintage garage car artwork, garment wash and distressed screen print direction.",
     shortZh: "280GSM 重磅棉单面汗布T恤，落肩宽松版型、复古车库汽车图案、成衣水洗和做旧丝网印花方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "embroidery", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "embroidery", "rib-trim"],
     tagsEn: ["280GSM jersey", "Vintage wash", "Screen print", "Oversized fit"],
     tagsZh: ["280GSM汗布", "水洗做旧", "丝网印花", "宽松版型"],
     gallery: [
@@ -1559,6 +1559,7 @@ const productItems = [
     "shortZh": "260GSM加厚水洗纯棉T恤，宽松箱型版型、炭黑褪色水洗和高密度仿旧丝网印花。",
     "filters": [
       "tshirts",
+      "crew-neck",
       "oem",
       "custom",
       "test",
@@ -1724,6 +1725,7 @@ const productItems = [
     "shortZh": "240GSM米燕麦色重磅纯棉T恤，宽松版型、柔软复古水洗和建筑线稿印花方向。",
     "filters": [
       "tshirts",
+      "crew-neck",
       "oem",
       "custom",
       "test",
@@ -1890,6 +1892,7 @@ const productItems = [
     "shortZh": "300GSM复古学院风T恤，矿物水洗、宽松箱型版型、做旧罗纹领和运动风仿旧丝网印花。",
     "filters": [
       "tshirts",
+      "crew-neck",
       "oem",
       "custom",
       "test",
@@ -2732,7 +2735,7 @@ const productItems = [
     hoverImage: "assets/products/tshirts/series-washed-heavyweight-tshirt/03-blue-flat-back.webp",
     shortEn: "270GSM heavyweight cotton jersey T-shirt series with oversized drop-shoulder fit, soft enzyme wash and front/back architectural screen print direction.",
     shortZh: "270GSM重磅纯棉汗布T恤系列，落肩宽松版型、柔软酵素水洗，前胸小Logo和后背建筑线稿丝网印花方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
     tagsEn: ["270GSM cotton", "Enzyme wash", "Screen print", "Oversized fit"],
     tagsZh: ["270GSM纯棉", "酵素水洗", "丝网印花", "宽松版型"],
     gallery: [
@@ -2785,7 +2788,7 @@ const productItems = [
     hoverImage: "assets/products/tshirts/vintage-washed-colorblock-tshirt/03-olive-flat-back.webp",
     shortEn: "270GSM vintage washed colorblock T-shirt with boxy oversized fit, contrast rib collar and distressed athletic screen print direction.",
     shortZh: "270GSM复古水洗拼色T恤，宽松箱型版型、撞色罗纹领，搭配仿旧学院运动风丝网印花方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
     tagsEn: ["270GSM cotton", "Colorblock panels", "Vintage wash", "Boxy fit"],
     tagsZh: ["270GSM纯棉", "拼色裁片", "复古水洗", "箱型版型"],
     gallery: [
@@ -2837,7 +2840,7 @@ const productItems = [
     image: "assets/products/tshirts/urban-memory-archive-vintage-tshirt/01-black-model-front-back.webp",
     shortEn: "260GSM premium combed cotton archive graphic T-shirt with oversized streetwear fit, vintage wash and crack screen print direction.",
     shortZh: "260GSM精梳棉档案图案T恤，宽松街头版型、复古水洗和裂纹丝网印花方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
     tagsEn: ["260GSM cotton", "Archive graphic", "Crack print", "Oversized fit"],
     tagsZh: ["260GSM纯棉", "档案图案", "裂纹印花", "宽松版型"],
     gallery: [
@@ -2889,7 +2892,7 @@ const productItems = [
     image: "assets/products/tshirts/art-association-heavyweight-washed-tshirt/01-black-model-back.webp",
     shortEn: "260GSM heavyweight washed cotton T-shirt with oversized fit, art society back graphic, distressed screen print and vintage colorways.",
     shortZh: "260GSM重磅水洗纯棉T恤，宽松版型、艺术协会后背图案、仿旧丝网印花和复古颜色方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
     tagsEn: ["260GSM cotton", "Garment wash", "Distressed print", "Rib collar"],
     tagsZh: ["260GSM纯棉", "成衣水洗", "仿旧印花", "罗纹圆领"],
     gallery: [
@@ -2941,7 +2944,7 @@ const productItems = [
     image: "assets/products/tshirts/vintage-motor-club-tshirt/01-navy-model-front-back.webp",
     shortEn: "260GSM heavyweight combed cotton motor club T-shirt with oversized relaxed fit, garment dye wash and vintage cracked screen print.",
     shortZh: "260GSM重磅精梳棉机车俱乐部T恤，宽松版型、成衣染洗和复古裂纹丝网印花方向。",
-    filters: ["tshirts", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
     tagsEn: ["260GSM cotton", "Motor graphic", "Vintage wash", "Screen print"],
     tagsZh: ["260GSM纯棉", "机车图案", "复古水洗", "丝网印花"],
     gallery: [
@@ -3100,7 +3103,11 @@ const catalogFilterRows = {
         ["embroidery", "Logo Embroidery", "Logo刺绣"],
         ["garment-wash", "Garment Wash", "成衣水洗"],
         ["heat-transfer", "Heat Transfer", "热转印"],
-        ["sublimation", "Sublimation", "升华印花"]
+        ["sublimation", "Sublimation", "升华印花"],
+        ["crew-neck", "Crew Neck", "圆领"],
+        ["v-neck", "V-Neck", "V领"],
+        ["polo-collar", "Polo Collar", "Polo领"],
+        ["henley-neck", "Henley Neck", "亨利领"]
       ]
     },
     {
