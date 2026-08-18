@@ -359,15 +359,184 @@ p {
   color: #ffffff;
   background: #0d1110;
   overflow: hidden;
+  isolation: isolate;
+}
+
+.hero-slides {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: #0d1110;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  overflow: hidden;
+  background:
+    linear-gradient(112deg, rgba(8, 11, 10, 0.95), rgba(8, 11, 10, 0.7) 39%, rgba(8, 11, 10, 0.12)),
+    radial-gradient(circle at 74% 40%, rgba(0, 139, 129, 0.28), transparent 34%),
+    #0d1110;
+  animation: heroPosterFade 18s infinite;
+}
+
+.hero-slide:nth-child(2) {
+  animation-delay: 6s;
+}
+
+.hero-slide:nth-child(3) {
+  animation-delay: 12s;
+}
+
+.hero-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(8, 11, 10, 0.96), rgba(8, 11, 10, 0.72) 38%, rgba(8, 11, 10, 0.12) 72%),
+    linear-gradient(180deg, rgba(8, 11, 10, 0.08), rgba(8, 11, 10, 0.7));
+  z-index: 2;
+}
+
+.hero-slide::after {
+  content: "";
+  position: absolute;
+  inset: 58px 0 auto auto;
+  width: min(660px, 52vw);
+  height: min(560px, 58vw);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.03)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0 1px, transparent 1px 28px);
+  border-left: 1px solid rgba(255, 255, 255, 0.14);
+  transform: skewX(-8deg);
+  transform-origin: top right;
+  z-index: 0;
+}
+
+.hero-poster-main,
+.hero-poster-secondary {
+  position: absolute;
+  z-index: 1;
+  object-fit: contain;
+  filter: drop-shadow(0 36px 38px rgba(0, 0, 0, 0.38));
+  transform: translate3d(0, 0, 0);
+}
+
+.hero-poster-main {
+  right: max(28px, 6vw);
+  bottom: 46px;
+  width: min(560px, 40vw);
+  max-height: 560px;
+}
+
+.hero-poster-secondary {
+  right: max(390px, 31vw);
+  bottom: 78px;
+  width: min(320px, 23vw);
+  max-height: 360px;
+  opacity: 0.88;
+}
+
+.hero-slide-tshirt .hero-poster-main {
+  right: max(46px, 7vw);
+  width: min(640px, 45vw);
+}
+
+.hero-slide-tshirt .hero-poster-secondary {
+  right: max(475px, 36vw);
+  width: min(280px, 20vw);
+}
+
+.hero-slide-varsity .hero-poster-main {
+  right: max(56px, 8vw);
+  width: min(520px, 38vw);
+}
+
+.hero-slide-varsity .hero-poster-secondary {
+  right: max(410px, 32vw);
+  width: min(310px, 22vw);
+}
+
+.hero-poster-label {
+  position: absolute;
+  top: 104px;
+  right: max(34px, 7vw);
+  z-index: 3;
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  padding: 0 16px;
+  color: #ffffff;
+  background: rgba(0, 139, 129, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-slide-dots {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  gap: 10px;
+  padding: 0 0 22px;
+}
+
+.hero-slide-dots span {
+  width: 34px;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.3);
+  animation: heroPosterDot 18s infinite;
+}
+
+.hero-slide-dots span:nth-child(2) {
+  animation-delay: 6s;
+}
+
+.hero-slide-dots span:nth-child(3) {
+  animation-delay: 12s;
+}
+
+@keyframes heroPosterFade {
+  0%,
+  31% {
+    opacity: 1;
+  }
+
+  36%,
+  95% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes heroPosterDot {
+  0%,
+  31% {
+    background: #7ee0d8;
+  }
+
+  36%,
+  95% {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  100% {
+    background: #7ee0d8;
+  }
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background:
-    linear-gradient(90deg, rgba(8, 11, 10, 0.92), rgba(8, 11, 10, 0.68) 42%, rgba(8, 11, 10, 0.2)),
-    url("assets/hero-carousel/baseball-production.png") center / cover no-repeat;
+  z-index: 1;
+  background: linear-gradient(90deg, rgba(8, 11, 10, 0.22), rgba(8, 11, 10, 0.06) 50%, rgba(8, 11, 10, 0.18));
 }
 
 .hero::after {
@@ -375,12 +544,13 @@ p {
   position: absolute;
   inset: auto 0 0;
   height: 180px;
+  z-index: 1;
   background: linear-gradient(180deg, transparent, rgba(8, 11, 10, 0.68));
 }
 
 .hero-content {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 88px 0 56px;
 }
 
@@ -469,7 +639,7 @@ p {
 
 .hero-stats {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   padding: 0 0 42px;
 }
 
@@ -2039,8 +2209,38 @@ body[data-page="product-detail"] .floating-contact {
     min-height: 630px;
   }
 
+  .hero-slide::before {
+    background:
+      linear-gradient(90deg, rgba(8, 11, 10, 0.97), rgba(8, 11, 10, 0.84) 58%, rgba(8, 11, 10, 0.42)),
+      linear-gradient(180deg, rgba(8, 11, 10, 0.18), rgba(8, 11, 10, 0.72));
+  }
+
+  .hero-slide::after,
+  .hero-poster-label,
+  .hero-poster-secondary {
+    display: none;
+  }
+
+  .hero-poster-main {
+    right: -18vw;
+    bottom: 24px;
+    width: 78vw;
+    max-height: 420px;
+    opacity: 0.46;
+  }
+
+  .hero-slide-tshirt .hero-poster-main,
+  .hero-slide-varsity .hero-poster-main {
+    right: -20vw;
+    width: 82vw;
+  }
+
   .hero-content {
     padding: 70px 0 36px;
+  }
+
+  .hero-slide-dots {
+    padding-bottom: 18px;
   }
 
   .product-catalog-section {
@@ -2270,5 +2470,20 @@ body[data-page="product-detail"] .floating-contact {
 
   .inquiry-popup {
     display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide,
+  .hero-slide-dots span {
+    animation: none;
+  }
+
+  .hero-slide:first-child {
+    opacity: 1;
+  }
+
+  .hero-slide-dots span:first-child {
+    background: #7ee0d8;
   }
 }
