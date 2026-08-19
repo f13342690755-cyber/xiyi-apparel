@@ -53,6 +53,7 @@ const products = [
       ["Smoke gray tech graphic T-shirt", "烟灰色科技图案T恤", "assets/products/tshirts/smoke-gray-tech-graphic-tshirt/01-front-view.webp"],
       ["Vintage cream analog signal T-shirt", "奶油白模拟信号T恤", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/01-front-view.webp"],
       ["White portrait back graphic T-shirt", "白色后背人物大图T恤", "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp"],
+      ["Dark streetwear heavyweight T-shirt", "暗黑街头重磅T恤", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/01-front-view.png"],
       ["Washed charcoal hooded camo logo T-shirt", "水洗炭黑迷彩Logo短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"]
     ]
   },
@@ -3160,6 +3161,54 @@ const productItems = [
     ]
   },
   {
+    id: "dark-streetwear-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Dark Streetwear Heavyweight T-Shirt",
+    titleZh: "暗黑街头重磅T恤",
+    cardTitleEn: "Custom Dark Streetwear Heavyweight T-Shirt with Distressed Screen Print",
+    cardTitleZh: "定制暗黑街头重磅T恤 / 做旧丝网印花",
+    image: "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/01-front-view.png",
+    hoverImage: "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/02-back-view.png",
+    shortEn: "260GSM washed black compact cotton jersey T-shirt with unisex oversized boxy fit, small distressed chest logo and large gothic back artwork for dark streetwear collections.",
+    shortZh: "260GSM水洗黑重磅紧密精梳棉T恤，男女同款宽松箱型版型，前胸做旧小Logo与后背哥特大图，适合暗黑街头系列开发。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260GSM cotton", "Washed black", "Distressed print", "Dark streetwear"],
+    tagsZh: ["260GSM纯棉", "水洗黑", "做旧印花", "暗黑街头"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/01-front-view.png"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/02-back-view.png"],
+      ["Chest logo print detail", "胸前Logo印花细节", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/03-chest-print-detail.png"],
+      ["Back cracked print detail", "后背裂纹印花细节", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/04-back-print-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% cotton heavyweight compact combed single jersey", "100%棉重磅紧密精梳棉单面布"],
+      ["Weight", "克重", "260GSM reference", "参考260GSM"],
+      ["Color", "颜色", "Washed black / vintage black", "水洗黑 / 复古黑"],
+      ["Fit", "版型", "Unisex premium oversized boxy fit with dropped shoulder, wide chest and wide sleeves", "男女同款高级宽松箱型版型，落肩、宽胸、宽袖"],
+      ["Collar", "领口", "1x1 rib crew neck, about 2-2.5cm wide, with shoulder-to-shoulder neck tape", "1x1罗纹圆领，宽约2-2.5cm，后领建议加肩到肩包条"],
+      ["Print", "印花", "Distressed screen print with off-white, oxidized silver and muted burgundy accents", "做旧丝网印花，可评估骨白、氧化银灰和暗酒红点缀"]
+    ],
+    features: [
+      ["Dark streetwear direction", "暗黑街头方向", "The washed black base and gothic artwork fit metal, punk and gothic streetwear capsule collections.", "水洗黑底色配合哥特图案，适合Metal、Punk、Gothic暗黑街头胶囊系列。"],
+      ["Cracked back artwork", "裂纹后背大图", "The large back graphic can be developed with crack print effect, distressed ink and controlled ink breakage.", "后背大图可按裂纹效果、做旧油墨和局部不规则掉浆方向开发。"],
+      ["Premium boxy fit", "高级箱型版型", "A slightly shorter oversized boxy body keeps the garment wide and structured without becoming a long basic band tee.", "略短的宽松箱型衣身让版型更宽、更有骨感，避免做成普通长款Band Tee。"],
+      ["Durable heavyweight construction", "耐穿重磅结构", "Double-needle sleeve opening and hem, reinforced shoulder seams and pre-shrink finishing help reduce twisting after wash.", "双针袖口和下摆、肩缝加固和预缩处理，有助于减少水洗后扭曲变形。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 260GSM +/-5%", "目标260GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Pre-shrink and garment wash should control shrinkage before bulk", "建议预缩和成衣洗水后控制缩水"],
+      ["Wash effect", "洗水效果", "Vintage black should stay clean and premium, avoiding heavy snow-wash unless confirmed by sample", "复古黑效果建议保持高级干净，除非样衣确认，否则不做明显雪花洗"],
+      ["Print durability", "印花耐洗", "Crack texture, distressed ink and fine text should be checked after wash testing", "裂纹肌理、做旧油墨和小字细节需做水洗测试确认"],
+      ["Collar stability", "领口稳定", "Rib collar, neck tape and double-needle stitching should hold shape after repeated washing", "罗纹领、肩颈包条和双针压线需保证反复水洗后稳定"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
     id: "washed-charcoal-camo-logo-hooded-tshirt",
     productId: "tshirts",
     categoryEn: "Custom T-Shirts",
@@ -4224,6 +4273,10 @@ const productDisplayTitleOverrides = {
   "white-portrait-back-graphic-tshirt": {
     en: "Custom White Heavyweight T-Shirt with Portrait Back Graphic",
     zh: "定制白色重磅T恤 / 人物后背大图"
+  },
+  "dark-streetwear-heavyweight-tshirt": {
+    en: "Custom Dark Streetwear Heavyweight T-Shirt with Distressed Screen Print",
+    zh: "定制暗黑街头重磅T恤 / 做旧丝网印花"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
