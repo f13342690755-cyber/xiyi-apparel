@@ -55,6 +55,13 @@ const products = [
       ["White portrait back graphic T-shirt", "白色后背人物大图T恤", "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp"],
       ["Dark streetwear heavyweight T-shirt", "暗黑街头重磅T恤", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/01-front-view.png"],
       ["Vintage black gray heavyweight T-shirt", "复古黑灰重磅T恤", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/01-front-view.png"],
+      ["Music tour heavyweight T-shirt", "音乐巡演重磅T恤", "assets/products/tshirts/music-tour-heavyweight-tshirt/01-front-view.jpg"],
+      ["American vintage acid wash T-shirt", "美式复古酸洗T恤", "assets/products/tshirts/american-vintage-acid-wash-tshirt/01-front-view.jpg"],
+      ["Black serpent sun badge T-shirt", "黑巨蛇太阳徽章T恤", "assets/products/tshirts/black-serpent-sun-badge-tshirt/01-front-view.jpg"],
+      ["Distressed gothic hardware T-shirt", "破洞哥特重工T恤", "assets/products/tshirts/distressed-gothic-hardware-tshirt/01-front-view.jpg"],
+      ["Studded fake two-piece T-shirt", "铆钉假两件T恤", "assets/products/tshirts/studded-fake-two-piece-tshirt/01-front-view.jpg"],
+      ["Cyberpunk heavyweight T-shirt", "赛博朋克重磅T恤", "assets/products/tshirts/cyberpunk-heavyweight-tshirt/01-front-view.png"],
+      ["Retro sport polo shirt", "复古运动Polo衫", "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png"],
       ["Washed charcoal hooded camo logo T-shirt", "水洗炭黑迷彩Logo短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"]
     ]
   },
@@ -3258,6 +3265,321 @@ const productItems = [
     ]
   },
   {
+    id: "music-tour-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Music Tour Heavyweight T-Shirt",
+    titleZh: "音乐巡演重磅T恤",
+    cardTitleEn: "Custom Music Tour Heavyweight T-Shirt with Embroidered Chest Logo and Back Tour Graphic",
+    cardTitleZh: "定制音乐巡演重磅T恤 / 胸前平绣与后背巡演图案",
+    image: "assets/products/tshirts/music-tour-heavyweight-tshirt/01-front-view.jpg",
+    hoverImage: "assets/products/tshirts/music-tour-heavyweight-tshirt/02-back-view.jpg",
+    shortEn: "260-300GSM washed black cotton T-shirt with boxy drop-shoulder fit, embroidered chest logo and breathable discharge-style back tour graphic.",
+    shortZh: "260-300GSM水洗黑重磅棉T恤，宽松箱型落肩版型，前胸平绣小Logo，后背巡演大图可评估拔印和水浆结合工艺。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["260-300GSM cotton", "Chest embroidery", "Back tour print", "Vintage wash"],
+    tagsZh: ["260-300GSM纯棉", "胸前平绣", "后背巡演图案", "复古水洗"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/music-tour-heavyweight-tshirt/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/music-tour-heavyweight-tshirt/02-back-view.jpg"],
+      ["Back print detail", "后背印花细节", "assets/products/tshirts/music-tour-heavyweight-tshirt/03-back-print-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed cotton heavyweight single or double jersey", "100%精梳棉重磅单纱或双纱平纹汗布"],
+      ["Weight", "克重", "260-300GSM reference", "参考260-300GSM"],
+      ["Wash", "水洗", "Light acid wash or vintage black garment wash", "轻微炭洗 / 复古黑成衣水洗"],
+      ["Fit", "版型", "Men's oversized boxy fit with dropped shoulder, wide chest and slightly cropped body", "男装宽松箱型落肩版，宽胸围、微短衣长，街头感更强"],
+      ["Craft", "工艺", "Flat embroidery at chest; discharge and water-based screen print can be reviewed for back graphic", "胸前平绣，后背大图可评估拔印和水浆丝网印花"],
+      ["Collar", "领口", "2.5cm double-layer 1x1 rib collar with neck tape and double-needle topstitching", "约2.5cm双层1x1罗纹领，后领通肩压条和双针压线"]
+    ],
+    features: [
+      ["Tour graphic direction", "巡演图案方向", "The back layout is suitable for music, club, event and streetwear capsule graphics.", "后背版面适合音乐巡演、俱乐部、活动限定和街头品牌胶囊图案。"],
+      ["Embroidery plus print", "绣花加印花组合", "A small embroidered chest logo keeps the front clean while the back carries the main visual.", "正面小面积平绣保持简洁，后背大图负责主视觉。"],
+      ["Breathable back print", "透气后背印花", "For large-area artwork, discharge or water-based print should be reviewed to reduce stiffness.", "大面积后背图案建议评估拔印或水浆，减少硬板和不透气感。"],
+      ["Boxy streetwear fit", "箱型街头版型", "Dropped shoulder and a cropped boxy body create the American streetwear proportion.", "落肩和微短箱型衣身更接近美式街头比例。"]
+    ],
+    quality: [
+      ["Embroidery position", "绣花位置", "Chest logo placement and thread color should match the approved sample", "胸前Logo位置和绣线颜色按确认样匹配"],
+      ["Back print clarity", "后背印花清晰度", "Red and white outline details should stay sharp after wash testing", "红白描边细节需水洗测试后保持清晰"],
+      ["Collar stability", "领口稳定", "Rib collar and neck tape should resist deformation after repeated washing", "罗纹领和后领压条需保证多次水洗后不松垮"],
+      ["Seam strength", "车缝强度", "Shoulder, armhole and hem stitching should be checked for pulling resistance", "肩缝、袖笼和下摆车缝需检查耐拉扯"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "american-vintage-acid-wash-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "American Vintage Acid Wash T-Shirt",
+    titleZh: "美式复古酸洗T恤",
+    cardTitleEn: "Custom American Vintage Acid Wash T-Shirt with Distressed Athletic Graphic",
+    cardTitleZh: "定制美式复古酸洗T恤 / 做旧运动图案印花",
+    image: "assets/products/tshirts/american-vintage-acid-wash-tshirt/01-front-view.jpg",
+    hoverImage: "assets/products/tshirts/american-vintage-acid-wash-tshirt/02-back-view.jpg",
+    shortEn: "260-300GSM acid-washed cotton T-shirt with American vintage oversized fit, distressed front logo and large athletic back graphic.",
+    shortZh: "260-300GSM酸洗做旧重磅棉T恤，美式复古宽松版型，前胸小标和后背运动风大图适合街头上新开发。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260-300GSM cotton", "Acid wash", "Athletic graphic", "Oversized fit"],
+    tagsZh: ["260-300GSM纯棉", "酸洗做旧", "运动图案", "宽松版型"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/american-vintage-acid-wash-tshirt/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/american-vintage-acid-wash-tshirt/02-back-view.jpg"],
+      ["Front logo detail", "胸前小标细节", "assets/products/tshirts/american-vintage-acid-wash-tshirt/03-front-logo-detail.jpg"],
+      ["Back graphic detail", "后背图案细节", "assets/products/tshirts/american-vintage-acid-wash-tshirt/04-back-print-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed cotton, 16S or 21S yarn can be reviewed", "100%精梳棉，可评估16S或21S纱线方向"],
+      ["Weight", "克重", "260-300GSM heavyweight reference", "参考260-300GSM重磅面料"],
+      ["Wash", "水洗", "Acid wash, mineral wash and enzyme wash can be sampled", "可按酸洗、矿物洗和酵素洗方向打样"],
+      ["Print", "印花", "Discharge or water-based screen print for soft distressed graphic", "可评估拔印或水浆丝印，做出柔软做旧图案"],
+      ["Fit", "版型", "American vintage oversized fit with dropped shoulder, boxy chest and straight sleeve", "美式复古宽松版，落肩、宽身、袖口平直挺括"]
+    ],
+    features: [
+      ["American vintage mood", "美式复古氛围", "The washed gray-black base and athletic artwork work well for vintage sports and streetwear projects.", "灰黑斑驳底色配合运动图案，适合复古运动和街头男装项目。"],
+      ["Soft old-print effect", "柔软旧化印花", "Discharge or water-based print helps the graphic feel integrated with the washed body.", "拔印或水浆有助于让图案和水洗底色融合，不像厚胶硬板。"],
+      ["Durable collar build", "耐穿领口结构", "A wider rib collar and reinforced neck tape help the collar keep shape after repeated wear.", "加宽罗纹领和后领压条能提升多次穿洗后的稳定度。"],
+      ["Easy brand adaptation", "适合品牌改图", "Logo text, color, print placement and wash shade can be adjusted from reference artwork.", "文字Logo、颜色、印花位置和水洗色阶都可按参考图调整。"]
+    ],
+    quality: [
+      ["Wash consistency", "水洗一致性", "Acid wash shade should be controlled by approved sample and bulk panels", "酸洗色阶需按确认样和大货布片控制"],
+      ["Print handfeel", "印花手感", "Large print should remain breathable and not overly thick", "大面积印花需保持透气，避免过厚"],
+      ["Shrinkage", "缩水率", "Enzyme wash and pre-shrink testing should control shrinkage before delivery", "酵素洗和预缩测试后再确认缩水率"],
+      ["Collar recovery", "领口回弹", "Rib collar should recover after stretching and washing", "罗纹领拉伸和水洗后需保持回弹"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "black-serpent-sun-badge-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Black Serpent Sun Badge T-Shirt",
+    titleZh: "黑巨蛇太阳徽章T恤",
+    cardTitleEn: "Custom Black Serpent Sun Badge T-Shirt with Vintage Crack Print",
+    cardTitleZh: "定制黑巨蛇太阳徽章T恤 / 复古裂纹印花",
+    image: "assets/products/tshirts/black-serpent-sun-badge-tshirt/01-front-view.jpg",
+    hoverImage: "assets/products/tshirts/black-serpent-sun-badge-tshirt/02-back-view.jpg",
+    shortEn: "260-300GSM mineral-washed cotton T-shirt with oversized boxy fit, serpent sun badge artwork and breathable distressed crack screen print.",
+    shortZh: "260-300GSM矿物洗重磅棉T恤，宽松箱型版型，蛇形太阳徽章图案可做水浆、拔印或复古裂纹丝印效果。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["260-300GSM cotton", "Mineral wash", "Serpent badge", "Crack print"],
+    tagsZh: ["260-300GSM纯棉", "矿物洗", "巨蛇徽章", "裂纹印花"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/black-serpent-sun-badge-tshirt/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/black-serpent-sun-badge-tshirt/02-back-view.jpg"],
+      ["Serpent print detail", "巨蛇图案细节", "assets/products/tshirts/black-serpent-sun-badge-tshirt/03-serpent-print-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% cotton, open-end or double-yarn jersey can be reviewed", "100%棉，可评估气流纺或双纱平纹汗布"],
+      ["Weight", "克重", "260-300GSM reference", "参考260-300GSM"],
+      ["Wash", "水洗", "Acid wash or mineral wash for uneven vintage gray-black surface", "酸洗或矿物洗，做出不均匀灰黑复古表面"],
+      ["Print", "印花", "Water-based, discharge or crack screen print can be sampled", "水浆、拔印或裂纹丝印可按样衣评估"],
+      ["Collar", "领口", "3.5cm thicker rib collar with double-needle stitching and neck tape", "约3.5cm加厚罗纹领，双针车缝和肩颈拉坎条加固"]
+    ],
+    features: [
+      ["Serpent badge artwork", "巨蛇徽章图案", "The serpent and sun badge gives the style a dark vintage sports-club direction.", "蛇形和太阳徽章让款式更偏暗黑复古运动俱乐部方向。"],
+      ["Heavy acid wash base", "重磅酸洗底色", "A heavier cotton base keeps the garment structured after mineral wash.", "重磅棉底布能在矿物洗后保持挺括有型。"],
+      ["Crack print option", "裂纹印花方案", "Crack print can create an aged badge look while still staying breathable.", "裂纹印花能做出老徽章质感，同时保持较好的透气性。"],
+      ["Oversized boxy cut", "宽松箱型剪裁", "Wide chest, moderate length and relaxed sleeves match current streetwear proportions.", "宽胸、适中衣长和宽松袖型符合当下街头比例。"]
+    ],
+    quality: [
+      ["Badge clarity", "徽章清晰度", "Serpent lines and circular badge text should remain visible after wash", "蛇形线条和圆形徽章文字水洗后需保持清晰"],
+      ["Wash shade", "水洗色阶", "Gray-black mineral wash should be approved by sample", "灰黑矿物洗色阶按确认样控制"],
+      ["Collar strength", "领口强度", "Thick rib collar should stay flat and not twist after washing", "加厚罗纹领水洗后需平整不扭"],
+      ["Print durability", "印花耐洗", "Crack print effect should be tested to avoid uncontrolled peeling", "裂纹效果需测试，避免非预期大面积脱落"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "distressed-gothic-hardware-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Distressed Gothic Hardware T-Shirt",
+    titleZh: "破洞哥特重工T恤",
+    cardTitleEn: "Custom Distressed Gothic Hardware T-Shirt with Chain and Safety Pin Detail",
+    cardTitleZh: "定制破洞哥特重工T恤 / 链条五金与解构破洞",
+    image: "assets/products/tshirts/distressed-gothic-hardware-tshirt/01-front-view.jpg",
+    hoverImage: "assets/products/tshirts/distressed-gothic-hardware-tshirt/02-back-view.jpg",
+    shortEn: "280-320GSM washed black heavyweight T-shirt with gothic graphic, distressed holes, safety pins and removable chain hardware direction.",
+    shortZh: "280-320GSM水洗黑重磅T恤，哥特图案、定位破洞、别针和链条五金组合，适合暗黑高街重工款开发。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "digital-print", "garment-wash", "rib-trim"],
+    tagsEn: ["280-320GSM cotton", "Gothic graphic", "Hardware detail", "Hand distressed"],
+    tagsZh: ["280-320GSM纯棉", "哥特图案", "链条五金", "手工破洞"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/distressed-gothic-hardware-tshirt/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/distressed-gothic-hardware-tshirt/02-back-view.jpg"],
+      ["Hardware and print detail", "五金与印花细节", "assets/products/tshirts/distressed-gothic-hardware-tshirt/03-hardware-print-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed cotton or cotton-poly blend can be reviewed", "可评估100%精梳棉或棉涤混纺重磅面料"],
+      ["Weight", "克重", "280-320GSM reference", "参考280-320GSM"],
+      ["Wash", "水洗", "Acid wash, mineral wash and enzyme wash for black-gray distressed effect", "酸洗、矿物洗和酵素洗做黑灰破旧效果"],
+      ["Craft", "工艺", "Screen print or DTG graphic, hand-distressed holes, safety pins and detachable chain hardware", "丝印或数码直喷图案，手工破洞，别针和可拆卸链条五金"],
+      ["Fit", "版型", "Oversized drop-shoulder boxy fit with wide sleeve and slightly extended hem", "宽松落肩箱型版，宽袖，下摆可略微加长"]
+    ],
+    features: [
+      ["Heavy craft statement", "重工视觉款", "Distressing, pins and chain hardware create a strong dark streetwear statement piece.", "破洞、别针和链条五金让款式更适合作为暗黑高街视觉款。"],
+      ["Removable hardware option", "可拆卸五金方案", "For washing and shipping, chain hardware can be developed with snap or D-ring attachment.", "为方便洗涤和出货，链条可评估暗扣或D扣可拆卸方案。"],
+      ["Distressed hole placement", "破洞定位", "Hole position should be sampled to avoid affecting seam strength and wearing comfort.", "破洞位置需打样确认，避免影响车缝强度和穿着舒适度。"],
+      ["Gothic print route", "哥特印花路线", "Metallic ink, puff or reflective detail can be reviewed by artwork and target cost.", "金属浆、发泡或反光细节可按图案和目标成本评估。"]
+    ],
+    quality: [
+      ["Hardware safety", "五金安全", "Pins and chains should be checked for sharp edges, rust resistance and secure attachment", "别针和链条需检查边缘、耐锈和固定牢度"],
+      ["Hole durability", "破洞耐用度", "Distressed holes should keep the intended shape after wash testing", "破洞位置需水洗测试后保持设计形态"],
+      ["Print and wash", "印花与水洗", "Graphic color and metallic effects should be approved after wash testing", "图案颜色和金属效果需水洗测试后确认"],
+      ["Weight support", "承重能力", "Fabric weight should support hardware without pulling the body out of shape", "面料克重要能承托五金，避免衣身被拉变形"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "studded-fake-two-piece-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Studded Fake Two-Piece T-Shirt",
+    titleZh: "铆钉假两件T恤",
+    cardTitleEn: "Custom Studded Fake Two-Piece T-Shirt with Layered Hem and Graphic Print",
+    cardTitleZh: "定制铆钉假两件T恤 / 金属铆钉与叠穿下摆",
+    image: "assets/products/tshirts/studded-fake-two-piece-tshirt/01-front-view.jpg",
+    hoverImage: "assets/products/tshirts/studded-fake-two-piece-tshirt/02-back-view.jpg",
+    shortEn: "280-320GSM acid-wash cotton T-shirt with boxy cropped fit, graphic print, metal studs and white layered hem for high-street styling.",
+    shortZh: "280-320GSM酸洗重磅棉T恤，微短宽体版型，图案印花、金属铆钉和白色拼接下摆形成假两件叠穿效果。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "digital-print", "puff-print", "garment-wash", "rib-trim"],
+    tagsEn: ["280-320GSM cotton", "Stud detail", "Layered hem", "Acid wash"],
+    tagsZh: ["280-320GSM纯棉", "铆钉细节", "假两件下摆", "酸洗做旧"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/studded-fake-two-piece-tshirt/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/studded-fake-two-piece-tshirt/02-back-view.jpg"],
+      ["Stud and print detail", "铆钉与印花细节", "assets/products/tshirts/studded-fake-two-piece-tshirt/03-stud-print-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% heavyweight cotton single jersey", "100%重磅全棉单面汗布"],
+      ["Weight", "克重", "280-320GSM reference", "参考280-320GSM"],
+      ["Wash", "水洗", "Acid wash or mud wash for vintage faded surface", "酸洗或泥洗磨旧，做复古磨白和斑驳质感"],
+      ["Craft", "工艺", "Graphic print, puff or applique letters, metal studs and layered white cotton hem", "图案印花、发泡或贴布字母，金属铆钉和白色棉布拼接下摆"],
+      ["Fit", "版型", "High-street oversized cropped boxy fit with narrow dropped shoulder and wide half sleeves", "高街宽松微短箱型版，窄落肩、宽五分袖"]
+    ],
+    features: [
+      ["Fake two-piece structure", "假两件结构", "The white underlayer hem creates a layered styling effect without requiring two garments.", "白色下摆拼接做出叠穿层次，不需要真的两件衣服。"],
+      ["Studded edge detail", "边缘铆钉细节", "Mechanical stud setting around sleeve or hem edges can strengthen the high-street look.", "袖口或下摆机械打钉能强化高街重工视觉。"],
+      ["Mixed craft artwork", "混合工艺图案", "Graphic print, puff print, applique or rhinestone/stud details can be combined after sample review.", "图案印花、发泡、贴布或铆钉烫钻细节可按样衣组合评估。"],
+      ["Structured heavyweight body", "重磅挺括衣身", "The heavier cotton base supports studs and layered hem without collapsing.", "重磅棉底布能支撑铆钉和假两件下摆，不容易塌。"]
+    ],
+    quality: [
+      ["Stud attachment", "铆钉牢度", "Studs should pass pull testing and avoid sharp backs inside the garment", "铆钉需做拉力测试，并避免内侧有尖锐背面"],
+      ["Layered hem", "拼接下摆", "White underlayer should stay flat and not twist after wash", "白色拼接下摆水洗后需平整不扭"],
+      ["Wash contrast", "水洗层次", "Acid wash should not stain the white layered fabric unless confirmed by sample", "酸洗需避免污染白色拼接层，除非样衣确认做旧效果"],
+      ["Print surface", "印花表面", "Puff or applique letters should be checked for cracking and peeling after wash", "发泡或贴布字母需检查水洗后开裂和脱落"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "cyberpunk-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Cyberpunk Heavyweight T-Shirt",
+    titleZh: "赛博朋克重磅T恤",
+    cardTitleEn: "Custom Cyberpunk Heavyweight T-Shirt with Neon Skull Graphic",
+    cardTitleZh: "定制赛博朋克重磅T恤 / 霓虹骷髅图案",
+    image: "assets/products/tshirts/cyberpunk-heavyweight-tshirt/01-front-view.png",
+    hoverImage: "assets/products/tshirts/cyberpunk-heavyweight-tshirt/02-back-view.png",
+    shortEn: "280-300GSM deep indigo washed cotton T-shirt with oversized boxy fit, neon skull screen print and optional puff or reflective print detail.",
+    shortZh: "280-300GSM深靛蓝复古水洗重磅棉T恤，宽松箱型版型，赛博霓虹骷髅图案可评估丝印、厚板、反光或夜光细节。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "boxy-fit", "screen-print", "puff-print", "garment-wash", "rib-trim"],
+    tagsEn: ["280-300GSM cotton", "Cyberpunk graphic", "Puff print", "Vintage wash"],
+    tagsZh: ["280-300GSM纯棉", "赛博图案", "发泡印花", "复古水洗"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/cyberpunk-heavyweight-tshirt/01-front-view.png"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/cyberpunk-heavyweight-tshirt/02-back-view.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% combed long-staple cotton single jersey", "100%精梳长绒棉单面针织汗布"],
+      ["Weight", "克重", "280-300GSM reference", "参考280-300GSM"],
+      ["Wash", "水洗", "Deep indigo vintage wash or enzyme wash", "深靛蓝复古水洗或酵素洗"],
+      ["Print", "印花", "High-precision screen print with optional puff, reflective or glow ink detail", "高精度丝网印，可评估厚板、发泡、反光或夜光浆细节"],
+      ["Fit", "版型", "Oversized boxy fit with dropped shoulder, wide sleeve and structured crew neck", "宽松箱型落肩版，宽袖，高克重罗纹圆领"]
+    ],
+    features: [
+      ["Cyberpunk visual", "赛博朋克视觉", "The neon skull artwork is suitable for Y2K, techwear and cyber streetwear drops.", "霓虹骷髅图案适合Y2K、机能和赛博街头系列。"],
+      ["Raised print option", "立体印花方案", "Puff or high-density ink can add raised handfeel to the lightning and metal-effect areas.", "闪电和金属质感区域可评估发泡或厚板浆，增加立体触感。"],
+      ["Indigo wash body", "靛蓝水洗底布", "Vintage wash softens the body and gives the T-shirt a worn-in tech-retro effect.", "复古水洗让衣身更柔软，同时带出科技复古旧感。"],
+      ["Boxy streetwear fit", "箱型街头版型", "A wide rectangular body supports the strong front graphic without looking tight.", "宽松矩形衣身能承托强视觉图案，不会显得贴身。"]
+    ],
+    quality: [
+      ["Neon color match", "霓虹颜色匹配", "Blue and cyan print color should be approved by strike-off sample", "蓝青色印花需按印花打样确认"],
+      ["Puff height", "发泡高度", "Raised ink height should be controlled to avoid cracking after wash", "发泡或厚板高度需控制，避免水洗后开裂"],
+      ["Wash shade", "水洗色阶", "Deep indigo wash should keep the intended vintage effect without heavy staining", "深靛蓝水洗需保持预期旧感，避免重污染"],
+      ["Collar recovery", "领口回弹", "High-density rib collar should stay tight after repeated washing", "高密罗纹领需保证反复水洗后不松垮"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "retro-sport-polo-shirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Retro Sport Polo Shirt",
+    titleZh: "复古运动Polo衫",
+    cardTitleEn: "Custom Retro Sport Polo Shirt with Applique Number and Embroidered Badge",
+    cardTitleZh: "定制复古运动Polo衫 / 贴布号码与徽章刺绣",
+    image: "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png",
+    hoverImage: "assets/products/tshirts/retro-sport-polo-shirt/02-chest-badge-detail.png",
+    shortEn: "Retro sport polo shirt with relaxed boxy fit, cotton-poly pique or mesh fabric, rib collar, applique number and embroidered chest badge.",
+    shortZh: "复古运动Polo衫，宽松箱型版型，可选棉涤珠地或运动网眼面料，罗纹领袖、贴布号码和胸前徽章刺绣。",
+    filters: ["tshirts", "polo-collar", "oem", "custom", "test", "repeat", "pique-knit", "performance-mesh", "embroidery", "heat-transfer", "regular-fit"],
+    tagsEn: ["Retro sport polo", "Applique number", "Badge embroidery", "Pique knit"],
+    tagsZh: ["复古运动Polo", "贴布号码", "徽章刺绣", "珠地网眼"],
+    gallery: [
+      ["Front polo view", "正面Polo图", "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png"],
+      ["Chest badge detail", "胸前徽章细节", "assets/products/tshirts/retro-sport-polo-shirt/02-chest-badge-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric option A", "面料方案A", "65% cotton / 35% polyester heavyweight pique, 220-240GSM reference", "65%棉 / 35%涤重磅珠地，参考220-240GSM"],
+      ["Fabric option B", "面料方案B", "100% polyester cotton-touch performance mesh, 180-200GSM reference", "100%涤仿棉手感运动网眼，参考180-200GSM"],
+      ["Collar and cuff", "领口袖口", "1x1 rib collar and cuffs with yarn-dyed stripe detail", "1x1罗纹领和袖口，可做色织条纹"],
+      ["Craft", "工艺", "High-density flat embroidery or chenille badge, applique number and woven shoulder tape", "高密平绣或毛巾绣徽章，贴布号码，肩部织带压缝"],
+      ["Fit", "版型", "Relaxed boxy sport fit with dropped shoulder, wide chest and elbow-length sleeve", "宽松箱型运动版，落肩、宽胸、肘上五分袖"]
+    ],
+    features: [
+      ["Bloke-core sport direction", "复古运动方向", "The polo shape works for retro football, club, campus and street-sport series.", "Polo版型适合复古足球、俱乐部、校园和运动街头系列。"],
+      ["Badge and number craft", "徽章与号码工艺", "Chest badge, large number and stripe details can be upgraded with embroidery or applique.", "胸前徽章、大号码和条纹细节可用刺绣或贴布提升质感。"],
+      ["Comfort fabric options", "舒适面料选择", "Cotton-poly pique balances retro handfeel and shape retention, while performance mesh is lighter for summer.", "棉涤珠地兼顾复古手感和保型性，运动网眼更轻更适合夏季。"],
+      ["Relaxed polo fit", "宽松Polo版型", "This is not a tight business polo; it is built for relaxed streetwear proportions.", "不是修身商务Polo，而是按宽松街头比例开发。"]
+    ],
+    quality: [
+      ["Badge edge", "徽章边缘", "Embroidery or chenille badge edge should be clean and stable after wash", "平绣或毛巾绣徽章边缘需水洗后干净稳定"],
+      ["Applique number", "贴布号码", "Number applique should be secured with clean zig-zag stitching", "号码贴布需用整齐之字线固定"],
+      ["Rib collar", "罗纹领", "Rib collar and stripe color should keep shape and color after washing", "罗纹领和条纹颜色水洗后需保持形态和颜色"],
+      ["Side vents", "侧开叉", "Side vents and hem should be flat and not roll after washing", "侧开叉和下摆水洗后需平整不卷边"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
     id: "washed-charcoal-camo-logo-hooded-tshirt",
     productId: "tshirts",
     categoryEn: "Custom T-Shirts",
@@ -4330,6 +4652,34 @@ const productDisplayTitleOverrides = {
   "vintage-black-gray-heavyweight-tshirt": {
     en: "Custom Vintage Black Gray Heavyweight T-Shirt with Distressed Archive Print",
     zh: "定制复古黑灰重磅T恤 / 做旧档案图案印花"
+  },
+  "music-tour-heavyweight-tshirt": {
+    en: "Custom Music Tour Heavyweight T-Shirt with Embroidered Chest Logo and Back Tour Graphic",
+    zh: "定制音乐巡演重磅T恤 / 胸前平绣与后背巡演图案"
+  },
+  "american-vintage-acid-wash-tshirt": {
+    en: "Custom American Vintage Acid Wash T-Shirt with Distressed Athletic Graphic",
+    zh: "定制美式复古酸洗T恤 / 做旧运动图案印花"
+  },
+  "black-serpent-sun-badge-tshirt": {
+    en: "Custom Black Serpent Sun Badge T-Shirt with Vintage Crack Print",
+    zh: "定制黑巨蛇太阳徽章T恤 / 复古裂纹印花"
+  },
+  "distressed-gothic-hardware-tshirt": {
+    en: "Custom Distressed Gothic Hardware T-Shirt with Chain and Safety Pin Detail",
+    zh: "定制破洞哥特重工T恤 / 链条五金与解构破洞"
+  },
+  "studded-fake-two-piece-tshirt": {
+    en: "Custom Studded Fake Two-Piece T-Shirt with Layered Hem and Graphic Print",
+    zh: "定制铆钉假两件T恤 / 金属铆钉与叠穿下摆"
+  },
+  "cyberpunk-heavyweight-tshirt": {
+    en: "Custom Cyberpunk Heavyweight T-Shirt with Neon Skull Graphic",
+    zh: "定制赛博朋克重磅T恤 / 霓虹骷髅图案"
+  },
+  "retro-sport-polo-shirt": {
+    en: "Custom Retro Sport Polo Shirt with Applique Number and Embroidered Badge",
+    zh: "定制复古运动Polo衫 / 贴布号码与徽章刺绣"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
