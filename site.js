@@ -54,6 +54,7 @@ const products = [
       ["Vintage cream analog signal T-shirt", "奶油白模拟信号T恤", "assets/products/tshirts/vintage-cream-analog-signal-tshirt/01-front-view.webp"],
       ["White portrait back graphic T-shirt", "白色后背人物大图T恤", "assets/products/tshirts/white-portrait-back-graphic-tshirt/01-front-view.webp"],
       ["Dark streetwear heavyweight T-shirt", "暗黑街头重磅T恤", "assets/products/tshirts/dark-streetwear-heavyweight-tshirt/01-front-view.png"],
+      ["Vintage black gray heavyweight T-shirt", "复古黑灰重磅T恤", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/01-front-view.png"],
       ["Washed charcoal hooded camo logo T-shirt", "水洗炭黑迷彩Logo短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"]
     ]
   },
@@ -3209,6 +3210,54 @@ const productItems = [
     ]
   },
   {
+    id: "vintage-black-gray-heavyweight-tshirt",
+    productId: "tshirts",
+    categoryEn: "Custom T-Shirts",
+    categoryZh: "T恤定制",
+    titleEn: "Vintage Black Gray Heavyweight T-Shirt",
+    titleZh: "复古黑灰重磅T恤",
+    cardTitleEn: "Custom Vintage Black Gray Heavyweight T-Shirt with Distressed Archive Print",
+    cardTitleZh: "定制复古黑灰重磅T恤 / 做旧档案图案印花",
+    image: "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/01-front-view.png",
+    hoverImage: "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/02-back-view.png",
+    shortEn: "250GSM vintage charcoal compact cotton jersey T-shirt with garment wash, dropped-shoulder relaxed fit and botanical archive screen print for streetwear brand development.",
+    shortZh: "250GSM复古炭灰紧密精梳棉汗布T恤，成衣水洗做旧，宽松落肩微长版型，搭配植物档案感丝网印花，适合街头男装系列开发。",
+    filters: ["tshirts", "crew-neck", "oem", "custom", "test", "repeat", "cotton-jersey", "heavyweight-jersey", "oversized", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["250GSM cotton", "Vintage charcoal", "Archive print", "Garment wash"],
+    tagsZh: ["250GSM纯棉", "复古炭灰", "档案图案", "成衣水洗"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/01-front-view.png"],
+      ["Back product view", "背面产品图", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/02-back-view.png"],
+      ["Front archive print detail", "正面档案印花细节", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/03-front-print-detail.png"],
+      ["Back archive print detail", "背面档案印花细节", "assets/products/tshirts/vintage-black-gray-heavyweight-tshirt/04-back-print-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
+      ["Fabric", "面料", "100% cotton compact combed single jersey", "100%棉紧密精梳单面平纹针织汗布"],
+      ["Weight", "克重", "250GSM reference", "参考250GSM"],
+      ["Wash", "水洗", "Vintage charcoal garment wash with pigment wash and enzyme wash direction", "复古炭灰成衣水洗，可评估涂料洗和酵素洗方向"],
+      ["Fit", "版型", "Men's oversized relaxed fit with dropped shoulder, straight body, wider sleeve and slightly longer length", "男装宽松落肩微长版，直筒衣身、宽胸、宽袖，不做过短方盒版"],
+      ["Collar", "领口", "300-320G 1x1 rib crew neck with shoulder tape or cotton tape reinforcement", "约300-320G高密1x1罗纹圆领，建议肩缝加透明肩带或棉带稳定肩型"],
+      ["Print", "印花", "High-density screen print with off-white, gray-white and small rust-red accents", "高密度丝网印花，可评估骨白、灰白和少量锈红点缀"]
+    ],
+    features: [
+      ["Vintage charcoal wash", "复古炭灰水洗", "The garment wash gives the T-shirt a faded archive look while keeping the fabric clean and wearable.", "成衣水洗做出炭灰褪色和旧化效果，同时保持整体干净耐穿。"],
+      ["Botanical archive graphic", "植物档案图案", "The botanical scan, measuring lines, small numbers and distressed texture create a technical archive visual.", "植物扫描、测量线、数字和做旧肌理形成技术档案感视觉。"],
+      ["Relaxed streetwear shape", "街头宽松轮廓", "Dropped shoulders, a wide chest and a slightly longer body make it suitable for streetwear drops and brand series.", "落肩、宽胸和微长衣身更适合街头男装上新和品牌系列开发。"],
+      ["Sample-first print control", "先打样确认印花", "Fine lines and small text should be checked by sample before bulk production to keep the artwork clear.", "细线、小字和做旧裂纹建议先打样确认，再安排大货生产。"]
+    ],
+    quality: [
+      ["GSM tolerance", "克重公差", "Target 250GSM +/-5%", "目标250GSM +/-5%"],
+      ["Shrinkage", "缩水率", "Pre-shrink and garment wash should control shrinkage before bulk", "建议预缩和成衣洗水后控制缩水"],
+      ["Wash color", "水洗颜色", "Vintage charcoal color should be approved by sample before production", "复古炭灰颜色需按确认样控制"],
+      ["Print detail", "印花细节", "Archive lines, botanical texture and small characters should remain clear after wash testing", "档案线条、植物纹理和小字细节需水洗测试后保持清晰"],
+      ["Collar and shoulder", "领口与肩部", "Rib collar, shoulder tape and double-needle stitching should stay flat after washing", "罗纹领、肩带加固和双针车缝水洗后需保持平整"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
     id: "washed-charcoal-camo-logo-hooded-tshirt",
     productId: "tshirts",
     categoryEn: "Custom T-Shirts",
@@ -4277,6 +4326,10 @@ const productDisplayTitleOverrides = {
   "dark-streetwear-heavyweight-tshirt": {
     en: "Custom Dark Streetwear Heavyweight T-Shirt with Distressed Screen Print",
     zh: "定制暗黑街头重磅T恤 / 做旧丝网印花"
+  },
+  "vintage-black-gray-heavyweight-tshirt": {
+    en: "Custom Vintage Black Gray Heavyweight T-Shirt with Distressed Archive Print",
+    zh: "定制复古黑灰重磅T恤 / 做旧档案图案印花"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
