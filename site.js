@@ -61,7 +61,6 @@ const products = [
       ["Distressed gothic hardware T-shirt", "破洞哥特重工T恤", "assets/products/tshirts/distressed-gothic-hardware-tshirt/01-front-view.jpg"],
       ["Studded fake two-piece T-shirt", "铆钉假两件T恤", "assets/products/tshirts/studded-fake-two-piece-tshirt/01-front-view.jpg"],
       ["Cyberpunk heavyweight T-shirt", "赛博朋克重磅T恤", "assets/products/tshirts/cyberpunk-heavyweight-tshirt/01-front-view.png"],
-      ["Retro sport polo shirt", "复古运动Polo衫", "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png"],
       ["Washed charcoal hooded camo logo T-shirt", "水洗炭黑迷彩Logo短袖连帽T恤", "assets/products/tshirts/washed-charcoal-camo-logo-hooded-tshirt/01-front-view.webp"]
     ]
   },
@@ -3536,50 +3535,6 @@ const productItems = [
     ]
   },
   {
-    id: "retro-sport-polo-shirt",
-    productId: "tshirts",
-    categoryEn: "Custom T-Shirts",
-    categoryZh: "T恤定制",
-    titleEn: "Retro Sport Polo Shirt",
-    titleZh: "复古运动Polo衫",
-    cardTitleEn: "Custom Retro Sport Polo Shirt with Applique Number and Embroidered Badge",
-    cardTitleZh: "定制复古运动Polo衫 / 贴布号码与徽章刺绣",
-    image: "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png",
-    hoverImage: "assets/products/tshirts/retro-sport-polo-shirt/02-chest-badge-detail.png",
-    shortEn: "Retro sport polo shirt with relaxed boxy fit, cotton-poly pique or mesh fabric, rib collar, applique number and embroidered chest badge.",
-    shortZh: "复古运动Polo衫，宽松箱型版型，可选棉涤珠地或运动网眼面料，罗纹领袖、贴布号码和胸前徽章刺绣。",
-    filters: ["tshirts", "polo-collar", "oem", "custom", "test", "repeat", "pique-knit", "performance-mesh", "embroidery", "heat-transfer", "regular-fit"],
-    tagsEn: ["Retro sport polo", "Applique number", "Badge embroidery", "Pique knit"],
-    tagsZh: ["复古运动Polo", "贴布号码", "徽章刺绣", "珠地网眼"],
-    gallery: [
-      ["Front polo view", "正面Polo图", "assets/products/tshirts/retro-sport-polo-shirt/01-front-view.png"],
-      ["Chest badge detail", "胸前徽章细节", "assets/products/tshirts/retro-sport-polo-shirt/02-chest-badge-detail.png"]
-    ],
-    specs: [
-      ["MOQ", "起订量", "From 200 pcs", "200件起"],
-      ["Sampling", "打样时间", "3-7 days reference", "参考 3-7 天"],
-      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考 7-20 天，按数量和工艺确认"],
-      ["Fabric option A", "面料方案A", "65% cotton / 35% polyester heavyweight pique, 220-240GSM reference", "65%棉 / 35%涤重磅珠地，参考220-240GSM"],
-      ["Fabric option B", "面料方案B", "100% polyester cotton-touch performance mesh, 180-200GSM reference", "100%涤仿棉手感运动网眼，参考180-200GSM"],
-      ["Collar and cuff", "领口袖口", "1x1 rib collar and cuffs with yarn-dyed stripe detail", "1x1罗纹领和袖口，可做色织条纹"],
-      ["Craft", "工艺", "High-density flat embroidery or chenille badge, applique number and woven shoulder tape", "高密平绣或毛巾绣徽章，贴布号码，肩部织带压缝"],
-      ["Fit", "版型", "Relaxed boxy sport fit with dropped shoulder, wide chest and elbow-length sleeve", "宽松箱型运动版，落肩、宽胸、肘上五分袖"]
-    ],
-    features: [
-      ["Bloke-core sport direction", "复古运动方向", "The polo shape works for retro football, club, campus and street-sport series.", "Polo版型适合复古足球、俱乐部、校园和运动街头系列。"],
-      ["Badge and number craft", "徽章与号码工艺", "Chest badge, large number and stripe details can be upgraded with embroidery or applique.", "胸前徽章、大号码和条纹细节可用刺绣或贴布提升质感。"],
-      ["Comfort fabric options", "舒适面料选择", "Cotton-poly pique balances retro handfeel and shape retention, while performance mesh is lighter for summer.", "棉涤珠地兼顾复古手感和保型性，运动网眼更轻更适合夏季。"],
-      ["Relaxed polo fit", "宽松Polo版型", "This is not a tight business polo; it is built for relaxed streetwear proportions.", "不是修身商务Polo，而是按宽松街头比例开发。"]
-    ],
-    quality: [
-      ["Badge edge", "徽章边缘", "Embroidery or chenille badge edge should be clean and stable after wash", "平绣或毛巾绣徽章边缘需水洗后干净稳定"],
-      ["Applique number", "贴布号码", "Number applique should be secured with clean zig-zag stitching", "号码贴布需用整齐之字线固定"],
-      ["Rib collar", "罗纹领", "Rib collar and stripe color should keep shape and color after washing", "罗纹领和条纹颜色水洗后需保持形态和颜色"],
-      ["Side vents", "侧开叉", "Side vents and hem should be flat and not roll after washing", "侧开叉和下摆水洗后需平整不卷边"],
-      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
-    ]
-  },
-  {
     id: "washed-charcoal-camo-logo-hooded-tshirt",
     productId: "tshirts",
     categoryEn: "Custom T-Shirts",
@@ -4676,10 +4631,6 @@ const productDisplayTitleOverrides = {
   "cyberpunk-heavyweight-tshirt": {
     en: "Custom Cyberpunk Heavyweight T-Shirt with Neon Skull Graphic",
     zh: "定制赛博朋克重磅T恤 / 霓虹骷髅图案"
-  },
-  "retro-sport-polo-shirt": {
-    en: "Custom Retro Sport Polo Shirt with Applique Number and Embroidered Badge",
-    zh: "定制复古运动Polo衫 / 贴布号码与徽章刺绣"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
