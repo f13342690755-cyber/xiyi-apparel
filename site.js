@@ -100,6 +100,9 @@ const products = [
     tagsEn: ["Mesh fabric", "Numbers", "Color blocking", "Logo print"],
     tagsZh: ["网眼面料", "号码", "拼色", "Logo印花"],
     styles: [
+      ["Green V-neck mesh team jersey", "绿色V领网眼球服", "assets/products/teamwear/green-v-neck-mesh-team-jersey/01-front-view.jpg"],
+      ["Retro sport applique polo jersey", "复古运动贴布Polo球服", "assets/products/teamwear/retro-sport-applique-polo-jersey/01-front-view.png"],
+      ["Blokecore football collar jersey", "Blokecore复古足球翻领球服", "assets/products/teamwear/blokecore-football-collar-jersey/01-front-view.jpg"],
       ["V-neck team jersey", "V领队服", "assets/company/jersey-teamwear.png"],
       ["Long-sleeve team top", "长袖队服上衣", "review-assets/pdf-images/menswear-p08-35-369x480.jpg"],
       ["Track jacket and pants set", "运动套装定制", "review-assets/pdf-images/menswear-p14-102-351x553.jpg"],
@@ -4054,6 +4057,135 @@ productItems.push(...[
   }
 ].map(makeHoodieBatchItem));
 
+productItems.push(
+  {
+    id: "green-v-neck-mesh-team-jersey",
+    productId: "teamwear",
+    categoryEn: "Custom Teamwear",
+    categoryZh: "球服定制",
+    titleEn: "Green V-Neck Mesh Team Jersey",
+    titleZh: "绿色V领网眼球服",
+    image: "assets/products/teamwear/green-v-neck-mesh-team-jersey/01-front-view.jpg",
+    hoverImage: "assets/products/teamwear/green-v-neck-mesh-team-jersey/02-back-view.jpg",
+    shortEn: "Dark green oversized team jersey with retro V-neck collar, bird-eye mesh, gold puff print or silicone heat-transfer artwork, plus embroidery or applique badge options.",
+    shortZh: "深绿色宽松球服，复古V领结构、鸟眼网布，可评估金色发泡印花或硅胶烫标，并可加刺绣/贴布章仔。",
+    filters: ["teamwear", "oem", "custom", "test", "repeat", "v-neck", "team-fit", "oversized", "performance-mesh", "bird-eye-mesh", "puff-print", "screen-print", "heat-transfer", "embroidery"],
+    tagsEn: ["V-neck jersey", "Bird-eye mesh", "Gold puff print", "Oversized fit"],
+    tagsZh: ["V领球服", "鸟眼网布", "金色发泡印花", "宽松版型"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/teamwear/green-v-neck-mesh-team-jersey/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/teamwear/green-v-neck-mesh-team-jersey/02-back-view.jpg"],
+      ["Gold artwork detail", "金色图案细节", "assets/products/teamwear/green-v-neck-mesh-team-jersey/03-gold-graphic-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考3-7天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考7-20天，按数量和工艺确认"],
+      ["Fabric", "面料", "Polyester bird-eye mesh or jacquard double mesh", "涤纶鸟眼网布或提花双层网布"],
+      ["Composition", "成分", "100% polyester, or 92% polyester / 8% spandex can be reviewed", "100%涤纶，或92%涤纶 / 8%氨纶可评估"],
+      ["Weight", "克重", "220-280GSM reference by fabric direction", "按面料方向参考220-280GSM"],
+      ["Fit", "版型", "Oversized boxy fit with dropped shoulder and wide straight sleeves", "落肩宽松箱型版，宽直袖"],
+      ["Craft", "工艺", "Gold puff print, silicone heat transfer, embroidery or applique patch can be reviewed", "可评估金色发泡印花、硅胶烫标、刺绣或贴布章仔"]
+    ],
+    features: [
+      ["Retro V-neck team silhouette", "复古V领队服廓形", "The no-button V-neck placket and rib collar create a sport jersey look that also works for streetwear capsules.", "无扣V领门襟配罗纹领，既有运动队服感，也适合街头系列开发。"],
+      ["Breathable mesh fabric", "透气网眼面料", "Bird-eye mesh or jacquard mesh can support breathable wearing comfort while keeping enough body for oversized styling.", "鸟眼网布或提花网布兼顾透气穿着和廓形支撑，适合宽松版型。"],
+      ["Gold artwork craft route", "金色图案工艺方向", "Gold puff print, matte silicone heat transfer or embroidery/applique can be selected after reviewing artwork size and texture requirements.", "可根据图案尺寸和肌理要求，选择金色发泡印花、哑光硅胶烫标或刺绣/贴布方案。"],
+      ["Team name and number customization", "队名号码定制", "Names, numbers, chest badges and sleeve marks can be placed after confirming the size chart and artwork files.", "队名、号码、胸章和袖标位置可在确认尺码表与图稿后安排。"]
+    ],
+    quality: [
+      ["Mesh stability", "网布稳定性", "Fabric weight and stretch should be confirmed by approved sample before bulk", "大货前按确认样确认克重和弹力"],
+      ["Print durability", "印花耐洗", "Puff print or heat transfer should pass wash testing based on final artwork", "发泡印花或烫标按最终图稿做水洗测试"],
+      ["Collar recovery", "领口回弹", "Rib collar and V-neck opening should stay flat and balanced", "罗纹领和V领门襟需要平服对称"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "retro-sport-applique-polo-jersey",
+    productId: "teamwear",
+    categoryEn: "Custom Teamwear",
+    categoryZh: "球服定制",
+    titleEn: "Retro Sport Applique Polo Jersey",
+    titleZh: "复古运动贴布Polo球服",
+    image: "assets/products/teamwear/retro-sport-applique-polo-jersey/01-front-view.png",
+    hoverImage: "assets/products/teamwear/retro-sport-applique-polo-jersey/02-chest-badge-detail.png",
+    shortEn: "Blue retro sport polo jersey with striped rib collar, applique number, embroidered badge and heavyweight pique or cotton-touch performance fabric options.",
+    shortZh: "蓝色复古运动Polo球服，撞色罗纹领、贴布号码、徽章刺绣，可评估重磅珠地布或棉感运动网布。",
+    filters: ["teamwear", "oem", "custom", "test", "repeat", "polo-collar", "team-fit", "oversized", "pique-knit", "performance-mesh", "embroidery", "tackle-twill", "screen-print", "heat-transfer"],
+    tagsEn: ["Polo collar", "Applique number", "Embroidery badge", "Pique fabric"],
+    tagsZh: ["Polo翻领", "贴布号码", "徽章刺绣", "珠地布"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/teamwear/retro-sport-applique-polo-jersey/01-front-view.png"],
+      ["Chest badge detail", "胸章细节", "assets/products/teamwear/retro-sport-applique-polo-jersey/02-chest-badge-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考3-7天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考7-20天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight cotton-poly pique or cotton-touch performance mesh", "重磅棉涤珠地布或棉感运动网布"],
+      ["Composition", "成分", "65% cotton / 35% polyester, or 100% polyester performance mesh", "65%棉 / 35%涤纶，或100%涤纶运动网布"],
+      ["Weight", "克重", "180-240GSM reference by fabric direction", "按面料方向参考180-240GSM"],
+      ["Fit", "版型", "Relaxed boxy fit with dropped shoulder, wider chest and mid-length sleeve", "宽松箱型版，落肩、宽胸围、中长袖"],
+      ["Craft", "工艺", "Embroidery badge, applique number, puff or screen print and stripe rib collar can be reviewed", "可评估徽章刺绣、贴布号码、发泡/丝印和撞色罗纹领"]
+    ],
+    features: [
+      ["Sport polo collar structure", "运动Polo领结构", "The striped collar and cuff can use yarn-dyed rib to keep the retro teamwear look clean.", "领口和袖口可用色织罗纹，保持复古队服视觉更干净。"],
+      ["Applique and badge artwork", "贴布与徽章图案", "Large numbers can use tackle twill or applique, while the chest badge can use flat embroidery or chenille depending on texture target.", "大号码可做贴布字母/贴布绣，胸章可按质感目标选择平绣或毛巾绣。"],
+      ["Pique or performance fabric route", "珠地或运动面料路线", "Cotton-poly pique feels more casual, while polyester performance mesh is lighter and easier for active teamwear.", "棉涤珠地更偏休闲质感，涤纶运动网布更轻便，适合运动队服方向。"],
+      ["Brand capsule friendly", "适合品牌系列开发", "The style works for club collections, sport-inspired streetwear, team events and brand capsule projects.", "适合俱乐部系列、运动街头风、团队活动服和品牌胶囊系列开发。"]
+    ],
+    quality: [
+      ["Rib stripe alignment", "罗纹条纹对位", "Collar and cuff stripe width should match approved sample", "领口和袖口条纹宽度按确认样控制"],
+      ["Applique edge control", "贴布边缘控制", "Applique edges and embroidery density should be checked before bulk", "贴布边缘和刺绣密度大货前确认"],
+      ["Fabric shrinkage", "面料缩率", "Pique fabric should be pre-tested for shrinkage and twisting", "珠地布需先测试缩率和扭斜"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "blokecore-football-collar-jersey",
+    productId: "teamwear",
+    categoryEn: "Custom Teamwear",
+    categoryZh: "球服定制",
+    titleEn: "Blokecore Football Collar Jersey",
+    titleZh: "Blokecore复古足球翻领球服",
+    image: "assets/products/teamwear/blokecore-football-collar-jersey/01-front-view.jpg",
+    hoverImage: "assets/products/teamwear/blokecore-football-collar-jersey/02-back-view.jpg",
+    shortEn: "Blue blokecore football-collar jersey with full sublimation print, contrast rib collar, back number and optional badge embroidery or silicone heat transfer.",
+    shortZh: "蓝色Blokecore复古足球翻领球服，满版升华印花、撞色罗纹领、后背号码，可评估徽章刺绣或硅胶烫标。",
+    filters: ["teamwear", "oem", "custom", "test", "repeat", "polo-collar", "team-fit", "oversized", "sublimation", "screen-print", "heat-transfer", "embroidery", "performance-mesh", "interlock-knit", "quick-dry"],
+    tagsEn: ["Full sublimation", "Football collar", "Back number", "Quick-dry fabric"],
+    tagsZh: ["满版升华", "足球翻领", "后背号码", "速干面料"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/teamwear/blokecore-football-collar-jersey/01-front-view.jpg"],
+      ["Back product view", "背面产品图", "assets/products/teamwear/blokecore-football-collar-jersey/02-back-view.jpg"],
+      ["Front logo detail", "前胸Logo细节", "assets/products/teamwear/blokecore-football-collar-jersey/03-front-logo-detail.jpg"],
+      ["Badge detail", "徽章细节", "assets/products/teamwear/blokecore-football-collar-jersey/04-badge-detail.jpg"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考3-7天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考7-20天，按数量和工艺确认"],
+      ["Fabric", "面料", "Polyester bird-eye mesh, performance mesh or matte interlock", "涤纶鸟眼布、运动网布或哑光双面布"],
+      ["Composition", "成分", "100% polyester, or 95% polyester / 5% spandex can be reviewed", "100%涤纶，或95%涤纶 / 5%氨纶可评估"],
+      ["Weight", "克重", "220-240GSM reference", "参考220-240GSM"],
+      ["Fit", "版型", "US/EU oversized streetwear fit with relaxed straight hem", "适合海外品牌的宽松街头版，直筒下摆"],
+      ["Craft", "工艺", "Full sublimation print, puff or screen print, badge embroidery and contrast rib collar", "满版升华印花、发泡/丝印、徽章刺绣和撞色罗纹领"]
+    ],
+    features: [
+      ["Blokecore football style", "Blokecore足球风格", "The open football collar, contrast rib and back number create a retro football look for streetwear collections.", "开口足球翻领、撞色罗纹和后背号码，形成适合街头系列的复古足球视觉。"],
+      ["Full sublimation artwork", "满版升华图案", "Sublimation is suitable for geometric patterns and large color areas because it keeps the hand feel light.", "升华印花适合几何纹理和大面积颜色，手感更轻，不容易堆墨。"],
+      ["Badge and logo options", "徽章与Logo方案", "Chest badge can be reviewed for embroidery patch, silicone heat transfer or high-density print depending on budget and texture.", "胸章可按预算和质感评估刺绣章、硅胶烫标或高密度印花。"],
+      ["Teamwear plus streetwear use", "队服与街头两用", "The style can serve clubs, events, brand drops and sport-inspired casual collections.", "可用于俱乐部、活动服、品牌上新和运动街头休闲系列。"]
+    ],
+    quality: [
+      ["Sublimation color match", "升华颜色确认", "Color should be checked on actual fabric before bulk production", "大货前需要在实际面料上确认颜色"],
+      ["Collar shape", "领型控制", "Rib collar opening and V placket should stay balanced after sewing", "罗纹翻领和V口门襟车缝后需保持平衡"],
+      ["Number placement", "号码位置", "Back number size and placement should follow confirmed artwork proof", "后背号码尺寸和位置按确认图稿执行"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  }
+);
+
 const productFilterMap = {
   hoodies: ["hoodies", "oem", "custom", "test", "repeat"],
   tshirts: ["tshirts", "oem", "custom", "test", "repeat"],
@@ -4250,6 +4382,7 @@ const catalogFilterRows = {
       options: [
         ["sublimation", "Full Sublimation", "全件升华"],
         ["screen-print", "Screen Print Logo", "丝印Logo"],
+        ["puff-print", "Puff Print", "发泡印花"],
         ["heat-transfer", "Names / Numbers", "号码 / 名字烫印"],
         ["tackle-twill", "Tackle Twill", "贴布字母"],
         ["embroidery", "Embroidery Patch", "刺绣章仔"]
@@ -4261,9 +4394,11 @@ const catalogFilterRows = {
       labelZh: "版型",
       options: [
         ["v-neck", "V-Neck Jersey", "V领球衣"],
+        ["polo-collar", "Polo Collar", "Polo翻领"],
         ["crew-neck", "Crew Neck", "圆领"],
         ["raglan-sleeve", "Raglan Sleeve", "插肩袖"],
         ["set-in-sleeve", "Set-in Sleeve", "正肩袖"],
+        ["oversized", "Oversized Teamwear", "宽松队服"],
         ["team-fit", "Team Fit", "队服版型"]
       ]
     },
@@ -4274,6 +4409,7 @@ const catalogFilterRows = {
       options: [
         ["performance-mesh", "Poly Mesh", "涤纶网眼"],
         ["bird-eye-mesh", "Bird-eye Mesh", "鸟眼布"],
+        ["pique-knit", "Pique / Polo Fabric", "珠地布 / Polo布"],
         ["interlock-knit", "Interlock Performance", "双面运动布"],
         ["stretch-poly", "Poly / Spandex", "涤氨弹力"],
         ["quick-dry", "Quick-dry Fabric", "速干面料"]
@@ -4631,6 +4767,18 @@ const productDisplayTitleOverrides = {
   "cyberpunk-heavyweight-tshirt": {
     en: "Custom Cyberpunk Heavyweight T-Shirt with Neon Skull Graphic",
     zh: "定制赛博朋克重磅T恤 / 霓虹骷髅图案"
+  },
+  "green-v-neck-mesh-team-jersey": {
+    en: "Custom Green V-Neck Mesh Team Jersey with Gold Puff Print",
+    zh: "定制绿色V领网眼球服 / 金色发泡印花"
+  },
+  "retro-sport-applique-polo-jersey": {
+    en: "Custom Retro Sport Polo Jersey with Applique Number and Embroidered Badge",
+    zh: "定制复古运动Polo球服 / 贴布号码与徽章刺绣"
+  },
+  "blokecore-football-collar-jersey": {
+    en: "Custom Blokecore Football Collar Jersey with Sublimation Print",
+    zh: "定制Blokecore复古足球翻领球服 / 满版升华印花"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
