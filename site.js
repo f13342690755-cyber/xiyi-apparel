@@ -22,6 +22,10 @@ const products = [
     tagsEn: ["Fleece", "French terry", "Embroidery", "Puff print"],
     tagsZh: ["抓绒", "毛圈", "刺绣", "发泡印花"],
     styles: [
+      ["Botanical logo heavyweight hoodie", "植物Logo重磅连帽卫衣", "assets/products/hoodies/botanical-logo-heavyweight-hoodie/01-front-view.png"],
+      ["Coffee brown punk washed hoodie", "咖啡色朋克水洗连帽卫衣", "assets/products/hoodies/coffee-brown-punk-washed-hoodie/01-front-view.png"],
+      ["Black gothic graphic zip hoodie", "黑色哥特图案拉链卫衣", "assets/products/hoodies/black-gothic-graphic-zip-hoodie/01-front-view.png"],
+      ["Black gradient gothic zip hoodie", "黑色渐变哥特拉链卫衣", "assets/products/hoodies/black-gradient-gothic-zip-hoodie/01-front-view.png"],
       ["Washed heavyweight oversized hoodie", "重磅宽松洗水连帽卫衣", "assets/products/hoodies/washed-oversized-boxy-hoodie/01-front-black.webp"],
       ["Washed deconstructed panel hoodie", "水洗解构拼接连帽卫衣", "assets/products/hoodies/deconstructed-panel-washed-hoodie/01-front-view.webp"],
       ["Raw-edge washed patchwork hoodie", "毛边水洗拼接连帽卫衣", "assets/products/hoodies/washed-distressed-panel-hoodie/01-front-view.webp"],
@@ -4059,6 +4063,139 @@ productItems.push(...[
   }
 ].map(makeHoodieBatchItem));
 
+productItems.push(...[
+  {
+    id: "botanical-logo-heavyweight-hoodie",
+    titleEn: "Botanical Logo Heavyweight Hoodie",
+    titleZh: "植物Logo重磅连帽卫衣",
+    cardTitleEn: "Custom Botanical Logo Heavyweight Hoodie with Tonal Embroidery",
+    cardTitleZh: "定制植物Logo重磅连帽卫衣 / 同色系低调刺绣",
+    image: "01-front-view.png",
+    hoverImage: "02-back-view.png",
+    shortEn: "450GSM black oversized boxy hoodie with scattered botanical logo embroidery, double-layer hood, heavy rib trims and a quiet premium streetwear finish.",
+    shortZh: "450GSM黑色宽松箱型连帽卫衣，散点植物Logo刺绣、双层大帽、重磅罗纹，适合低调高级街头系列。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "embroidery", "rib-trim"],
+    tagsEn: ["450GSM fleece", "Tonal embroidery", "Boxy fit", "Double-layer hood"],
+    tagsZh: ["450GSM抓绒", "同色系刺绣", "箱型版型", "双层帽"],
+    fabricEn: "80% cotton / 20% polyester heavyweight brushed fleece",
+    fabricZh: "80%棉 / 20%涤纶重磅抓绒卫衣布",
+    weightEn: "450GSM reference, 420-460GSM can be reviewed",
+    weightZh: "参考450GSM，可评估420-460GSM",
+    fitEn: "Unisex oversized boxy relaxed fit with dropped shoulder, wide sleeves and slightly shorter body",
+    fitZh: "男女同款落肩宽松箱型版，宽袖、衣长略短，整体厚实有廓形",
+    craftEn: "Dark charcoal tonal flat embroidery with light raised edge, heavy 2x2 rib and reinforced kangaroo pocket",
+    craftZh: "深石墨灰同色系平绣，可做轻微立体包边，重磅2x2罗纹和袋口加固",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.png"],
+      ["Back product view", "背面产品图", "02-back-view.png"],
+      ["Botanical embroidery detail", "植物Logo刺绣细节", "03-embroidery-detail.png"]
+    ],
+    features: [
+      ["Quiet botanical embroidery", "低调植物刺绣", "Small repeated botanical logos can use tonal embroidery to keep the garment clean instead of graphic-heavy.", "小面积重复植物Logo适合做同色系刺绣，保持干净高级感，不做成大面积印花。"],
+      ["Heavy boxy hoodie shape", "重磅箱型卫衣廓形", "Dropped shoulders, wide sleeves and a slightly shorter body create the wide and structured streetwear silhouette.", "落肩、宽袖和略短衣长形成宽而有支撑的街头箱型轮廓。"],
+      ["No-drawcord hood option", "无抽绳大帽方案", "A double-layer hood without drawcord can make the style feel cleaner and more premium.", "双层大帽不加抽绳会更干净，也更适合低调高级方向。"]
+    ]
+  },
+  {
+    id: "coffee-brown-punk-washed-hoodie",
+    titleEn: "Coffee Brown Punk Washed Hoodie",
+    titleZh: "咖啡色朋克水洗连帽卫衣",
+    cardTitleEn: "Custom Coffee Brown Punk Washed Hoodie with Distressed Lightning Graphic",
+    cardTitleZh: "定制咖啡色朋克水洗连帽卫衣 / 做旧闪电丝印",
+    image: "01-front-view.png",
+    hoverImage: "02-back-view.png",
+    shortEn: "Dark coffee brown washed oversized hoodie with distressed lightning artwork, sleeve graphics, heavy fleece body and vintage garment-wash surface.",
+    shortZh: "深咖啡色水洗宽松连帽卫衣，做旧闪电大图、袖子图案、重磅卫衣布和复古成衣洗水表面。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "screen-print", "garment-wash", "rib-trim"],
+    tagsEn: ["Washed brown", "Distressed print", "Oversized fit", "Punk graphic"],
+    tagsZh: ["咖啡水洗", "做旧印花", "宽松版型", "朋克图案"],
+    fabricEn: "100% cotton heavyweight French terry or brushed fleece",
+    fabricZh: "100%棉重磅毛圈或抓绒卫衣布",
+    weightEn: "420-460GSM range, 440GSM recommended",
+    weightZh: "参考420-460GSM，建议440GSM",
+    fitEn: "Unisex oversized boxy fit with dropped shoulder, wide chest, wide sleeve and structured hood",
+    fitZh: "男女同款落肩宽松箱型版，宽胸围、宽袖、大帽型",
+    craftEn: "Garment dye, enzyme or snow wash, distressed screen print on front, back and sleeves",
+    craftZh: "成衣染、酵素/雪花洗，前后身和袖子做旧丝网印花",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.png"],
+      ["Back product view", "背面产品图", "02-back-view.png"],
+      ["Front lightning print detail", "前胸闪电印花细节", "03-front-print-detail.png"],
+      ["Sleeve print detail", "袖子印花细节", "04-sleeve-print-detail.png"]
+    ],
+    features: [
+      ["Coffee brown vintage wash", "咖啡色复古洗水", "The base color should look like aged dark coffee brown with natural fading on seams and high points.", "底色建议做成带黑灰底的旧化咖啡色，缝位和骨位自然泛白。"],
+      ["Layered lightning artwork", "多层闪电图案", "Front, back and sleeve graphics can use cracked screen print so the artwork feels integrated with the washed fabric.", "前后身和袖子图案可用裂纹丝印，让图案和水洗面料更自然融合。"],
+      ["Cost-controlled craft route", "成本可控工艺路线", "The style is mainly screen print and garment wash, avoiding unnecessary embroidery while keeping a strong visual effect.", "这款主要靠丝印和成衣洗水完成，不必增加复杂刺绣也能有强视觉效果。"]
+    ]
+  },
+  {
+    id: "black-gothic-graphic-zip-hoodie",
+    titleEn: "Black Gothic Graphic Zip Hoodie",
+    titleZh: "黑色哥特图案拉链连帽卫衣",
+    cardTitleEn: "Custom Black Gothic Graphic Zip Hoodie with Cracked Screen Print",
+    cardTitleZh: "定制黑色哥特图案拉链连帽卫衣 / 裂纹丝印",
+    image: "01-front-view.png",
+    hoverImage: "02-back-view.png",
+    shortEn: "Matte black oversized zip hoodie with silver metal zipper, cracked grey-white gothic screen print and sleeve artwork placement.",
+    shortZh: "哑光黑宽松拉链连帽卫衣，银色金属拉链，灰白裂纹哥特丝印和双袖图案位置。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "zip-up", "screen-print", "rib-trim"],
+    tagsEn: ["Zip hoodie", "Gothic print", "Metal zipper", "Sleeve artwork"],
+    tagsZh: ["拉链卫衣", "哥特印花", "金属拉链", "袖子图案"],
+    fabricEn: "100% cotton heavyweight brushed fleece, or 80% cotton / 20% polyester for stability",
+    fabricZh: "100%棉重磅抓绒卫衣布，或80%棉 / 20%涤纶提升稳定性",
+    weightEn: "420-460GSM range, 450GSM recommended",
+    weightZh: "参考420-460GSM，建议450GSM",
+    fitEn: "Unisex oversized zip-up hoodie with dropped shoulder, wide sleeves and boxy body",
+    fitZh: "男女同款落肩宽松拉链卫衣，宽袖、箱型衣身",
+    craftEn: "Silver metal full zip, cracked screen print, sleeve print and reinforced pocket opening",
+    craftZh: "银色金属全开拉链、裂纹丝印、袖子印花和口袋加固",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.png"],
+      ["Back product view", "背面产品图", "02-back-view.png"],
+      ["Zip and chest print detail", "拉链与前胸印花细节", "03-zip-print-detail.png"],
+      ["Sleeve print detail", "袖子印花细节", "04-sleeve-print-detail.png"]
+    ],
+    features: [
+      ["Graphic split by zipper", "拉链分割图案", "The front gothic artwork should be checked carefully at the zipper line so both sides stay balanced after sewing.", "前胸哥特图案被拉链分割，打样时需要确认左右图案在拉链线两侧平衡。"],
+      ["Sleeve print placement", "袖子印花定位", "Sleeve artwork is best printed before sleeve joining for cleaner placement and better symmetry.", "袖片建议合缝前完成印花，位置更准确，左右对称更好控制。"],
+      ["Heavy zip construction", "重磅拉链结构", "No.5 metal zipper, double topstitching and reinforced bottom stops help support the heavy fleece body.", "5号金属拉链、双明线和底部加固更适合重磅卫衣布。"]
+    ]
+  },
+  {
+    id: "black-gradient-gothic-zip-hoodie",
+    titleEn: "Black Gradient Gothic Zip Hoodie",
+    titleZh: "黑色渐变哥特拉链连帽卫衣",
+    cardTitleEn: "Custom Black Gradient Gothic Zip Hoodie with Washed Print and Embroidery",
+    cardTitleZh: "定制黑色渐变哥特拉链连帽卫衣 / 洗水印花与刺绣",
+    image: "01-front-view.png",
+    hoverImage: "02-back-view.png",
+    shortEn: "Cropped boxy oversized zip hoodie with grey-to-black gradient wash, gothic botanical front/back graphics, metal zipper and mixed print plus embroidery craft.",
+    shortZh: "短宽箱型宽松拉链卫衣，灰黑渐变洗水，前后哥特植物图案，金属拉链，可做印花加刺绣混合工艺。",
+    filters: ["heavyweight-fleece", "cotton-fleece", "oversized", "boxy-fit", "zip-up", "screen-print", "embroidery", "garment-wash", "rib-trim"],
+    tagsEn: ["Gradient wash", "Zip hoodie", "Gothic botanical", "Print + embroidery"],
+    tagsZh: ["渐变洗水", "拉链卫衣", "哥特植物图案", "印花+刺绣"],
+    fabricEn: "100% cotton brushed fleece",
+    fabricZh: "100%棉重磅抓绒卫衣布",
+    weightEn: "420GSM reference",
+    weightZh: "参考420GSM",
+    fitEn: "Cropped boxy oversized zip hoodie with dropped shoulder, wide chest and large double-layer hood",
+    fitZh: "短宽箱型Oversize拉链卫衣，落肩、宽胸围、大双层帽",
+    craftEn: "Garment wash, gradient spray dye, cracked screen print, old-gold embroidery and metal zipper",
+    craftZh: "成衣洗水、喷染渐变、裂纹丝印、旧金色刺绣和金属拉链",
+    gallery: [
+      ["Front product view", "正面产品图", "01-front-view.png"],
+      ["Back product view", "背面产品图", "02-back-view.png"],
+      ["Embroidery and print detail", "刺绣与印花细节", "03-embroidery-print-detail.png"]
+    ],
+    features: [
+      ["Grey-to-black gradient wash", "灰黑渐变洗水", "The upper body can be lighter grey while the lower body fades into deeper charcoal for a worn streetwear effect.", "上半身可做浅灰，下半身逐渐过渡到深炭黑，形成自然做旧街头效果。"],
+      ["Mixed print and embroidery", "印花刺绣混合工艺", "Large artwork can use cracked screen print, while selected logo text can use old-gold embroidery for a richer craft layer.", "大面积图案可用裂纹丝印，局部文字可用旧金色刺绣，增加工艺层次。"],
+      ["Cropped boxy zip silhouette", "短宽箱型拉链廓形", "The style should stay wide and slightly cropped, with a large hood and rib hem that is not overly tight.", "版型重点是宽、短、大帽，下摆罗纹轻微收口但不要过紧。"]
+    ]
+  }
+].map(makeHoodieBatchItem));
+
 productItems.push(
   {
     id: "green-v-neck-mesh-team-jersey",
@@ -4878,6 +5015,22 @@ const productDisplayTitleOverrides = {
   "skull-graphic-wide-leg-sweatpants": {
     en: "Custom Faded Black Skull Graphic Wide-Leg Sweatpants with Distressed Screen Print and Embroidery Badge",
     zh: "定制骷髅图案宽腿卫裤 / 做旧丝印与刺绣章"
+  },
+  "botanical-logo-heavyweight-hoodie": {
+    en: "Custom Botanical Logo Heavyweight Hoodie with Tonal Embroidery",
+    zh: "定制植物Logo重磅连帽卫衣 / 同色系低调刺绣"
+  },
+  "coffee-brown-punk-washed-hoodie": {
+    en: "Custom Coffee Brown Punk Washed Hoodie with Distressed Lightning Graphic",
+    zh: "定制咖啡色朋克水洗连帽卫衣 / 做旧闪电丝印"
+  },
+  "black-gothic-graphic-zip-hoodie": {
+    en: "Custom Black Gothic Graphic Zip Hoodie with Cracked Screen Print",
+    zh: "定制黑色哥特图案拉链连帽卫衣 / 裂纹丝印"
+  },
+  "black-gradient-gothic-zip-hoodie": {
+    en: "Custom Black Gradient Gothic Zip Hoodie with Washed Print and Embroidery",
+    zh: "定制黑色渐变哥特拉链连帽卫衣 / 洗水印花与刺绣"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
