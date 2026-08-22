@@ -78,6 +78,8 @@ const products = [
     tagsEn: ["Joggers", "Elastic waist", "Side panel", "Wash effect"],
     tagsZh: ["束脚", "松紧腰", "侧拼", "水洗效果"],
     styles: [
+      ["Flame logo wide-leg sweatpants", "火焰Logo宽腿卫裤", "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/01-front-view.png"],
+      ["Skull graphic wide-leg sweatpants", "骷髅图案宽腿卫裤", "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/01-front-view.png"],
       ["Side-panel sweatpants", "侧拼条卫裤", "review-assets/pdf-images/menswear-p14-104-588x795.jpg"],
       ["Casual jogger pants", "休闲束脚裤", "review-assets/pdf-images/menswear-p14-102-351x553.jpg"],
       ["Coordinated tracksuit bottom", "套装下装", "review-assets/pdf-images/menswear-p14-101-415x604.jpg"],
@@ -4186,6 +4188,94 @@ productItems.push(
   }
 );
 
+productItems.push(
+  {
+    id: "flame-logo-wide-leg-sweatpants",
+    productId: "sweatpants",
+    categoryEn: "Custom Sweatpants",
+    categoryZh: "卫裤定制",
+    titleEn: "Faded Black Flame Logo Wide-Leg Sweatpants",
+    titleZh: "火焰Logo宽腿卫裤",
+    image: "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/01-front-view.png",
+    hoverImage: "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/02-back-view.png",
+    shortEn: "Faded black heavyweight French terry sweatpants with relaxed wide-leg fit, washed vintage surface, side flame artwork and small gothic logo print.",
+    shortZh: "褪色黑重磅毛圈卫裤，宽松直筒宽腿版型，成衣洗水做旧，外侧火焰图案与小Logo印花。",
+    filters: ["sweatpants", "oem", "custom", "test", "repeat", "wide-leg", "straight-leg", "open-hem", "french-terry", "garment-wash", "screen-print", "rib-trim"],
+    tagsEn: ["Wide-leg fit", "French terry", "Garment wash", "Leg screen print"],
+    tagsZh: ["宽腿版型", "毛圈面料", "成衣洗水", "腿部丝印"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/01-front-view.png"],
+      ["Back product view", "背面产品图", "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/02-back-view.png"],
+      ["Flame logo detail", "火焰Logo细节", "assets/products/sweatpants/flame-logo-wide-leg-sweatpants/03-waist-print-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考3-7天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考7-20天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight French terry sweatpants fabric", "重磅毛圈卫裤布"],
+      ["Composition", "成分", "100% cotton, or 80% cotton / 20% polyester can be reviewed", "100%棉，或80%棉 / 20%涤纶可评估"],
+      ["Weight", "克重", "380-420GSM reference, 400GSM recommended", "参考380-420GSM，建议400GSM"],
+      ["Fit", "版型", "Relaxed wide-leg straight sweatpants with natural mid waist", "中腰宽松直筒宽腿卫裤版型"],
+      ["Craft", "工艺", "Garment wash, distressed screen print, multi-needle waistband and reinforced pocket opening", "成衣洗水、做旧丝印、多道腰头压线与口袋加固"]
+    ],
+    features: [
+      ["Faded black wash surface", "褪色黑洗水效果", "Enzyme wash, snow wash or light stone wash can be reviewed to create a natural worn black surface.", "可评估酵素洗、雪花洗或轻石磨，做出自然褪色黑和旧化层次。"],
+      ["Side flame artwork", "侧缝火焰图案", "The flame artwork runs along the outside leg seam, so placement should be checked from both front and back before bulk.", "火焰图案沿外侧缝纵向排列，大货前需要同时确认正面和背面的衔接位置。"],
+      ["Heavy relaxed shape", "重磅宽松廓形", "The straight wide-leg pattern keeps enough thigh and knee room without turning into a tight jogger silhouette.", "直筒宽腿版型保留大腿和膝围空间，避免做成紧身束脚裤效果。"],
+      ["Clean open hem", "平口裤脚", "Open hem with double-needle finishing keeps the pants casual and heavy rather than sporty.", "平口裤脚配双针卷边，更偏重磅街头感，不做运动裤式束脚。"]
+    ],
+    quality: [
+      ["Wash consistency", "洗水一致性", "Faded black shade should match approved sample across sizes", "褪色黑效果按确认样控制"],
+      ["Print durability", "印花耐洗", "Distressed flame print should stay clear after wash testing", "做旧火焰印花水洗后需保持层次清楚"],
+      ["Waistband recovery", "腰头回弹", "Elastic waistband should keep recovery after wear and wash", "松紧腰穿着和水洗后需保持回弹"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  },
+  {
+    id: "skull-graphic-wide-leg-sweatpants",
+    productId: "sweatpants",
+    categoryEn: "Custom Sweatpants",
+    categoryZh: "卫裤定制",
+    titleEn: "Faded Black Skull Graphic Wide-Leg Sweatpants",
+    titleZh: "骷髅图案宽腿卫裤",
+    image: "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/01-front-view.png",
+    hoverImage: "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/02-back-view.png",
+    shortEn: "Heavyweight black washed sweatpants with oversized wide-leg shape, large distressed skull leg print, small skull embroidery badge and adjustable hem drawcord.",
+    shortZh: "重磅黑色洗水卫裤，宽松宽腿版型，前腿大面积骷髅做旧印花，小骷髅刺绣章，裤脚可做抽绳调节。",
+    filters: ["sweatpants", "oem", "custom", "test", "repeat", "wide-leg", "adjustable-hem", "french-terry", "brushed-fleece", "garment-wash", "screen-print", "embroidery", "rib-trim"],
+    tagsEn: ["420GSM reference", "Skull leg print", "Embroidery badge", "Adjustable hem"],
+    tagsZh: ["参考420GSM", "骷髅腿部印花", "刺绣章", "可调脚口"],
+    gallery: [
+      ["Front product view", "正面产品图", "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/01-front-view.png"],
+      ["Back product view", "背面产品图", "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/02-back-view.png"],
+      ["Large skull print detail", "大骷髅印花细节", "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/03-skull-print-detail.png"],
+      ["Embroidery badge detail", "刺绣章细节", "assets/products/sweatpants/skull-graphic-wide-leg-sweatpants/04-embroidery-badge-detail.png"]
+    ],
+    specs: [
+      ["MOQ", "起订量", "From 200 pcs", "200件起"],
+      ["Sampling", "打样时间", "3-7 days reference", "参考3-7天"],
+      ["Bulk lead time", "大货周期", "7-20 days, confirmed by quantity and craft", "参考7-20天，按数量和工艺确认"],
+      ["Fabric", "面料", "Heavyweight cotton French terry or fleece sweatpants fabric", "重磅棉毛圈或轻抓绒卫裤布"],
+      ["Composition", "成分", "100% cotton preferred, or 80% cotton / 20% polyester can be reviewed", "优先100%棉，或80%棉 / 20%涤纶可评估"],
+      ["Weight", "克重", "400-450GSM reference, 420GSM recommended", "参考400-450GSM，建议420GSM"],
+      ["Fit", "版型", "Unisex oversized relaxed wide-leg sweatpants with adjustable hem", "男女同款宽松宽腿卫裤，可调节脚口"],
+      ["Craft", "工艺", "Distressed screen print, small embroidery badge, garment wash and adjustable hem drawcord", "做旧丝网印花、小面积刺绣章、成衣洗水和脚口抽绳"]
+    ],
+    features: [
+      ["Large skull leg graphic", "大骷髅腿部图案", "The large front-leg artwork can use 2-3 color distressed screen print to keep the vintage rock effect controlled.", "前腿大图可做2-3色做旧丝印，保持复古摇滚成衣效果，同时控制手感厚度。"],
+      ["Embroidery badge layer", "刺绣章工艺层次", "A small skull badge can be made with flat embroidery or high-density embroidery for a richer craft mix.", "小骷髅Logo可做电脑平绣或高密度刺绣章，增加工艺层次。"],
+      ["Adjustable hem option", "可调节裤脚", "Drawcord and stopper at the hem allow the style to switch between a natural wide-leg look and a slightly tightened opening.", "裤脚抽绳和调节扣可以在自然宽腿和轻微束脚之间切换。"],
+      ["Washed streetwear finish", "洗水街头后整", "Garment dye, enzyme wash or snow wash can make the print, embroidery and body fabric look more naturally aged.", "成衣染、酵素洗或雪花洗可以让印花、刺绣和裤身更自然做旧。"]
+    ],
+    quality: [
+      ["Print hand feel", "印花手感", "Large print should avoid excessive ink thickness on 420GSM fabric", "420GSM面料上的大面积印花需避免胶浆过厚"],
+      ["Embroidery edge", "刺绣包边", "Small skull badge edge should stay clean without loose threads", "小骷髅刺绣章边缘需要干净无散线"],
+      ["Hem hardware", "脚口五金", "Drawcord stopper and elastic opening should be tested for pull strength", "抽绳调节扣和脚口松紧需测试拉力"],
+      ["Measurement tolerance", "尺寸误差", "+/- 1.5 cm reference, confirm by final size chart", "参考+/-1.5cm，按最终尺码表确认"]
+    ]
+  }
+);
+
 const productFilterMap = {
   hoodies: ["hoodies", "oem", "custom", "test", "repeat"],
   tshirts: ["tshirts", "oem", "custom", "test", "repeat"],
@@ -4357,6 +4447,7 @@ const catalogFilterRows = {
         ["jogger-fit", "Jogger Fit", "束脚版"],
         ["straight-leg", "Straight Leg", "直筒"],
         ["wide-leg", "Wide Leg", "宽腿"],
+        ["adjustable-hem", "Adjustable Hem", "可调脚口"],
         ["cargo-fit", "Cargo Pocket", "工装口袋"],
         ["open-hem", "Open Hem", "开脚口"]
       ]
@@ -4779,6 +4870,14 @@ const productDisplayTitleOverrides = {
   "blokecore-football-collar-jersey": {
     en: "Custom Blokecore Football Collar Jersey with Sublimation Print",
     zh: "定制Blokecore复古足球翻领球服 / 满版升华印花"
+  },
+  "flame-logo-wide-leg-sweatpants": {
+    en: "Custom Faded Black Flame Logo Wide-Leg Sweatpants with Distressed Leg Print",
+    zh: "定制火焰Logo宽腿卫裤 / 洗水做旧腿部印花"
+  },
+  "skull-graphic-wide-leg-sweatpants": {
+    en: "Custom Faded Black Skull Graphic Wide-Leg Sweatpants with Distressed Screen Print and Embroidery Badge",
+    zh: "定制骷髅图案宽腿卫裤 / 做旧丝印与刺绣章"
   },
   "washed-charcoal-camo-logo-hooded-tshirt": {
     en: "Custom Washed Charcoal Hooded T-Shirt with Camo Graphic Print",
